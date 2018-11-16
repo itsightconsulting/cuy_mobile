@@ -49,14 +49,14 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
     }
 
     public void addingInitUsers() {
-        SecurityUser securityUser = userRepository.findByUsername("admin");
+        SecurityUser securityUser = userRepository.findByUsername("cuy_admin");
         if (securityUser == null) {
             SecurityUser secUser = new SecurityUser();
-            secUser.setUsername("admin");
+            secUser.setUsername("cuy_admin");
             secUser.setPassword(new BCryptPasswordEncoder().encode("@dmin@2018"));
             secUser.setEnabled(true);
             Set<SecurityRole> roles = new HashSet<>();
-            roles.add(new SecurityRole("ROLE_ADMIN"));
+            roles.add(new SecurityRole("ROLE_SUPER_ADMIN"));
             secUser.setRoles(roles);
             userRepository.save(secUser);
         } else

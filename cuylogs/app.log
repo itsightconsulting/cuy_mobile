@@ -199,3 +199,229 @@
 [INFO ] 2018-11-08 19:58:43.708 [restartedMain] CuyApplication - The following profiles are active: development
 [INFO ] 2018-11-08 19:58:55.553 [restartedMain] CuyApplication - Started CuyApplication in 16.658 seconds (JVM running for 18.954)
 [INFO ] 2018-11-08 19:59:24.584 [http-nio-8080-exec-1] SecurityUserServiceImpl - > USER ROLE: ROLE_ADMIN
+[INFO ] 2018-11-15 14:25:44.925 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 14:26:10.040 [restartedMain] CuyApplication - Started CuyApplication in 34.071 seconds (JVM running for 42.837)
+[INFO ] 2018-11-15 14:35:54.819 [http-nio-8080-exec-7] SecurityUserServiceImpl - > USER ROLE: ROLE_ADMIN
+[INFO ] 2018-11-15 14:40:05.406 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 14:40:42.597 [restartedMain] CuyApplication - Started CuyApplication in 48.001 seconds (JVM running for 62.424)
+[INFO ] 2018-11-15 14:42:54.987 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 14:43:26.212 [restartedMain] CuyApplication - Started CuyApplication in 39.809 seconds (JVM running for 48.336)
+[INFO ] 2018-11-15 14:43:51.943 [http-nio-8080-exec-6] SecurityUserServiceImpl - > Excepción | (?): CUY_ADMIN
+[INFO ] 2018-11-15 14:43:58.771 [http-nio-8080-exec-8] SecurityUserServiceImpl - > Excepción | (?): CUY_ADMIN
+[INFO ] 2018-11-15 14:44:59.433 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 14:45:30.625 [restartedMain] CuyApplication - Started CuyApplication in 44.637 seconds (JVM running for 55.224)
+[INFO ] 2018-11-15 14:46:53.738 [http-nio-8080-exec-6] SecurityUserServiceImpl - > Excepción | (?): CUY_MOBILE
+[INFO ] 2018-11-15 14:47:00.490 [http-nio-8080-exec-10] SecurityUserServiceImpl - > Excepción | (?): CUY_MOBILE
+[INFO ] 2018-11-15 14:47:41.605 [http-nio-8080-exec-4] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 14:48:22.155 [http-nio-8080-exec-10] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 14:49:04.598 [http-nio-8080-exec-5] SecurityUserServiceImpl - > Excepción | (?): ADMIN
+[INFO ] 2018-11-15 14:49:13.092 [http-nio-8080-exec-6] SecurityUserServiceImpl - > Excepción | (?): CUY_MOBILE
+[INFO ] 2018-11-15 14:49:28.799 [http-nio-8080-exec-9] SecurityUserServiceImpl - > Excepción | (?): CUY_MOBILE
+[INFO ] 2018-11-15 14:49:41.879 [http-nio-8080-exec-5] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 14:56:54.648 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 14:58:11.641 [restartedMain] CuyApplication - Started CuyApplication in 89.583 seconds (JVM running for 99.188)
+[INFO ] 2018-11-15 15:03:01.099 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:03:30.600 [restartedMain] CuyApplication - Started CuyApplication in 38.222 seconds (JVM running for 46.574)
+[INFO ] 2018-11-15 15:20:26.629 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:21:22.015 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:21:32.190 [restartedMain] CuyApplication - Started CuyApplication in 14.3 seconds (JVM running for 16.783)
+[INFO ] 2018-11-15 15:22:30.883 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:22:43.623 [restartedMain] CuyApplication - Started CuyApplication in 17.981 seconds (JVM running for 21.0)
+[INFO ] 2018-11-15 15:35:05.719 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:35:16.815 [restartedMain] CuyApplication - Started CuyApplication in 15.535 seconds (JVM running for 18.204)
+[INFO ] 2018-11-15 15:42:40.748 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:42:51.071 [restartedMain] CuyApplication - Started CuyApplication in 15.079 seconds (JVM running for 18.124)
+[INFO ] 2018-11-15 15:45:22.504 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:45:32.485 [restartedMain] CuyApplication - Started CuyApplication in 14.723 seconds (JVM running for 17.65)
+[INFO ] 2018-11-15 15:49:06.978 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:49:17.409 [restartedMain] CuyApplication - Started CuyApplication in 15.04 seconds (JVM running for 19.047)
+[INFO ] 2018-11-15 15:51:25.510 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:51:35.714 [restartedMain] CuyApplication - Started CuyApplication in 14.413 seconds (JVM running for 17.376)
+[INFO ] 2018-11-15 15:52:25.039 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:52:34.736 [restartedMain] CuyApplication - Started CuyApplication in 14.043 seconds (JVM running for 16.465)
+[INFO ] 2018-11-15 15:53:58.561 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:54:08.255 [restartedMain] CuyApplication - Started CuyApplication in 14.479 seconds (JVM running for 16.972)
+[INFO ] 2018-11-15 15:55:25.098 [http-nio-8080-exec-9] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 15:56:06.338 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:56:16.391 [restartedMain] CuyApplication - Started CuyApplication in 14.2 seconds (JVM running for 16.529)
+[INFO ] 2018-11-15 15:56:22.770 [http-nio-8080-exec-5] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 15:57:07.060 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 15:57:17.375 [restartedMain] CuyApplication - Started CuyApplication in 14.46 seconds (JVM running for 16.865)
+[INFO ] 2018-11-15 15:57:24.810 [http-nio-8080-exec-7] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 16:00:13.367 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:00:25.284 [restartedMain] CuyApplication - Started CuyApplication in 16.352 seconds (JVM running for 19.189)
+[INFO ] 2018-11-15 16:00:42.245 [http-nio-8080-exec-9] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 16:02:51.841 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:03:05.837 [restartedMain] CuyApplication - Started CuyApplication in 18.573 seconds (JVM running for 21.8)
+[INFO ] 2018-11-15 16:04:48.701 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:05:00.378 [restartedMain] CuyApplication - Started CuyApplication in 15.735 seconds (JVM running for 18.323)
+[INFO ] 2018-11-15 16:07:34.160 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:07:46.494 [restartedMain] CuyApplication - Started CuyApplication in 17.08 seconds (JVM running for 19.835)
+[INFO ] 2018-11-15 16:09:31.362 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:09:41.890 [restartedMain] CuyApplication - Started CuyApplication in 14.641 seconds (JVM running for 17.284)
+[INFO ] 2018-11-15 16:12:49.574 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:13:01.965 [restartedMain] CuyApplication - Started CuyApplication in 16.864 seconds (JVM running for 19.472)
+[INFO ] 2018-11-15 16:15:12.207 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:15:23.046 [restartedMain] CuyApplication - Started CuyApplication in 15.329 seconds (JVM running for 18.005)
+[INFO ] 2018-11-15 16:17:28.009 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:17:38.143 [restartedMain] CuyApplication - Started CuyApplication in 14.577 seconds (JVM running for 17.179)
+[INFO ] 2018-11-15 16:18:47.446 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:18:57.989 [restartedMain] CuyApplication - Started CuyApplication in 15.232 seconds (JVM running for 17.83)
+[INFO ] 2018-11-15 16:21:13.995 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:21:24.784 [restartedMain] CuyApplication - Started CuyApplication in 15.761 seconds (JVM running for 18.17)
+[INFO ] 2018-11-15 16:22:05.804 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:22:15.406 [restartedMain] CuyApplication - Started CuyApplication in 14.196 seconds (JVM running for 16.962)
+[INFO ] 2018-11-15 16:23:42.159 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:23:51.679 [restartedMain] CuyApplication - Started CuyApplication in 13.754 seconds (JVM running for 16.139)
+[INFO ] 2018-11-15 16:26:34.689 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:26:45.206 [restartedMain] CuyApplication - Started CuyApplication in 14.854 seconds (JVM running for 17.474)
+[INFO ] 2018-11-15 16:32:27.169 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:32:38.816 [restartedMain] CuyApplication - Started CuyApplication in 16.298 seconds (JVM running for 18.998)
+[INFO ] 2018-11-15 16:34:11.123 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:34:20.607 [restartedMain] CuyApplication - Started CuyApplication in 13.976 seconds (JVM running for 16.445)
+[INFO ] 2018-11-15 16:36:12.289 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:36:23.943 [restartedMain] CuyApplication - Started CuyApplication in 16.803 seconds (JVM running for 19.46)
+[INFO ] 2018-11-15 16:45:08.018 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:45:17.408 [restartedMain] CuyApplication - Started CuyApplication in 13.769 seconds (JVM running for 16.409)
+[INFO ] 2018-11-15 16:46:25.771 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:46:35.486 [restartedMain] CuyApplication - Started CuyApplication in 14.163 seconds (JVM running for 16.66)
+[INFO ] 2018-11-15 16:47:17.009 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:47:26.593 [restartedMain] CuyApplication - Started CuyApplication in 14.23 seconds (JVM running for 16.743)
+[INFO ] 2018-11-15 16:48:13.547 [http-nio-8080-exec-9] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 16:50:43.622 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:50:53.728 [restartedMain] CuyApplication - Started CuyApplication in 14.544 seconds (JVM running for 17.171)
+[INFO ] 2018-11-15 16:52:15.638 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:52:26.218 [restartedMain] CuyApplication - Started CuyApplication in 14.831 seconds (JVM running for 17.432)
+[INFO ] 2018-11-15 16:56:55.444 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 16:57:06.378 [restartedMain] CuyApplication - Started CuyApplication in 15.09 seconds (JVM running for 17.512)
+[INFO ] 2018-11-15 17:02:09.000 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:02:19.253 [restartedMain] CuyApplication - Started CuyApplication in 15.465 seconds (JVM running for 17.391)
+[INFO ] 2018-11-15 17:14:34.577 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:14:45.946 [restartedMain] CuyApplication - Started CuyApplication in 15.638 seconds (JVM running for 18.09)
+[INFO ] 2018-11-15 17:17:51.123 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:18:02.188 [restartedMain] CuyApplication - Started CuyApplication in 15.428 seconds (JVM running for 18.306)
+[INFO ] 2018-11-15 17:20:00.157 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:20:11.424 [restartedMain] CuyApplication - Started CuyApplication in 15.698 seconds (JVM running for 18.448)
+[INFO ] 2018-11-15 17:23:59.154 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:24:09.552 [restartedMain] CuyApplication - Started CuyApplication in 15.375 seconds (JVM running for 18.293)
+[INFO ] 2018-11-15 17:25:44.463 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:25:55.768 [restartedMain] CuyApplication - Started CuyApplication in 15.707 seconds (JVM running for 18.084)
+[INFO ] 2018-11-15 17:27:59.321 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:28:09.570 [restartedMain] CuyApplication - Started CuyApplication in 15.038 seconds (JVM running for 17.618)
+[INFO ] 2018-11-15 17:28:51.767 [http-nio-8080-exec-8] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 17:33:53.317 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:35:13.821 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:35:40.798 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:35:51.791 [restartedMain] CuyApplication - Started CuyApplication in 15.565 seconds (JVM running for 18.222)
+[INFO ] 2018-11-15 17:37:33.092 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:40:56.805 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:41:21.302 [restartedMain] CuyApplication - Started CuyApplication in 28.74 seconds (JVM running for 31.217)
+[INFO ] 2018-11-15 17:41:48.532 [http-nio-8080-exec-1] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 17:42:26.408 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:42:38.299 [restartedMain] CuyApplication - Started CuyApplication in 16.245 seconds (JVM running for 18.792)
+[INFO ] 2018-11-15 17:44:22.519 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:44:34.536 [restartedMain] CuyApplication - Started CuyApplication in 16.932 seconds (JVM running for 19.343)
+[INFO ] 2018-11-15 17:46:56.202 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:48:11.972 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:48:22.286 [restartedMain] CuyApplication - Started CuyApplication in 14.534 seconds (JVM running for 16.956)
+[INFO ] 2018-11-15 17:48:39.352 [http-nio-8080-exec-4] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 17:50:19.910 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:50:30.040 [restartedMain] CuyApplication - Started CuyApplication in 14.891 seconds (JVM running for 17.386)
+[INFO ] 2018-11-15 17:50:59.799 [http-nio-8080-exec-10] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 17:52:06.091 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 17:52:16.194 [restartedMain] CuyApplication - Started CuyApplication in 14.475 seconds (JVM running for 17.479)
+[INFO ] 2018-11-15 17:52:48.609 [http-nio-8080-exec-3] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 18:01:11.222 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:01:21.792 [restartedMain] CuyApplication - Started CuyApplication in 14.997 seconds (JVM running for 17.472)
+[INFO ] 2018-11-15 18:02:12.347 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:02:21.974 [restartedMain] CuyApplication - Started CuyApplication in 13.97 seconds (JVM running for 16.367)
+[INFO ] 2018-11-15 18:03:30.217 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:03:40.771 [restartedMain] CuyApplication - Started CuyApplication in 15.289 seconds (JVM running for 17.592)
+[INFO ] 2018-11-15 18:04:42.240 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:04:52.542 [restartedMain] CuyApplication - Started CuyApplication in 14.585 seconds (JVM running for 17.501)
+[INFO ] 2018-11-15 18:06:09.518 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:06:19.821 [restartedMain] CuyApplication - Started CuyApplication in 14.418 seconds (JVM running for 16.891)
+[INFO ] 2018-11-15 18:06:39.050 [http-nio-8080-exec-9] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 18:07:22.583 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:07:32.755 [restartedMain] CuyApplication - Started CuyApplication in 14.599 seconds (JVM running for 17.075)
+[INFO ] 2018-11-15 18:07:41.982 [http-nio-8080-exec-4] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 18:08:59.939 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:09:10.346 [restartedMain] CuyApplication - Started CuyApplication in 14.659 seconds (JVM running for 17.214)
+[INFO ] 2018-11-15 18:10:05.305 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:10:14.837 [restartedMain] CuyApplication - Started CuyApplication in 14.224 seconds (JVM running for 16.548)
+[INFO ] 2018-11-15 18:10:29.445 [http-nio-8080-exec-3] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 18:11:11.960 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:11:23.940 [restartedMain] CuyApplication - Started CuyApplication in 16.0 seconds (JVM running for 18.391)
+[INFO ] 2018-11-15 18:11:47.946 [http-nio-8080-exec-4] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 18:12:51.770 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:13:03.962 [restartedMain] CuyApplication - Started CuyApplication in 16.654 seconds (JVM running for 19.154)
+[INFO ] 2018-11-15 18:13:21.780 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:13:31.321 [restartedMain] CuyApplication - Started CuyApplication in 13.636 seconds (JVM running for 15.979)
+[INFO ] 2018-11-15 18:15:10.577 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:15:21.318 [restartedMain] CuyApplication - Started CuyApplication in 15.316 seconds (JVM running for 18.204)
+[INFO ] 2018-11-15 18:15:32.246 [http-nio-8080-exec-3] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 18:16:15.908 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:16:25.817 [restartedMain] CuyApplication - Started CuyApplication in 14.01 seconds (JVM running for 16.556)
+[INFO ] 2018-11-15 18:16:47.724 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:16:57.838 [restartedMain] CuyApplication - Started CuyApplication in 14.216 seconds (JVM running for 16.992)
+[INFO ] 2018-11-15 18:17:25.804 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:18:11.239 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:20:02.091 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:20:11.577 [restartedMain] CuyApplication - Started CuyApplication in 13.553 seconds (JVM running for 16.041)
+[INFO ] 2018-11-15 18:20:56.523 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:21:05.940 [restartedMain] CuyApplication - Started CuyApplication in 13.514 seconds (JVM running for 16.123)
+[INFO ] 2018-11-15 18:21:15.906 [http-nio-8080-exec-3] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 18:22:26.159 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:22:36.199 [restartedMain] CuyApplication - Started CuyApplication in 14.491 seconds (JVM running for 17.049)
+[INFO ] 2018-11-15 18:23:11.771 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:23:21.502 [restartedMain] CuyApplication - Started CuyApplication in 13.908 seconds (JVM running for 16.295)
+[INFO ] 2018-11-15 18:34:36.806 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:34:46.805 [restartedMain] CuyApplication - Started CuyApplication in 14.679 seconds (JVM running for 17.061)
+[INFO ] 2018-11-15 18:36:31.216 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:36:40.654 [restartedMain] CuyApplication - Started CuyApplication in 13.528 seconds (JVM running for 15.963)
+[INFO ] 2018-11-15 18:37:51.576 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:38:01.154 [restartedMain] CuyApplication - Started CuyApplication in 13.723 seconds (JVM running for 16.118)
+[INFO ] 2018-11-15 18:39:06.770 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:39:17.374 [restartedMain] CuyApplication - Started CuyApplication in 14.813 seconds (JVM running for 17.258)
+[INFO ] 2018-11-15 18:40:22.819 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:40:34.645 [restartedMain] CuyApplication - Started CuyApplication in 16.964 seconds (JVM running for 19.714)
+[INFO ] 2018-11-15 18:44:59.189 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:45:10.798 [restartedMain] CuyApplication - Started CuyApplication in 16.051 seconds (JVM running for 18.671)
+[INFO ] 2018-11-15 18:46:31.304 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:46:42.154 [restartedMain] CuyApplication - Started CuyApplication in 15.29 seconds (JVM running for 17.962)
+[INFO ] 2018-11-15 18:49:15.338 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:49:26.821 [restartedMain] CuyApplication - Started CuyApplication in 16.803 seconds (JVM running for 19.439)
+[INFO ] 2018-11-15 18:50:24.735 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:50:36.526 [restartedMain] CuyApplication - Started CuyApplication in 16.703 seconds (JVM running for 19.277)
+[INFO ] 2018-11-15 18:51:49.440 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:52:02.622 [restartedMain] CuyApplication - Started CuyApplication in 17.3 seconds (JVM running for 19.73)
+[INFO ] 2018-11-15 18:56:02.192 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:56:13.254 [restartedMain] CuyApplication - Started CuyApplication in 15.601 seconds (JVM running for 17.839)
+[INFO ] 2018-11-15 18:56:49.489 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 18:57:01.229 [restartedMain] CuyApplication - Started CuyApplication in 17.323 seconds (JVM running for 20.541)
+[INFO ] 2018-11-15 19:02:29.322 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:02:39.643 [restartedMain] CuyApplication - Started CuyApplication in 14.777 seconds (JVM running for 17.306)
+[INFO ] 2018-11-15 19:03:18.821 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:03:30.034 [restartedMain] CuyApplication - Started CuyApplication in 15.414 seconds (JVM running for 18.667)
+[INFO ] 2018-11-15 19:05:32.958 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:05:43.193 [restartedMain] CuyApplication - Started CuyApplication in 14.654 seconds (JVM running for 17.091)
+[INFO ] 2018-11-15 19:06:48.837 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:07:00.108 [restartedMain] CuyApplication - Started CuyApplication in 15.592 seconds (JVM running for 18.142)
+[INFO ] 2018-11-15 19:08:31.486 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:08:41.266 [restartedMain] CuyApplication - Started CuyApplication in 14.418 seconds (JVM running for 16.861)
+[INFO ] 2018-11-15 19:09:38.487 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:09:47.935 [restartedMain] CuyApplication - Started CuyApplication in 13.635 seconds (JVM running for 16.048)
+[INFO ] 2018-11-15 19:10:40.701 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:10:50.474 [restartedMain] CuyApplication - Started CuyApplication in 13.962 seconds (JVM running for 16.293)
+[INFO ] 2018-11-15 19:11:30.863 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:11:40.384 [restartedMain] CuyApplication - Started CuyApplication in 13.796 seconds (JVM running for 16.362)
+[INFO ] 2018-11-15 19:13:17.391 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:13:27.168 [restartedMain] CuyApplication - Started CuyApplication in 14.008 seconds (JVM running for 16.794)
+[INFO ] 2018-11-15 19:15:24.138 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:15:33.891 [restartedMain] CuyApplication - Started CuyApplication in 14.102 seconds (JVM running for 16.543)
+[INFO ] 2018-11-15 19:16:27.077 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:16:36.919 [restartedMain] CuyApplication - Started CuyApplication in 14.155 seconds (JVM running for 16.575)
+[INFO ] 2018-11-15 19:26:41.985 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-15 19:26:51.915 [restartedMain] CuyApplication - Started CuyApplication in 16.322 seconds (JVM running for 19.222)
+[INFO ] 2018-11-15 19:27:13.730 [http-nio-8080-exec-3] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-15 19:27:16.676 [http-nio-8080-exec-8] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
