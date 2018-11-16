@@ -570,3 +570,4 @@
 [INFO ] 2018-11-16 17:46:59.507 [restartedMain] CuyApplication - The following profiles are active: development
 [INFO ] 2018-11-16 17:47:17.130 [restartedMain] CuyApplication - Started CuyApplication in 23.05 seconds (JVM running for 1308.958)
 [INFO ] 2018-11-16 17:50:56.515 [restartedMain] CuyApplication - The following profiles are active: heroku
+[INFO ] 2018-11-16 17:55:10.699 [restartedMain] CuyApplication - The following profiles are active: herokudev
