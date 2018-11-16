@@ -34,7 +34,7 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
     }
 
     @Autowired
-    @Qualifier("clientDetailsService")
+    //@Qualifier("clientDetailsService")
     public JdbcClientDetailsService clientDetailsService() {
         return new JdbcClientDetailsService(oauthDataSource());
     }

@@ -1,13 +1,11 @@
-package com.itsight.cuy.interceptor;
+package com.itsight.cuy.service.impl;
 
+import com.itsight.cuy.service.DateTimeRetriever;
 import org.springframework.stereotype.Service;
 
 import java.sql.Timestamp;
 import java.util.Date;
 
-/**
- * Created by josediaz on 28/10/2016.
- */
 @Service
 public class DateTimeRetrieverImpl implements DateTimeRetriever {
 
@@ -16,4 +14,3 @@ public class DateTimeRetrieverImpl implements DateTimeRetriever {
         return new Timestamp(System.currentTimeMillis());
     }
 }
-

@@ -1,32 +1,25 @@
-/*
 package com.itsight.cuy.component;
 
-import com.itsight.repository.SecurityUserRepository;
-import com.itsight.service.UsuarioService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.security.authentication.event.InteractiveAuthenticationSuccessEvent;
 import org.springframework.stereotype.Component;
 
-import javax.servlet.http.HttpSession;
-import java.util.Date;
-
 @Component
 public class LoginListener implements ApplicationListener<InteractiveAuthenticationSuccessEvent> {
 
-    @Autowired
+  /*  @Autowired
     private UsuarioService usuarioService;
 
     @Autowired
     private SecurityUserRepository securityUserRepository;
 
     @Autowired
-    private HttpSession session;
+    private HttpSession session;*/
 
     @Override
     public void onApplicationEvent(InteractiveAuthenticationSuccessEvent login) {
         // TODO Auto-generated method stub
-        try {
+        /*try {
             String userName = login.getAuthentication().getName();
             int id = securityUserRepository.findIdByUsername(userName);
             session.setAttribute("id", id);
@@ -38,7 +31,6 @@ public class LoginListener implements ApplicationListener<InteractiveAuthenticat
 
         }catch (Exception e){
             e.printStackTrace();
-        }
+        }*/
     }
 }
-*/

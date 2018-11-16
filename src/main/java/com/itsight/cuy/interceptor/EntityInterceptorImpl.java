@@ -1,6 +1,7 @@
 package com.itsight.cuy.interceptor;
 
 import com.itsight.cuy.domain.base.AuditingEntity;
+import com.itsight.cuy.service.DateTimeRetriever;
 import org.hibernate.EmptyInterceptor;
 import org.hibernate.type.Type;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,9 +16,6 @@ import java.util.Optional;
 
 @Component
 public class EntityInterceptorImpl extends EmptyInterceptor implements EntityInterceptor {
-    /**
-     *
-     */
     private static final long serialVersionUID = 8160823652337870429L;
     @Autowired
     DateTimeRetriever dateTimeRetriever;
@@ -30,15 +28,17 @@ public class EntityInterceptorImpl extends EmptyInterceptor implements EntityInt
             for (int i = 0; i < propertyNames.length; i++) {
                 String propertyName = propertyNames[i];
 
-                if (propertyName.equals("creador")) {
+                if (propertyName.equals("createdBy")) {
                     Optional<Authentication> optSc =  Optional.ofNullable(SecurityContextHolder.getContext().getAuthentication());
                     if(optSc.isPresent()){
                         state[i] = SecurityContextHolder.getContext().getAuthentication().getName();
                     }else{
                         state[i] = "InitialSeeder";
                     }
-                } else if (propertyName.equals("fechaCreacion")) {
+                } else if (propertyName.equals("creationDate")) {
                     state[i] = currentTime();
+                } else if (propertyName.equals("flagActive")) {
+                    state[i] = true;
                 }
             }
         }
@@ -58,9 +58,9 @@ public class EntityInterceptorImpl extends EmptyInterceptor implements EntityInt
             for (int i = 0; i < propertyNames.length; i++) {
                 String propertyName = propertyNames[i];
 
-                if (propertyName.equals("modificadoPor")) {
+                if (propertyName.equals("modifiedBy")) {
                     currentState[i] = SecurityContextHolder.getContext().getAuthentication().getName();
-                } else if (propertyName.equals("fechaModificacion")) {
+                } else if (propertyName.equals("modificationDate")) {
                     currentState[i] = currentTime();
                 }
             }

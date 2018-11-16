@@ -1,20 +1,61 @@
 package com.itsight.cuy.controller;
 
 import com.itsight.cuy.constants.ViewConstant;
+import com.itsight.cuy.repository.OauthApprovalsRepository;
+import com.itsight.cuy.repository.OauthClientDetailsRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.MediaType;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.oauth2.provider.approval.Approval;
+import org.springframework.security.oauth2.provider.approval.ApprovalStore;
+import org.springframework.security.oauth2.provider.client.JdbcClientDetailsService;
+import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
+import java.security.Principal;
 import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+import static java.util.Arrays.asList;
 
 @Controller
 public class AuthController {
+
+
+    @Autowired
+    private ApprovalStore approvalStore;
+
+    @Autowired
+    private OauthClientDetailsRepository oauthClientDetailsRepository;
+
+    @Autowired
+    private OauthApprovalsRepository oauthApprovalsRepository;
+
+    @RequestMapping("/")
+    public ModelAndView root(Map<String,Object> model){
+        model.put("approvals", oauthApprovalsRepository.findAll());
+        model.put("clientDetails",oauthClientDetailsRepository.findAll());
+        return new ModelAndView ("index",model);
+    }
+
+    @Autowired
+    private TokenStore tokenStore;
+
+    @RequestMapping(value="/approval/revoke",method= RequestMethod.POST)
+    public String revokApproval(@ModelAttribute Approval approval){
+
+        approvalStore.revokeApprovals(asList(approval));
+        tokenStore.findTokensByClientIdAndUserName(approval.getClientId(),approval.getUserId())
+                .forEach(tokenStore::removeAccessToken) ;
+        return "redirect:/";
+    }
 
     @GetMapping(value = "/login")
     public String loginForm(@RequestParam(value = "error", required = false) String error,
@@ -31,7 +72,7 @@ public class AuthController {
     }
 
     //	@PreAuthorize("hasAnyRole({'ADMIN','USER'}) or hasAuthority('READ_PRIVILEGE')")
-    @GetMapping(value = {"/bienvenido", "/"})
+    @GetMapping(value = {"/bienvenido"})
     public String welcome() {
         Collection<? extends GrantedAuthority> authorities = SecurityContextHolder.getContext().getAuthentication().getAuthorities();
         for (GrantedAuthority authority: authorities){

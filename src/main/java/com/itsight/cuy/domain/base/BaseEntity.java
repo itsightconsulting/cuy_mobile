@@ -2,9 +2,6 @@ package com.itsight.cuy.domain.base;
 
 import java.util.Date;
 
-/**
- * Created by josediaz on 10/10/2016.
- */
 public interface BaseEntity {
 
     public String getCreador();

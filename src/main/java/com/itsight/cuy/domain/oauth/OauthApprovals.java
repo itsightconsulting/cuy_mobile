@@ -18,7 +18,7 @@ public class OauthApprovals {
     private String scope;
     @Column(nullable = false)
     private String status;
-    @Column
+    @Column(name = "expiresAt")
     @Temporal(TemporalType.TIMESTAMP)
     private Date expiresAt;
     @Column
