@@ -55,6 +55,9 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
     private ResidueParameterRepository residueParameterRepository;
 
     @Autowired
+    private RechargeService rechargeService;
+
+    @Autowired
     private SecurityUserRepository userRepository;
 
     @Autowired
@@ -82,6 +85,7 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
             addingPlanToTable();
             addingPersonPlanToTable();
             addingResidueRanges();
+            addingRecharges();
         }
 
         addingToContextSession();
@@ -136,7 +140,7 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
     }
 
     public void addingPersonPlanToTable(){
-        if(personPlanService.findOne(1) == null) personPlanService.save(new PersonPlan(1, 1));
+        if(personPlanService.findOne(1) == null) personPlanService.save(new PersonPlan(1, 1, "999999999"));
     }
 
     public void addingResidueRanges(){
@@ -153,6 +157,12 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
             r2max.setAmount(100);
             r2max.setRange(Enums.ResidueRanges.MAXIMO);
             residueParameterRepository.save(r2max);
+        }
+    }
+
+    public void addingRecharges(){
+        for (int i=1; i<11;i++){
+            if(rechargeService.findOne(i) == null) rechargeService.save(new Recharge("999999999", 3*i,new Date(), "InitialSeeder"));
         }
     }
 

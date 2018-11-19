@@ -6,6 +6,9 @@ import com.itsight.cuy.domain.base.AuditingEntity;
 import javax.persistence.*;
 import java.io.Serializable;
 
+@NamedEntityGraphs({
+    @NamedEntityGraph(name = "personPlan")
+})
 @Entity
 public class PersonPlan extends AuditingEntity implements Serializable {
 
@@ -24,6 +27,13 @@ public class PersonPlan extends AuditingEntity implements Serializable {
     @JoinColumn(nullable = false, updatable = false, name = "PlanId")
     private Plan plan;
 
+    @Column(nullable = false, updatable = false)
+    private String phoneNumber;
+
+    @Column(nullable = false, precision = 8, scale = 2)
+    //@JsonSerialize(using = JsonMoneySimpleSerializer.class)
+    private double residue;
+
     @Column(nullable = false, precision = 8, scale = 2)
     //@JsonSerialize(using = JsonMoneySimpleSerializer.class)
     private double consumption;
@@ -40,9 +50,10 @@ public class PersonPlan extends AuditingEntity implements Serializable {
 
     public PersonPlan(){}
 
-    public PersonPlan(int personId, int planId) {
+    public PersonPlan(int personId, int planId, String phoneNumber) {
         this.person = new Person(personId);
         this.plan = new Plan(planId);
+        this.phoneNumber = phoneNumber;
     }
 
     public int getId() {
@@ -67,6 +78,22 @@ public class PersonPlan extends AuditingEntity implements Serializable {
 
     public void setPlan(Plan plan) {
         this.plan = plan;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public double getResidue() {
+        return residue;
+    }
+
+    public void setResidue(double residue) {
+        this.residue = residue;
     }
 
     public double getConsumption() {

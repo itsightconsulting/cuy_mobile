@@ -8,4 +8,8 @@ import java.util.List;
 public interface PersonPlanService extends BaseService<PersonPlan> {
 
     List<PersonPlan> findByPersonId(int personId);
+
+    PersonPlan findByPhoneNumber(String number);
+
+    PersonPlan findOneWithFTByNumber(String number);
 }

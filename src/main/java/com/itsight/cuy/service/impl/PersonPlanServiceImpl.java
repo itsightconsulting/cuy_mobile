@@ -55,4 +55,14 @@ public class PersonPlanServiceImpl extends BaseServiceImpl<PersonPlanRepository>
     public List<PersonPlan> findByPersonId(int personId) {
         return repository.findAllByPersonId(personId);
     }
+
+    @Override
+    public PersonPlan findByPhoneNumber(String number) {
+        return repository.findByPhoneNumber(number);
+    }
+
+    @Override
+    public PersonPlan findOneWithFTByNumber(String number) {
+        return repository.getByPhoneNumber(number);
+    }
 }

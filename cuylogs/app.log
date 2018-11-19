@@ -574,3 +574,115 @@
 [INFO ] 2018-11-16 18:03:43.659 [restartedMain] CuyApplication - The following profiles are active: herokudev
 [INFO ] 2018-11-16 18:04:08.301 [restartedMain] CuyApplication - The following profiles are active: herokudev
 [INFO ] 2018-11-16 18:06:34.904 [restartedMain] CuyApplication - The following profiles are active: herokudev
+[INFO ] 2018-11-18 09:42:37.149 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 09:53:22.412 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 09:53:40.839 [restartedMain] CuyApplication - Started CuyApplication in 24.277 seconds (JVM running for 27.508)
+[INFO ] 2018-11-18 09:54:32.482 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:09.685 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 09:56:24.198 [restartedMain] CuyApplication - Started CuyApplication in 21.155 seconds (JVM running for 25.612)
+[INFO ] 2018-11-18 09:56:34.073 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:34.839 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:34.868 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:47.350 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:47.593 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:47.619 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:48.939 [http-nio-8080-exec-5] SecurityUserServiceImpl - > Excepción | (?): PETERZINHO16
+[INFO ] 2018-11-18 09:56:49.094 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:49.239 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:49.264 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:57.642 [http-nio-8080-exec-2] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-18 09:56:57.789 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:57.967 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:56:57.994 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:57:18.056 [http-nio-8080-exec-9] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-11-18 09:57:18.200 [http-nio-8080-exec-10] AspectController - AuthController.root(..) method called.
+[INFO ] 2018-11-18 09:57:23.771 [http-nio-8080-exec-2] AspectController - AuthController.welcome() method called.
+[INFO ] 2018-11-18 09:57:27.553 [http-nio-8080-exec-3] AspectController - AuthController.root(..) method called.
+[INFO ] 2018-11-18 09:57:56.234 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:57:56.405 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:57:56.427 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:57:58.132 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:57:58.256 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 09:57:58.275 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 10:07:58.203 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 10:08:11.976 [restartedMain] CuyApplication - Started CuyApplication in 20.13 seconds (JVM running for 23.993)
+[INFO ] 2018-11-18 10:09:55.102 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 10:11:09.955 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 10:11:24.924 [restartedMain] CuyApplication - Started CuyApplication in 20.683 seconds (JVM running for 23.088)
+[INFO ] 2018-11-18 10:11:43.155 [http-nio-8080-exec-1] AspectController - GeneralController.validarCCDI(..) method called.
+[INFO ] 2018-11-18 10:12:30.105 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 10:12:45.376 [restartedMain] CuyApplication - Started CuyApplication in 20.442 seconds (JVM running for 23.006)
+[INFO ] 2018-11-18 10:12:48.903 [http-nio-8080-exec-1] AspectController - GeneralController.validarCCDI(..) method called.
+[INFO ] 2018-11-18 10:13:12.561 [http-nio-8080-exec-2] AspectController - GeneralController.validarCCDI(..) method called.
+[INFO ] 2018-11-18 10:13:21.194 [http-nio-8080-exec-3] AspectController - GeneralController.validarCCDI(..) method called.
+[INFO ] 2018-11-18 10:13:25.557 [http-nio-8080-exec-4] AspectController - GeneralController.validarCCDI(..) method called.
+[INFO ] 2018-11-18 10:13:33.980 [http-nio-8080-exec-5] AspectController - GeneralController.validarCCDI(..) method called.
+[INFO ] 2018-11-18 10:13:46.649 [http-nio-8080-exec-6] AspectController - GeneralController.validarCCDI(..) method called.
+[INFO ] 2018-11-18 10:38:50.656 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 10:39:03.639 [restartedMain] CuyApplication - Started CuyApplication in 18.064 seconds (JVM running for 20.513)
+[INFO ] 2018-11-18 10:39:29.992 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 10:39:40.807 [http-nio-8080-exec-5] AspectController - GeneralController.asociarDniACcdi(..) method called.
+[INFO ] 2018-11-18 10:39:47.115 [http-nio-8080-exec-6] AspectController - GeneralController.asociarDniACcdi(..) method called.
+[INFO ] 2018-11-18 10:39:51.158 [http-nio-8080-exec-8] AspectController - GeneralController.asociarDniACcdi(..) method called.
+[INFO ] 2018-11-18 14:57:55.035 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 14:58:26.451 [restartedMain] CuyApplication - Started CuyApplication in 38.77 seconds (JVM running for 44.532)
+[INFO ] 2018-11-18 15:00:20.695 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 15:00:33.617 [restartedMain] CuyApplication - Started CuyApplication in 18.071 seconds (JVM running for 20.671)
+[INFO ] 2018-11-18 15:00:38.694 [http-nio-8080-exec-1] AspectController - PersonController.obtenerSaldoActual(..) method called.
+[INFO ] 2018-11-18 15:01:07.458 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 15:01:21.875 [restartedMain] CuyApplication - Started CuyApplication in 19.865 seconds (JVM running for 22.699)
+[INFO ] 2018-11-18 15:01:33.053 [http-nio-8080-exec-1] AspectController - PersonController.obtenerSaldoActual(..) method called.
+[INFO ] 2018-11-18 15:01:41.829 [http-nio-8080-exec-2] AspectController - PersonController.obtenerSaldoActual(..) method called.
+[INFO ] 2018-11-18 15:02:34.389 [http-nio-8080-exec-3] AspectController - PersonController.obtenerSaldoActual(..) method called.
+[INFO ] 2018-11-18 18:08:08.665 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 18:08:34.524 [restartedMain] CuyApplication - Started CuyApplication in 34.733 seconds (JVM running for 48.655)
+[INFO ] 2018-11-18 19:20:55.669 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 20:05:22.350 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 20:05:40.471 [restartedMain] CuyApplication - Started CuyApplication in 24.363 seconds (JVM running for 27.308)
+[INFO ] 2018-11-18 20:06:06.538 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 20:06:23.247 [restartedMain] CuyApplication - Started CuyApplication in 22.486 seconds (JVM running for 25.038)
+[INFO ] 2018-11-18 20:06:42.901 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 20:06:55.996 [restartedMain] CuyApplication - Started CuyApplication in 18.804 seconds (JVM running for 21.341)
+[INFO ] 2018-11-18 20:07:53.988 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-18 20:08:52.708 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 20:09:08.042 [restartedMain] CuyApplication - Started CuyApplication in 22.041 seconds (JVM running for 25.215)
+[INFO ] 2018-11-18 20:09:14.560 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-18 20:12:12.773 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 20:12:26.904 [restartedMain] CuyApplication - Started CuyApplication in 19.453 seconds (JVM running for 21.958)
+[INFO ] 2018-11-18 20:12:32.310 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-18 20:13:57.061 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 20:14:09.859 [restartedMain] CuyApplication - Started CuyApplication in 17.944 seconds (JVM running for 20.435)
+[INFO ] 2018-11-18 20:14:12.388 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-18 20:14:24.893 [http-nio-8080-exec-2] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-18 20:14:32.432 [http-nio-8080-exec-4] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-18 20:14:42.819 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-18 20:14:56.912 [http-nio-8080-exec-5] AspectController - PhoneNumberController.obtenerUltimas10RechargasByNumber(..) method called.
+[INFO ] 2018-11-18 20:16:10.914 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 20:16:23.070 [restartedMain] CuyApplication - Started CuyApplication in 17.25 seconds (JVM running for 19.666)
+[INFO ] 2018-11-18 20:17:14.851 [http-nio-8080-exec-1] AspectController - PhoneNumberController.obtenerUltimas10RechargasByNumber(..) method called.
+[INFO ] 2018-11-18 21:12:55.510 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 21:13:12.339 [restartedMain] CuyApplication - Started CuyApplication in 22.141 seconds (JVM running for 26.038)
+[INFO ] 2018-11-18 21:14:56.249 [http-nio-8080-exec-3] AspectController - PersonController.actualizarSaldoGeneralByNumber(..) method called.
+[INFO ] 2018-11-18 21:15:39.196 [http-nio-8080-exec-4] AspectController - PersonController.actualizarSaldoGeneralByNumber(..) method called.
+[INFO ] 2018-11-18 21:17:29.973 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 21:17:46.005 [restartedMain] CuyApplication - Started CuyApplication in 21.04 seconds (JVM running for 23.559)
+[INFO ] 2018-11-18 21:17:59.134 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 21:18:12.859 [restartedMain] CuyApplication - Started CuyApplication in 19.338 seconds (JVM running for 22.28)
+[INFO ] 2018-11-18 21:18:42.560 [http-nio-8080-exec-3] AspectController - PersonController.actualizarSaldoGeneralByNumber(..) method called.
+[INFO ] 2018-11-18 21:18:47.331 [http-nio-8080-exec-2] AspectController - PersonController.actualizarSaldoGeneralByNumber(..) method called.
+[INFO ] 2018-11-18 21:18:50.739 [http-nio-8080-exec-4] AspectController - PersonController.actualizarSaldoGeneralByNumber(..) method called.
+[INFO ] 2018-11-18 22:03:42.936 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 22:03:56.138 [restartedMain] CuyApplication - Started CuyApplication in 18.515 seconds (JVM running for 21.152)
+[INFO ] 2018-11-18 22:05:19.532 [http-nio-8080-exec-4] AspectController - PersonController.obtenerCantidadMbsPendientesByNumber(..) method called.
+[INFO ] 2018-11-18 22:06:23.032 [http-nio-8080-exec-6] AspectController - PersonController.obtenerCantidadMbsPendientesByNumber(..) method called.
+[INFO ] 2018-11-18 22:06:47.776 [http-nio-8080-exec-7] AspectController - PersonController.obtenerCantidadMbsPendientesByNumber(..) method called.
+[INFO ] 2018-11-18 22:08:39.837 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 22:08:52.850 [restartedMain] CuyApplication - Started CuyApplication in 18.094 seconds (JVM running for 20.726)
+[INFO ] 2018-11-18 22:08:58.025 [http-nio-8080-exec-1] AspectController - PersonController.obtenerCantidadMbsPendientesByNumber(..) method called.
+[INFO ] 2018-11-18 22:11:46.402 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 22:11:59.073 [restartedMain] CuyApplication - Started CuyApplication in 17.706 seconds (JVM running for 20.139)
+[INFO ] 2018-11-18 22:12:02.337 [http-nio-8080-exec-1] AspectController - PersonController.obtenerCantidadMbsPendientesByNumber(..) method called.
+[INFO ] 2018-11-18 22:12:08.855 [http-nio-8080-exec-2] AspectController - PersonController.obtenerCantidadMbsPendientesByNumber(..) method called.
+[INFO ] 2018-11-18 22:14:00.652 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-18 22:14:13.014 [restartedMain] CuyApplication - Started CuyApplication in 17.354 seconds (JVM running for 19.943)
+[INFO ] 2018-11-18 22:14:24.958 [http-nio-8080-exec-1] AspectController - PersonController.obtenerCantidadMbsPendientesByNumber(..) method called.

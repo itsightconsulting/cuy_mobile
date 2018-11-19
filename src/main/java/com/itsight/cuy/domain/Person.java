@@ -48,6 +48,10 @@ public class Person extends AuditingEntity implements Serializable {
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "person")
     private List<PersonPlan> lstPersonCard;
 
+    @JsonBackReference
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "person")
+    private List<PhoneNumber> lstPhoneNumber;
+
     @Type(type = "jsonb")
     @Column(name = "preferences", columnDefinition = "jsonb")
     private Preferences preferences;
@@ -116,6 +120,14 @@ public class Person extends AuditingEntity implements Serializable {
 
     public void setLstPersonCard(List<PersonPlan> lstPersonCard) {
         this.lstPersonCard = lstPersonCard;
+    }
+
+    public List<PhoneNumber> getLstPhoneNumber() {
+        return lstPhoneNumber;
+    }
+
+    public void setLstPhoneNumber(List<PhoneNumber> lstPhoneNumber) {
+        this.lstPhoneNumber = lstPhoneNumber;
     }
 
     public Person(String name, int personTypeId, int documentTypeId, String documentNumber, boolean flag, String createdBy, Date date, Preferences preferences) {

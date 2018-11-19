@@ -3,11 +3,13 @@ package com.itsight.cuy.controller.rest;
 import com.itsight.cuy.domain.Card;
 import com.itsight.cuy.domain.CardType;
 import com.itsight.cuy.domain.Person;
+import com.itsight.cuy.domain.PersonPlan;
 import com.itsight.cuy.domain.dto.CardDTO;
 import com.itsight.cuy.domain.dto.CardPersonDTO;
 import com.itsight.cuy.domain.dto.DataResponseDTO;
 import com.itsight.cuy.service.CardService;
 import com.itsight.cuy.service.CardTypeService;
+import com.itsight.cuy.service.PersonPlanService;
 import com.itsight.cuy.service.PersonService;
 import com.itsight.cuy.util.Enums;
 import com.itsight.cuy.util.Tuple;
@@ -29,12 +31,14 @@ public class PersonController {
     private PersonService personService;
     private CardService cardService;
     private CardTypeService cardTypeService;
+    private PersonPlanService personPlanService;
 
     @Autowired
-    public PersonController(PersonService personService, CardService cardService, CardTypeService cardTypeService){
+    public PersonController(PersonService personService, CardService cardService, CardTypeService cardTypeService, PersonPlanService personPlanService){
         this.personService = personService;
         this.cardService = cardService;
         this.cardTypeService = cardTypeService;
+        this.personPlanService = personPlanService;
     }
 
     @GetMapping("/list")
@@ -152,6 +156,148 @@ public class PersonController {
         }
         return data;
     }
+
+    @GetMapping("/getResidueByNumber/{number}")
+    public DataResponseDTO obtenerSaldoActual(@PathVariable(name = "number") String number) {
+        DataResponseDTO data = new DataResponseDTO();
+
+        try {
+            if(number.length() == 9){
+                if(number.chars().allMatch(Character::isDigit)){
+                    data.setData(personPlanService.findByPhoneNumber(number));
+                    data.setMessage("Success");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.SUCCESS.get()));
+                    data.setFlag(true);
+                }else{
+                    data.setData(null);
+                    data.setMessage("Número incorrecto");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                    data.setFlag(false);
+                }
+            }else{
+                data.setData(null);
+                data.setMessage("Número incorrecto");
+                data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                data.setFlag(false);
+            }
+        }
+        catch (Exception e){
+            data.setData(null);
+            data.setMessage(e.getMessage());
+            data.setResponseCode(Integer.parseInt(Enums.ResponseCode.ERROR_GENERAL.get()));
+            data.setFlag(false);
+        }
+        return data;
+    }
+
+    @GetMapping("/getMbsByNumber/{number}")
+    public DataResponseDTO obtenerCantidadMbsPendientesByNumber(@PathVariable(name = "number") String number) {
+        DataResponseDTO data = new DataResponseDTO();
+
+        try {
+            if(number.length() == 9){
+                if(number.chars().allMatch(Character::isDigit)){
+                    PersonPlan qPersonPlan = personPlanService.findOneWithFTByNumber(number);
+                    qPersonPlan.setPerson(null);
+                    qPersonPlan.setPlan(null);
+                    data.setData(qPersonPlan);
+                    data.setMessage("Success");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.SUCCESS.get()));
+                    data.setFlag(true);
+                }else{
+                    data.setData(null);
+                    data.setMessage("Número incorrecto");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                    data.setFlag(false);
+                }
+            }else{
+                data.setData(null);
+                data.setMessage("Número incorrecto");
+                data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                data.setFlag(false);
+            }
+        }
+        catch (Exception e){
+            data.setData(null);
+            data.setMessage(e.getMessage());
+            data.setResponseCode(Integer.parseInt(Enums.ResponseCode.ERROR_GENERAL.get()));
+            data.setFlag(false);
+        }
+        return data;
+    }
+
+    @GetMapping("/getMinsByNumber/{number}")
+    public DataResponseDTO obtenerCantidadMinutosPendientesByNumber(@PathVariable(name = "number") String number) {
+        DataResponseDTO data = new DataResponseDTO();
+        try {
+            if(number.length() == 9){
+                if(number.chars().allMatch(Character::isDigit)){
+                    PersonPlan qPersonPlan = personPlanService.findOneWithFTByNumber(number);
+                    qPersonPlan.setPerson(null);
+                    qPersonPlan.setPlan(null);
+                    data.setData(qPersonPlan);
+                    data.setMessage("Success");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.SUCCESS.get()));
+                    data.setFlag(true);
+                }else{
+                    data.setData(null);
+                    data.setMessage("Número incorrecto");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                    data.setFlag(false);
+                }
+            }else{
+                data.setData(null);
+                data.setMessage("Número incorrecto");
+                data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                data.setFlag(false);
+            }
+        }
+        catch (Exception e){
+            data.setData(null);
+            data.setMessage(e.getMessage());
+            data.setResponseCode(Integer.parseInt(Enums.ResponseCode.ERROR_GENERAL.get()));
+            data.setFlag(false);
+        }
+        return data;
+    }
+
+    @PutMapping("/updateResidueByNumber/{rechargeAmount}/{number}")
+    public DataResponseDTO actualizarSaldoGeneralByNumber(@PathVariable(name = "rechargeAmount") String rechargeAmount, @PathVariable(name = "number") String number){
+        DataResponseDTO data = new DataResponseDTO();
+
+        try {
+            if(number.length() == 9){
+                if(number.chars().allMatch(Character::isDigit) && rechargeAmount.chars().allMatch(Character::isDigit)){
+                    PersonPlan qPersonPlan = personPlanService.findByPhoneNumber(number);
+                    qPersonPlan.setResidue(qPersonPlan.getResidue()+Double.parseDouble(rechargeAmount));
+                    personPlanService.update(qPersonPlan);
+                    data.setData(qPersonPlan);
+                    data.setMessage("Success");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.SUCCESS.get()));
+                    data.setFlag(true);
+                }else{
+                    data.setData(null);
+                    data.setMessage("Número incorrecto");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                    data.setFlag(false);
+                }
+            } else {
+                data.setData(null);
+                data.setMessage("Número incorrecto");
+                data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                data.setFlag(false);
+            }
+        }
+        catch (Exception e){
+            data.setData(null);
+            data.setMessage(e.getMessage());
+            data.setResponseCode(Integer.parseInt(Enums.ResponseCode.ERROR_GENERAL.get()));
+            data.setFlag(false);
+        }
+        return data;
+    }
+
+
 
 
     @PostMapping(path = "/addUpdateCard", consumes="application/json")
@@ -298,7 +444,6 @@ public class PersonController {
             if (!editValidate) {
                 mensajeSalida = mensajeSalida.isEmpty() && item.getCardType().isEmpty() ? "Debe un tipo de Tarjeta" : mensajeSalida;
             }
-
             errorCode = Integer.parseInt(Enums.ResponseCode.ERROR_FALTAN_DATOS.get());
         }
         return new Tuple<Boolean, String, Integer>(exito, mensajeSalida, errorCode);

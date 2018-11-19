@@ -13,6 +13,7 @@ import com.itsight.cuy.service.PlanTypeService;
 import com.itsight.cuy.util.Enums;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -130,4 +131,64 @@ public class GeneralController {
         return data;
     }
 
+    @GetMapping("/ccdiValidate/{iccdi}")
+    public DataResponseDTO validarCCDI(@PathVariable(value = "iccdi") String iccdi) {
+        DataResponseDTO data = new DataResponseDTO();
+        try {
+            if(iccdi.length() == 20){
+                if(iccdi.chars().allMatch(Character::isDigit)){
+                    data.setData(iccdi);
+                    data.setMessage("Success");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.SUCCESS.get()));
+                    data.setFlag(true);
+                }else{
+                    data.setData(null);
+                    data.setMessage("CCDI incorrecto");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                    data.setFlag(false);
+                }
+            }else{
+                data.setData(null);
+                data.setMessage("CCDI incorrecto");
+                data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                data.setFlag(false);
+            }
+        } catch (Exception e) {
+            data.setData(null);
+            data.setMessage(e.getMessage());
+            data.setResponseCode(Integer.parseInt(Enums.ResponseCode.ERROR_GENERAL.get()));
+            data.setFlag(false);
+        }
+        return data;
+    }
+
+    @GetMapping("/associateDniToIccdi/{iccdi}/{dni}")
+    public DataResponseDTO asociarDniACcdi(@PathVariable(value = "iccdi") String iccdi, @PathVariable(value = "dni") String dni) {
+        DataResponseDTO data = new DataResponseDTO();
+        try {
+            boolean validate;
+            validate = iccdi.length() == 20 ? true : false;
+            validate = validate ? dni.length() == 8 ? true : false : false;
+            validate = validate ? iccdi.chars().allMatch(Character::isDigit) ? true : false : false;
+            validate = validate ? dni.chars().allMatch(Character::isDigit) ? true : false : false;
+
+            if(validate){
+                data.setData(iccdi);
+                data.setMessage("Success");
+                data.setResponseCode(Integer.parseInt(Enums.ResponseCode.SUCCESS.get()));
+                data.setFlag(true);
+            }else{
+                data.setData(null);
+                data.setMessage("Ccdi o dni incorrecto");
+                data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                data.setFlag(false);
+            }
+        } catch (Exception e) {
+            data.setData(null);
+            data.setMessage(e.getMessage());
+            data.setResponseCode(Integer.parseInt(Enums.ResponseCode.ERROR_GENERAL.get()));
+            data.setFlag(false);
+        }
+        return data;
+    }
 }

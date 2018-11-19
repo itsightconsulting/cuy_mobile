@@ -35,7 +35,7 @@ public class ResourcesServerConfiguration extends ResourceServerConfigurerAdapte
     public void configure(HttpSecurity http) throws Exception {
         http
                 .requestMatchers()
-                .antMatchers("/general/**", "/person/**", "/plan/**", "/card/**", "/soap/**")
+                .antMatchers("/general/**", "/person/**", "/plan/**", "/card/**", "/soap/**", "/phone-number/**")
                 .and()
                 .authorizeRequests().antMatchers("/card/**").access("#oauth2.hasScope('read')")
                 .and()
