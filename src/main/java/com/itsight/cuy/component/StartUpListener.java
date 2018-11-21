@@ -58,6 +58,9 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
     private RechargeService rechargeService;
 
     @Autowired
+    private ParameterService parameterService;
+
+    @Autowired
     private SecurityUserRepository userRepository;
 
     @Autowired
@@ -88,6 +91,7 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
             addingRecharges();
         }
 
+        addingParameters();
         addingToContextSession();
         addingInitUsers();
         creatingFileDirectories();
@@ -166,8 +170,25 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
         }
     }
 
+    public void addingParameters(){
+        if(parameterService.findOne(1) == null){
+            parameterService.save(new Parameter("WS_CLARO_USERNAME", "username"));
+        }
+        if(parameterService.findOne(2) == null){
+            parameterService.save(new Parameter("WS_CLARO_PASSWORD", "password"));
+        }
+        if(parameterService.findOne(3) == null){
+            parameterService.save(new Parameter("WS_CLARO_SEC_TOKEN", "79dbd9e0-15b4-4dce-ad47-e2777bbac01e"));
+        }
+    }
+
     public void addingToContextSession() {
+        List<Parameter> contextParams = parameterService.findAll();
         context.setAttribute("version", currentVersion);
+        context.setAttribute("WS_CLARO_USERNAME", contextParams.get(0).getValue());
+        System.out.println(context.getAttribute("WS_CLARO_USERNAME").toString());
+        context.setAttribute("WS_CLARO_PASSWORD", contextParams.get(1).getValue());
+        context.setAttribute("WS_CLARO_SEC_TOKEN", contextParams.get(2).getValue());
     }
 
     public void addingInitUsers() {

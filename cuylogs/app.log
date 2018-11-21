@@ -691,3 +691,241 @@
 [INFO ] 2018-11-21 12:15:05.155 [http-nio-8080-exec-2] AspectController - GeneralController.obtenerTipoPersona() method called.
 [INFO ] 2018-11-21 12:15:26.632 [http-nio-8080-exec-3] AspectController - GeneralController.updateTransaction(..) method called.
 [INFO ] 2018-11-21 12:15:41.064 [http-nio-8080-exec-4] AspectController - PersonController.obtenerListadoTransaccionesPorDocumentoIdentidad(..) method called.
+[INFO ] 2018-11-21 12:48:24.589 [restartedMain] CuyApplication - The following profiles are active: production
+[INFO ] 2018-11-21 12:48:58.088 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 12:49:38.380 [restartedMain] CuyApplication - Started CuyApplication in 46.338 seconds (JVM running for 49.512)
+[INFO ] 2018-11-21 12:50:06.224 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 12:50:24.758 [restartedMain] CuyApplication - Started CuyApplication in 23.654 seconds (JVM running for 26.597)
+[INFO ] 2018-11-21 12:50:40.258 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 12:50:46.709 [restartedMain] CuyApplication - Started CuyApplication in 9.465 seconds (JVM running for 48.535)
+[INFO ] 2018-11-21 12:51:12.558 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 12:55:11.858 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 12:55:25.225 [restartedMain] CuyApplication - Started CuyApplication in 18.155 seconds (JVM running for 20.658)
+[INFO ] 2018-11-21 12:55:31.601 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 12:56:51.920 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 12:57:00.005 [restartedMain] CuyApplication - Started CuyApplication in 11.257 seconds (JVM running for 115.434)
+[INFO ] 2018-11-21 14:12:05.202 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:12:35.155 [restartedMain] CuyApplication - Started CuyApplication in 40.002 seconds (JVM running for 45.438)
+[INFO ] 2018-11-21 14:14:24.434 [http-nio-8080-exec-5] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:14:38.949 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:14:41.434 [http-nio-8080-exec-6] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:16:01.686 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:16:15.331 [restartedMain] CuyApplication - Started CuyApplication in 17.015 seconds (JVM running for 265.605)
+[INFO ] 2018-11-21 14:17:38.453 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:17:45.092 [restartedMain] CuyApplication - Started CuyApplication in 9.865 seconds (JVM running for 355.372)
+[INFO ] 2018-11-21 14:17:56.986 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:18:03.979 [restartedMain] CuyApplication - Started CuyApplication in 10.116 seconds (JVM running for 374.251)
+[INFO ] 2018-11-21 14:20:23.282 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:20:42.059 [restartedMain] CuyApplication - Started CuyApplication in 24.297 seconds (JVM running for 28.262)
+[INFO ] 2018-11-21 14:21:02.945 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:21:35.138 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:21:48.706 [restartedMain] CuyApplication - Started CuyApplication in 19.712 seconds (JVM running for 23.864)
+[INFO ] 2018-11-21 14:22:12.780 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:22:29.864 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:22:38.461 [restartedMain] CuyApplication - Started CuyApplication in 11.956 seconds (JVM running for 73.618)
+[INFO ] 2018-11-21 14:23:02.295 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:23:19.979 [restartedMain] CuyApplication - Started CuyApplication in 26.481 seconds (JVM running for 30.492)
+[INFO ] 2018-11-21 14:23:51.285 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:24:34.482 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:25:06.750 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:25:24.559 [restartedMain] CuyApplication - Started CuyApplication in 24.032 seconds (JVM running for 28.959)
+[INFO ] 2018-11-21 14:25:58.809 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:30:38.452 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:30:52.910 [restartedMain] CuyApplication - Started CuyApplication in 21.321 seconds (JVM running for 25.508)
+[INFO ] 2018-11-21 14:31:05.332 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:31:13.490 [restartedMain] CuyApplication - Started CuyApplication in 11.658 seconds (JVM running for 46.091)
+[INFO ] 2018-11-21 14:31:22.339 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:32:30.640 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:32:45.099 [restartedMain] CuyApplication - Started CuyApplication in 20.791 seconds (JVM running for 23.827)
+[INFO ] 2018-11-21 14:32:53.389 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:36:08.941 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:36:22.738 [restartedMain] CuyApplication - Started CuyApplication in 18.885 seconds (JVM running for 21.472)
+[INFO ] 2018-11-21 14:36:35.498 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:37:37.531 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:37:43.656 [restartedMain] CuyApplication - Started CuyApplication in 9.453 seconds (JVM running for 102.391)
+[INFO ] 2018-11-21 14:38:14.093 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:38:19.890 [restartedMain] CuyApplication - Started CuyApplication in 10.1 seconds (JVM running for 138.625)
+[INFO ] 2018-11-21 14:38:25.687 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:38:34.351 [restartedMain] CuyApplication - Started CuyApplication in 11.739 seconds (JVM running for 153.087)
+[INFO ] 2018-11-21 14:38:52.414 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:39:05.621 [restartedMain] CuyApplication - Started CuyApplication in 18.043 seconds (JVM running for 20.513)
+[INFO ] 2018-11-21 14:39:16.397 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:40:16.385 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:40:29.887 [restartedMain] CuyApplication - Started CuyApplication in 19.087 seconds (JVM running for 21.594)
+[INFO ] 2018-11-21 14:40:42.289 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 14:52:58.659 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:53:18.209 [restartedMain] CuyApplication - Started CuyApplication in 23.277 seconds (JVM running for 789.917)
+[INFO ] 2018-11-21 14:53:52.695 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:54:10.303 [restartedMain] CuyApplication - Started CuyApplication in 23.013 seconds (JVM running for 842.011)
+[INFO ] 2018-11-21 14:54:25.953 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:54:33.109 [restartedMain] CuyApplication - Started CuyApplication in 14.287 seconds (JVM running for 864.816)
+[INFO ] 2018-11-21 14:55:00.377 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:55:08.050 [restartedMain] CuyApplication - Started CuyApplication in 11.91 seconds (JVM running for 899.757)
+[INFO ] 2018-11-21 14:56:19.240 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:56:29.444 [restartedMain] CuyApplication - Started CuyApplication in 14.691 seconds (JVM running for 981.151)
+[INFO ] 2018-11-21 14:56:35.495 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:56:44.805 [restartedMain] CuyApplication - Started CuyApplication in 12.66 seconds (JVM running for 996.512)
+[INFO ] 2018-11-21 14:59:03.479 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 14:59:13.788 [restartedMain] CuyApplication - Started CuyApplication in 13.613 seconds (JVM running for 1145.496)
+[INFO ] 2018-11-21 14:59:20.348 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:37:33.295 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:38:46.237 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:42:52.674 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:42:55.657 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:43:03.854 [restartedMain] CuyApplication - Started CuyApplication in 15.213 seconds (JVM running for 3775.561)
+[INFO ] 2018-11-21 15:44:03.438 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:44:24.610 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:44:41.138 [restartedMain] CuyApplication - Started CuyApplication in 26.301 seconds (JVM running for 45.633)
+[INFO ] 2018-11-21 15:45:18.436 [http-nio-8080-exec-2] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 15:45:28.824 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:45:30.005 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:45:57.146 [restartedMain] CuyApplication - Started CuyApplication in 31.865 seconds (JVM running for 3948.854)
+[INFO ] 2018-11-21 15:46:57.809 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:46:59.785 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:47:09.209 [restartedMain] CuyApplication - Started CuyApplication in 15.966 seconds (JVM running for 193.705)
+[INFO ] 2018-11-21 15:47:48.620 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:47:50.698 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:48:01.546 [restartedMain] CuyApplication - Started CuyApplication in 17.4 seconds (JVM running for 4073.253)
+[INFO ] 2018-11-21 15:48:17.112 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:48:20.400 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:48:28.875 [restartedMain] CuyApplication - Started CuyApplication in 16.021 seconds (JVM running for 273.371)
+[INFO ] 2018-11-21 15:50:47.655 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:50:47.815 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:51:17.341 [restartedMain] CuyApplication - Started CuyApplication in 35.18 seconds (JVM running for 4269.048)
+[INFO ] 2018-11-21 15:52:35.855 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:52:47.354 [restartedMain] CuyApplication - Started CuyApplication in 14.924 seconds (JVM running for 4359.061)
+[INFO ] 2018-11-21 15:52:54.349 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:53:04.135 [restartedMain] CuyApplication - Started CuyApplication in 13.376 seconds (JVM running for 4375.842)
+[INFO ] 2018-11-21 15:53:04.502 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 15:58:28.457 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:01:51.597 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:02:04.828 [restartedMain] CuyApplication - Started CuyApplication in 16.222 seconds (JVM running for 4916.535)
+[INFO ] 2018-11-21 16:02:21.433 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:02:26.137 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:02:30.799 [restartedMain] CuyApplication - Started CuyApplication in 12.777 seconds (JVM running for 4942.506)
+[INFO ] 2018-11-21 16:02:48.470 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:02:53.303 [restartedMain] CuyApplication - Started CuyApplication in 32.761 seconds (JVM running for 36.04)
+[INFO ] 2018-11-21 16:04:09.298 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:04:29.743 [restartedMain] CuyApplication - Started CuyApplication in 26.621 seconds (JVM running for 32.24)
+[INFO ] 2018-11-21 16:04:48.822 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:05:00.088 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:05:00.350 [restartedMain] CuyApplication - Started CuyApplication in 14.828 seconds (JVM running for 5092.056)
+[INFO ] 2018-11-21 16:06:18.464 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:06:26.981 [restartedMain] CuyApplication - Started CuyApplication in 11.918 seconds (JVM running for 5178.689)
+[INFO ] 2018-11-21 16:06:56.670 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:07:55.238 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:33:40.725 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:45:17.378 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:46:02.703 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:46:05.190 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:46:40.278 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:46:52.119 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:46:53.099 [restartedMain] CuyApplication - Started CuyApplication in 16.656 seconds (JVM running for 7604.806)
+[INFO ] 2018-11-21 16:49:04.957 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:52:07.622 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:52:22.994 [restartedMain] CuyApplication - Started CuyApplication in 20.901 seconds (JVM running for 23.653)
+[INFO ] 2018-11-21 16:53:46.292 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:54:02.030 [restartedMain] CuyApplication - Started CuyApplication in 22.126 seconds (JVM running for 25.094)
+[INFO ] 2018-11-21 16:54:34.666 [http-nio-8080-exec-2] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 16:58:04.784 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:58:12.446 [restartedMain] CuyApplication - Started CuyApplication in 10.836 seconds (JVM running for 275.507)
+[INFO ] 2018-11-21 16:58:17.031 [http-nio-8080-exec-2] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 16:58:23.722 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 16:58:30.373 [restartedMain] CuyApplication - Started CuyApplication in 10.107 seconds (JVM running for 293.434)
+[INFO ] 2018-11-21 17:02:04.555 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:03:13.940 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:03:28.704 [restartedMain] CuyApplication - Started CuyApplication in 21.64 seconds (JVM running for 25.163)
+[INFO ] 2018-11-21 17:03:31.916 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:03:49.288 [http-nio-8080-exec-2] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:06:38.619 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:06:50.000 [restartedMain] CuyApplication - Started CuyApplication in 15.351 seconds (JVM running for 226.458)
+[INFO ] 2018-11-21 17:07:24.149 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:07:37.086 [restartedMain] CuyApplication - Started CuyApplication in 16.435 seconds (JVM running for 273.544)
+[INFO ] 2018-11-21 17:08:22.142 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:08:35.000 [restartedMain] CuyApplication - Started CuyApplication in 17.66 seconds (JVM running for 331.456)
+[INFO ] 2018-11-21 17:08:40.942 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:08:48.918 [restartedMain] CuyApplication - Started CuyApplication in 12.027 seconds (JVM running for 345.376)
+[INFO ] 2018-11-21 17:09:02.448 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:09:10.978 [restartedMain] CuyApplication - Started CuyApplication in 12.629 seconds (JVM running for 367.435)
+[INFO ] 2018-11-21 17:10:09.375 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:10:16.697 [restartedMain] CuyApplication - Started CuyApplication in 10.549 seconds (JVM running for 433.154)
+[INFO ] 2018-11-21 17:10:34.551 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:10:42.653 [restartedMain] CuyApplication - Started CuyApplication in 11.65 seconds (JVM running for 459.113)
+[INFO ] 2018-11-21 17:11:45.222 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:11:55.134 [restartedMain] CuyApplication - Started CuyApplication in 13.192 seconds (JVM running for 531.593)
+[INFO ] 2018-11-21 17:13:06.848 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:13:21.724 [restartedMain] CuyApplication - Started CuyApplication in 19.302 seconds (JVM running for 618.183)
+[INFO ] 2018-11-21 17:14:40.969 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:14:48.926 [restartedMain] CuyApplication - Started CuyApplication in 11.616 seconds (JVM running for 705.384)
+[INFO ] 2018-11-21 17:16:13.517 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:16:20.635 [restartedMain] CuyApplication - Started CuyApplication in 11.249 seconds (JVM running for 797.092)
+[INFO ] 2018-11-21 17:17:56.657 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:18:02.820 [restartedMain] CuyApplication - Started CuyApplication in 9.792 seconds (JVM running for 899.276)
+[INFO ] 2018-11-21 17:18:55.178 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:19:07.939 [restartedMain] CuyApplication - Started CuyApplication in 17.984 seconds (JVM running for 964.395)
+[INFO ] 2018-11-21 17:19:19.989 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:19:32.436 [restartedMain] CuyApplication - Started CuyApplication in 16.199 seconds (JVM running for 988.894)
+[INFO ] 2018-11-21 17:20:02.511 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:20:21.420 [restartedMain] CuyApplication - Started CuyApplication in 23.974 seconds (JVM running for 28.399)
+[INFO ] 2018-11-21 17:20:46.414 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:21:38.911 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:21:57.409 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:22:09.695 [restartedMain] CuyApplication - Started CuyApplication in 17.418 seconds (JVM running for 20.472)
+[INFO ] 2018-11-21 17:23:11.326 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:23:23.317 [restartedMain] CuyApplication - Started CuyApplication in 17.147 seconds (JVM running for 19.598)
+[INFO ] 2018-11-21 17:23:26.715 [http-nio-8080-exec-2] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:24:26.270 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:24:36.363 [restartedMain] CuyApplication - Started CuyApplication in 13.905 seconds (JVM running for 92.644)
+[INFO ] 2018-11-21 17:24:42.070 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:24:49.309 [restartedMain] CuyApplication - Started CuyApplication in 10.758 seconds (JVM running for 105.594)
+[INFO ] 2018-11-21 17:26:20.066 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:26:40.911 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:26:53.402 [restartedMain] CuyApplication - Started CuyApplication in 17.623 seconds (JVM running for 19.747)
+[INFO ] 2018-11-21 17:27:06.073 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:28:45.829 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:28:52.763 [restartedMain] CuyApplication - Started CuyApplication in 10.36 seconds (JVM running for 139.11)
+[INFO ] 2018-11-21 17:34:17.334 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:34:29.600 [restartedMain] CuyApplication - Started CuyApplication in 17.578 seconds (JVM running for 20.429)
+[INFO ] 2018-11-21 17:34:42.862 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:35:44.499 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:35:52.814 [restartedMain] CuyApplication - Started CuyApplication in 11.508 seconds (JVM running for 103.647)
+[INFO ] 2018-11-21 17:36:16.641 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:36:30.590 [restartedMain] CuyApplication - Started CuyApplication in 19.533 seconds (JVM running for 22.385)
+[INFO ] 2018-11-21 17:36:38.161 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:37:56.449 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:38:10.250 [restartedMain] CuyApplication - Started CuyApplication in 19.298 seconds (JVM running for 21.976)
+[INFO ] 2018-11-21 17:38:33.836 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:40:06.059 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:40:18.523 [restartedMain] CuyApplication - Started CuyApplication in 18.407 seconds (JVM running for 21.148)
+[INFO ] 2018-11-21 17:40:21.898 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:41:17.706 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:41:32.562 [restartedMain] CuyApplication - Started CuyApplication in 20.598 seconds (JVM running for 22.994)
+[INFO ] 2018-11-21 17:41:52.101 [http-nio-8080-exec-2] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:42:29.756 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:42:44.980 [restartedMain] CuyApplication - Started CuyApplication in 20.331 seconds (JVM running for 22.8)
+[INFO ] 2018-11-21 17:42:58.173 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:44:16.423 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:44:35.841 [restartedMain] CuyApplication - Started CuyApplication in 24.653 seconds (JVM running for 27.014)
+[INFO ] 2018-11-21 17:44:54.685 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 17:57:35.736 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 17:57:46.063 [restartedMain] CuyApplication - Started CuyApplication in 13.674 seconds (JVM running for 817.236)
+[INFO ] 2018-11-21 18:01:02.171 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 18:01:19.247 [restartedMain] CuyApplication - Started CuyApplication in 22.378 seconds (JVM running for 25.703)
+[INFO ] 2018-11-21 18:08:04.266 [http-nio-8080-exec-1] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 18:08:44.826 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 18:09:00.190 [restartedMain] CuyApplication - Started CuyApplication in 20.584 seconds (JVM running for 23.057)
+[INFO ] 2018-11-21 18:11:56.252 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 18:13:03.817 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 18:13:22.489 [restartedMain] CuyApplication - Started CuyApplication in 24.174 seconds (JVM running for 27.305)
+[INFO ] 2018-11-21 18:13:28.557 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 18:13:38.783 [restartedMain] CuyApplication - Started CuyApplication in 13.798 seconds (JVM running for 43.599)
+[INFO ] 2018-11-21 18:13:53.905 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 18:14:09.795 [restartedMain] CuyApplication - Started CuyApplication in 21.701 seconds (JVM running for 25.059)
+[INFO ] 2018-11-21 18:15:40.476 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-11-21 18:18:05.640 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 18:18:17.308 [restartedMain] CuyApplication - Started CuyApplication in 14.963 seconds (JVM running for 272.576)
+[INFO ] 2018-11-21 18:18:39.515 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 18:18:49.102 [restartedMain] CuyApplication - Started CuyApplication in 13.013 seconds (JVM running for 304.367)
+[INFO ] 2018-11-21 18:19:15.681 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-21 18:19:31.865 [restartedMain] CuyApplication - Started CuyApplication in 20.596 seconds (JVM running for 23.772)
+[INFO ] 2018-11-21 18:19:50.420 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
