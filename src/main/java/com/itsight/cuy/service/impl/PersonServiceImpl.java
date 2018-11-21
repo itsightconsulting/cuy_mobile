@@ -1,6 +1,8 @@
 package com.itsight.cuy.service.impl;
 
 import com.itsight.cuy.domain.Person;
+import com.itsight.cuy.domain.PhoneNumber;
+import com.itsight.cuy.domain.Recharge;
 import com.itsight.cuy.domain.jsonb.Preferences;
 import com.itsight.cuy.generic.BaseServiceImpl;
 import com.itsight.cuy.repository.PersonRepository;
@@ -57,4 +59,11 @@ public class PersonServiceImpl extends BaseServiceImpl<PersonRepository> impleme
     public Preferences findPlanPreferencesById(int personId) {
         return repository.findPlanPreferencesById(personId);
     }
+
+    @Override
+    public List<PhoneNumber> findAllPhoneNumberByDocumentNumber(int personId) {
+        return repository.findAllPhoneNumberByPersonalId(personId);
+    }
+
+
 }

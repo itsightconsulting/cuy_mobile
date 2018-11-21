@@ -1,22 +1,20 @@
 package com.itsight.cuy.controller.rest;
 
-import com.itsight.cuy.domain.CardType;
-import com.itsight.cuy.domain.DocumentType;
-import com.itsight.cuy.domain.PersonType;
-import com.itsight.cuy.domain.PlanType;
+import com.itsight.cuy.domain.*;
+import com.itsight.cuy.domain.dto.CardDTO;
 import com.itsight.cuy.domain.dto.DataResponseDTO;
+import com.itsight.cuy.domain.dto.TransactionDTO;
 import com.itsight.cuy.repository.ResidueParameterRepository;
-import com.itsight.cuy.service.CardTypeService;
-import com.itsight.cuy.service.DocumentTypeService;
-import com.itsight.cuy.service.PersonTypeService;
-import com.itsight.cuy.service.PlanTypeService;
+import com.itsight.cuy.repository.TransactionRepository;
+import com.itsight.cuy.service.*;
+import com.itsight.cuy.service.impl.TransactionServiceImpl;
 import com.itsight.cuy.util.Enums;
+import com.itsight.cuy.util.Tuple;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -26,16 +24,18 @@ public class GeneralController {
     private DocumentTypeService documentTypeService;
     private PersonTypeService personTypeService;
     private CardTypeService tipoTarjetaService;
+    private TransactionService transactionService;
     private ResidueParameterRepository residueParameterRepository;
 
 
     @Autowired
-    public GeneralController(PlanTypeService planTypeService, DocumentTypeService documentTypeService, PersonTypeService personTypeService, CardTypeService tipoTarjetaService, ResidueParameterRepository residueParameterRepository) {
+    public GeneralController(PlanTypeService planTypeService, DocumentTypeService documentTypeService, PersonTypeService personTypeService, CardTypeService tipoTarjetaService, ResidueParameterRepository residueParameterRepository,TransactionService transactionService) {
         this.planTypeService = planTypeService;
         this.documentTypeService = documentTypeService;
         this.personTypeService = personTypeService;
         this.tipoTarjetaService = tipoTarjetaService;
         this.residueParameterRepository = residueParameterRepository;
+        this.transactionService = transactionService;
     }
 
     @GetMapping("/listPlantType")
@@ -191,4 +191,38 @@ public class GeneralController {
         }
         return data;
     }
+
+    @PostMapping(path = "/updateTransaction", consumes="application/json")
+    public DataResponseDTO updateTransaction(@RequestBody TransactionDTO tra) {
+        DataResponseDTO data = new DataResponseDTO();
+        data.setFlag(false);
+        try {
+
+            Transaction transaction = transactionService.findByCodeTransaction(tra.getCodeTransaction());
+            if (transaction != null) {
+                transaction.setAmount(tra.getAmount());
+                transaction.setDescription(tra.getDescription());
+                transaction.setFlagCorrect(tra.isFlagCorrect());
+
+                transactionService.update(transaction);
+                data.setFlag(true);
+                data.setData(null);
+                data.setMessage("Success");
+                data.setResponseCode(Integer.parseInt(Enums.ResponseCode.SUCCESS_UPDATE.get()));
+
+
+            } else {
+                data.setMessage("Transaccion no encontrado.");
+                data.setResponseCode(Integer.parseInt(Enums.ResponseCode.ERROR_NO_EXISTE.get()));
+            }
+        } catch (Exception e) {
+            data.setData(null);
+            data.setMessage(e.getMessage());
+            data.setResponseCode(Integer.parseInt(Enums.ResponseCode.ERROR_GENERAL.get()));
+        }
+
+        return data;
+    }
+
+
 }

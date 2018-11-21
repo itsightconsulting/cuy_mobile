@@ -1,6 +1,7 @@
 package com.itsight.cuy.repository;
 
 import com.itsight.cuy.domain.Person;
+import com.itsight.cuy.domain.PhoneNumber;
 import com.itsight.cuy.domain.jsonb.Preferences;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -21,4 +22,9 @@ public interface PersonRepository extends JpaRepository<Person,Integer> {
 
     @Query("SELECT P.preferences FROM Person P where P.id = ?1")
     Preferences findPlanPreferencesById(int personId);
+
+    @Query("SELECT P FROM PhoneNumber P where P.person.id = ?1")
+    List<PhoneNumber> findAllPhoneNumberByPersonalId(int personId);
+
+
 }

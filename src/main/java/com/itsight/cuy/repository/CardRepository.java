@@ -13,7 +13,7 @@ public interface CardRepository extends JpaRepository<Card,Integer> {
 
     Card findById(int id);
 
-    @Query("SELECT M FROM Card M where M.person.id = ?1 and M.flagActive = true")
+    @Query("SELECT M FROM Card M JOIN FETCH M.cardType N JOIN FETCH M.person O JOIN FETCH O.documentType P where M.person.id = ?1 and M.flagActive = true")
     List<Card> findIdPersona(int id);
 
     @Query("SELECT M FROM Card M where M.person.id = ?1 and M.digits = ?2 and M.flagActive = true")

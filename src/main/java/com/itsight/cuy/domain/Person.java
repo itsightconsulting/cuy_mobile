@@ -52,6 +52,10 @@ public class Person extends AuditingEntity implements Serializable {
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "person")
     private List<PhoneNumber> lstPhoneNumber;
 
+    @JsonBackReference
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "person")
+    private List<Transaction> lstTransaction;
+
     @Type(type = "jsonb")
     @Column(name = "preferences", columnDefinition = "jsonb")
     private Preferences preferences;

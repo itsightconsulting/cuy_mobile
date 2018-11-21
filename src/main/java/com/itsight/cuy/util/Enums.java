@@ -39,5 +39,19 @@ public class Enums {
         }
     }
 
+    public enum ETransactionType{
+        RECHARGE_TYPE("Recarga");
+
+
+        final String code;
+
+        ETransactionType(String code) {
+            this.code = code;
+        }
+
+        public String get() {
+            return String.valueOf(code);
+        }
+    }
 
 }

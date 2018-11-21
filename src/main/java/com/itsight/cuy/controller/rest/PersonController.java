@@ -1,16 +1,11 @@
 package com.itsight.cuy.controller.rest;
 
-import com.itsight.cuy.domain.Card;
-import com.itsight.cuy.domain.CardType;
-import com.itsight.cuy.domain.Person;
-import com.itsight.cuy.domain.PersonPlan;
+import com.itsight.cuy.domain.*;
 import com.itsight.cuy.domain.dto.CardDTO;
 import com.itsight.cuy.domain.dto.CardPersonDTO;
 import com.itsight.cuy.domain.dto.DataResponseDTO;
-import com.itsight.cuy.service.CardService;
-import com.itsight.cuy.service.CardTypeService;
-import com.itsight.cuy.service.PersonPlanService;
-import com.itsight.cuy.service.PersonService;
+import com.itsight.cuy.domain.dto.TransactionDTO;
+import com.itsight.cuy.service.*;
 import com.itsight.cuy.util.Enums;
 import com.itsight.cuy.util.Tuple;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,13 +27,19 @@ public class PersonController {
     private CardService cardService;
     private CardTypeService cardTypeService;
     private PersonPlanService personPlanService;
+    private TransactionService transactionService;
 
     @Autowired
-    public PersonController(PersonService personService, CardService cardService, CardTypeService cardTypeService, PersonPlanService personPlanService){
+    public PersonController(PersonService personService
+            , CardService cardService
+            , CardTypeService cardTypeService
+            , PersonPlanService personPlanService
+            , TransactionService transactionService){
         this.personService = personService;
         this.cardService = cardService;
         this.cardTypeService = cardTypeService;
         this.personPlanService = personPlanService;
+        this.transactionService = transactionService;
     }
 
     @GetMapping("/list")
@@ -297,9 +298,6 @@ public class PersonController {
         return data;
     }
 
-
-
-
     @PostMapping(path = "/addUpdateCard", consumes="application/json")
     private DataResponseDTO addUpdateCard(@RequestBody CardDTO card) {
         DataResponseDTO data = new DataResponseDTO();
@@ -448,4 +446,55 @@ public class PersonController {
         }
         return new Tuple<Boolean, String, Integer>(exito, mensajeSalida, errorCode);
     }
+
+    @GetMapping("/getListTransactionByIDDocument/{dni}")
+    public DataResponseDTO obtenerListadoTransaccionesPorDocumentoIdentidad(@PathVariable(name = "dni") String dni) {
+        DataResponseDTO data = new DataResponseDTO();
+        try {
+            if (dni.chars().allMatch(Character::isDigit)) {
+                Person user = personService.findByDocumentNumber(dni);
+                if (user != null) {
+                    List<TransactionDTO> listresult = new ArrayList<>();
+                    List<Transaction> list = transactionService.findTop20ByPersonId(user.getId());
+
+                    for (Transaction item : list){
+                        TransactionDTO obj = new TransactionDTO();
+                        obj.setAmount(item.getAmount());
+                        obj.setCodeTransaction(item.getCodeTransaction());
+                        obj.setDateOperation(item.getDateOperation());
+                        obj.setDescription(item.getDescription());
+                        obj.setFlagCorrect(item.isFlagCorrect());
+                        obj.setPersonDni(item.getPerson().getDocumentNumber());
+                        obj.setPersonName(item.getPerson().getName());
+                        obj.setTransactionType(Enums.ETransactionType.RECHARGE_TYPE.get());
+                        listresult.add(obj);
+                    }
+
+                    data.setData(listresult);
+                    data.setMessage("Success");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.SUCCESS.get()));
+                    data.setFlag(true);
+                } else {
+                    data.setData(null);
+                    data.setMessage("Usuario no encontrado");
+                    data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                    data.setFlag(false);
+                }
+            } else {
+                data.setData(null);
+                data.setMessage("Número incorrecto");
+                data.setResponseCode(Integer.parseInt(Enums.ResponseCode.DENIED.get()));
+                data.setFlag(false);
+            }
+        } catch (Exception e) {
+            data.setData(null);
+            data.setMessage(e.getMessage());
+            data.setResponseCode(Integer.parseInt(Enums.ResponseCode.ERROR_GENERAL.get()));
+            data.setFlag(false);
+        }
+        return data;
+    }
+
+
+
 }

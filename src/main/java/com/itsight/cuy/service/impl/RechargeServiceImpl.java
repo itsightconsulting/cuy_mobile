@@ -30,10 +30,7 @@ public class RechargeServiceImpl extends BaseServiceImpl<RechargeRepository> imp
 
     @Override
     public Recharge findOne(int id) {
-        Optional<Recharge> optObj = repository.findById(id);
-        if(optObj.isPresent())
-            return optObj.get();
-        return null;
+        return repository.findById(id);
     }
 
     @Override

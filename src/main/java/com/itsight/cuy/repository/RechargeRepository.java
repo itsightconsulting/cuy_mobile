@@ -10,4 +10,6 @@ import java.util.List;
 public interface RechargeRepository extends JpaRepository<Recharge, Integer> {
 
     List<Recharge> findAllByNumber(String phoneNumber);
+    Recharge findById(int id);
+    List<Recharge> findAll();
 }

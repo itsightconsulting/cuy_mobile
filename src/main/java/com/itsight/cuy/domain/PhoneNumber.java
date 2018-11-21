@@ -22,6 +22,8 @@ public class PhoneNumber {
 
     public PhoneNumber(){}
 
+    public PhoneNumber(int id){this.id = id;}
+
     public int getId() {
         return id;
     }
