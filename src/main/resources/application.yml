@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: development
+    active: production
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
@@ -18,15 +18,10 @@ spring:
         jdbc:
           batch_size: 400
           batch_versioned_data: true
- # Templates reloading during development
   thymeleaf:
     cache: false
     encoding: UTF-8
     suffix: .html
-    prefix: file:src/main/resources/templates/
-# Static resources reloading during development
-  resources:
-    static-locations: file:src/main/resources/static/
   servlet:
     multipart:
       max-request-size: 16MB
