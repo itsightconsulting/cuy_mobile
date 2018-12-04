@@ -929,3 +929,184 @@
 [INFO ] 2018-11-21 18:19:15.681 [restartedMain] CuyApplication - The following profiles are active: development
 [INFO ] 2018-11-21 18:19:31.865 [restartedMain] CuyApplication - Started CuyApplication in 20.596 seconds (JVM running for 23.772)
 [INFO ] 2018-11-21 18:19:50.420 [http-nio-8080-exec-3] AspectController - SoapController.obtenerBancoAleman(..) method called.
+[INFO ] 2018-12-04 11:59:09.280 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 11:59:43.006 [restartedMain] CuyApplication - Started CuyApplication in 38.755 seconds (JVM running for 55.074)
+[INFO ] 2018-12-04 12:00:29.259 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 12:00:48.024 [restartedMain] CuyApplication - Started CuyApplication in 24.018 seconds (JVM running for 28.34)
+[INFO ] 2018-12-04 12:08:50.070 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 12:09:10.528 [restartedMain] CuyApplication - Started CuyApplication in 25.257 seconds (JVM running for 32.038)
+[INFO ] 2018-12-04 12:09:18.397 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 12:09:25.076 [http-nio-8080-exec-4] SecurityUserServiceImpl - > Excepción | (?): OAUTH_ADMIN
+[INFO ] 2018-12-04 12:09:25.218 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 12:09:46.010 [http-nio-8080-exec-8] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-04 12:09:46.166 [http-nio-8080-exec-9] AspectController - AuthController.root(..) method called.
+[INFO ] 2018-12-04 12:10:00.152 [http-nio-8080-exec-4] AspectController - AuthController.root(..) method called.
+[INFO ] 2018-12-04 12:10:03.632 [http-nio-8080-exec-5] AspectController - VisaDemoController.terminosCondiciones() method called.
+[INFO ] 2018-12-04 12:10:15.543 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 12:11:27.761 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 12:11:40.704 [restartedMain] CuyApplication - Started CuyApplication in 16.553 seconds (JVM running for 19.51)
+[INFO ] 2018-12-04 12:11:42.583 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 12:12:20.465 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 12:12:31.826 [restartedMain] CuyApplication - Started CuyApplication in 15.124 seconds (JVM running for 17.692)
+[INFO ] 2018-12-04 12:12:35.019 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 12:12:37.439 [http-nio-8080-exec-2] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-04 12:12:37.587 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 12:12:48.777 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 12:56:40.663 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 12:57:21.140 [restartedMain] CuyApplication - Started CuyApplication in 60.16 seconds (JVM running for 69.593)
+[INFO ] 2018-12-04 12:57:25.543 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 12:57:47.468 [http-nio-8080-exec-5] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-04 12:57:47.639 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:01:52.396 [http-nio-8080-exec-10] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:01:58.171 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:02:07.346 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:02:18.044 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:02:21.957 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:02:36.688 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:03:09.396 [http-nio-8080-exec-9] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:03:11.415 [http-nio-8080-exec-2] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:03:12.299 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:03:13.717 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:03:22.336 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:04:31.713 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:04:48.550 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:06:11.189 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:07:40.013 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:07:44.330 [http-nio-8080-exec-10] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:08:50.959 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:10:43.450 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:10:44.933 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:11:20.391 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:11:21.464 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:11:22.183 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:11:22.436 [http-nio-8080-exec-10] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:11:22.655 [http-nio-8080-exec-9] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:12:59.677 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:13:01.308 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:13:02.455 [http-nio-8080-exec-9] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:13:08.005 [http-nio-8080-exec-2] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:13:37.100 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:13:38.120 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:13:39.049 [http-nio-8080-exec-9] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:14:06.869 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:14:07.857 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:14:59.722 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 13:15:35.178 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 13:15:55.418 [restartedMain] CuyApplication - Started CuyApplication in 23.766 seconds (JVM running for 27.474)
+[INFO ] 2018-12-04 13:16:15.759 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:35:24.377 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 13:35:54.628 [restartedMain] CuyApplication - Started CuyApplication in 37.89 seconds (JVM running for 42.172)
+[INFO ] 2018-12-04 13:38:13.087 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 13:38:17.095 [http-nio-8080-exec-3] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-04 13:39:23.280 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 13:39:33.377 [restartedMain] CuyApplication - Started CuyApplication in 11.64 seconds (JVM running for 260.923)
+[INFO ] 2018-12-04 13:40:14.754 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 13:40:32.144 [restartedMain] CuyApplication - Started CuyApplication in 21.962 seconds (JVM running for 27.346)
+[INFO ] 2018-12-04 13:40:35.304 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 13:40:37.648 [http-nio-8080-exec-5] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-04 13:43:04.005 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 13:43:15.658 [restartedMain] CuyApplication - Started CuyApplication in 14.58 seconds (JVM running for 17.761)
+[INFO ] 2018-12-04 13:43:24.498 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 13:43:26.498 [http-nio-8080-exec-3] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-04 13:43:26.638 [http-nio-8080-exec-4] AspectController - VisaDemoController.terminosCondiciones() method called.
+[INFO ] 2018-12-04 13:43:33.669 [http-nio-8080-exec-10] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:44:21.630 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 13:44:34.027 [restartedMain] CuyApplication - Started CuyApplication in 15.788 seconds (JVM running for 18.16)
+[INFO ] 2018-12-04 13:44:39.331 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 13:44:40.810 [http-nio-8080-exec-3] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-04 13:44:40.954 [http-nio-8080-exec-4] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 13:44:43.174 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 13:44:45.113 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 15:10:10.006 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 15:11:23.399 [restartedMain] CuyApplication - Started CuyApplication in 79.649 seconds (JVM running for 87.126)
+[INFO ] 2018-12-04 15:11:29.705 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 15:11:34.336 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 15:11:34.360 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 15:11:41.744 [http-nio-8080-exec-8] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-04 15:11:42.040 [http-nio-8080-exec-9] AspectController - VisaDemoController.terminosCondiciones() method called.
+[INFO ] 2018-12-04 15:11:48.720 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 15:12:06.832 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 15:15:54.489 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 15:18:04.291 [restartedMain] CuyApplication - Started CuyApplication in 135.745 seconds (JVM running for 139.161)
+[INFO ] 2018-12-04 15:18:19.207 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 15:18:52.429 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 15:19:22.837 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 15:19:43.905 [restartedMain] CuyApplication - Started CuyApplication in 24.971 seconds (JVM running for 238.774)
+[INFO ] 2018-12-04 15:20:43.852 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 15:21:13.303 [restartedMain] CuyApplication - Started CuyApplication in 34.81 seconds (JVM running for 328.176)
+[INFO ] 2018-12-04 15:21:33.987 [http-nio-8080-exec-2] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 15:21:39.591 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 15:24:04.733 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 15:24:05.974 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 15:26:59.403 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 15:27:27.352 [restartedMain] CuyApplication - Started CuyApplication in 32.44 seconds (JVM running for 38.704)
+[INFO ] 2018-12-04 15:28:06.895 [http-nio-8080-exec-2] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 15:28:27.732 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 15:32:10.342 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 15:32:27.333 [restartedMain] CuyApplication - Started CuyApplication in 23.25 seconds (JVM running for 25.435)
+[INFO ] 2018-12-04 15:32:49.175 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 15:32:51.346 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 15:33:35.744 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 15:33:36.556 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 15:38:44.202 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 15:38:57.024 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 15:39:15.752 [restartedMain] CuyApplication - Started CuyApplication in 23.098 seconds (JVM running for 26.204)
+[INFO ] 2018-12-04 15:44:29.937 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 15:44:47.172 [restartedMain] CuyApplication - Started CuyApplication in 22.41 seconds (JVM running for 25.038)
+[INFO ] 2018-12-04 15:44:52.725 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 15:45:08.882 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 18:13:45.653 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:15:58.831 [restartedMain] CuyApplication - Started CuyApplication in 155.303 seconds (JVM running for 192.841)
+[INFO ] 2018-12-04 18:16:08.730 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:16:12.024 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 18:17:15.429 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:17:37.379 [restartedMain] CuyApplication - Started CuyApplication in 27.516 seconds (JVM running for 29.801)
+[INFO ] 2018-12-04 18:17:42.048 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:17:44.136 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 18:21:00.158 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:21:23.434 [restartedMain] CuyApplication - Started CuyApplication in 28.726 seconds (JVM running for 32.194)
+[INFO ] 2018-12-04 18:22:22.623 [http-nio-8080-exec-2] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:22:35.359 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 18:25:42.247 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:26:06.815 [restartedMain] CuyApplication - Started CuyApplication in 31.796 seconds (JVM running for 35.803)
+[INFO ] 2018-12-04 18:26:15.958 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:26:18.266 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 18:27:04.064 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:27:13.456 [restartedMain] CuyApplication - Started CuyApplication in 13.643 seconds (JVM running for 102.444)
+[INFO ] 2018-12-04 18:27:48.800 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:28:12.415 [restartedMain] CuyApplication - Started CuyApplication in 29.25 seconds (JVM running for 32.418)
+[INFO ] 2018-12-04 18:29:45.880 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:30:04.241 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:30:31.315 [restartedMain] CuyApplication - Started CuyApplication in 32.951 seconds (JVM running for 36.192)
+[INFO ] 2018-12-04 18:31:16.831 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:31:29.182 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:31:48.195 [restartedMain] CuyApplication - Started CuyApplication in 23.994 seconds (JVM running for 113.073)
+[INFO ] 2018-12-04 18:32:42.026 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:32:58.232 [restartedMain] CuyApplication - Started CuyApplication in 20.124 seconds (JVM running for 183.111)
+[INFO ] 2018-12-04 18:39:58.912 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:40:58.500 [restartedMain] CuyApplication - Started CuyApplication in 68.38 seconds (JVM running for 75.684)
+[INFO ] 2018-12-04 18:41:09.272 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:41:20.793 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 18:43:02.969 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:43:16.761 [restartedMain] CuyApplication - Started CuyApplication in 16.688 seconds (JVM running for 213.946)
+[INFO ] 2018-12-04 18:46:00.645 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:46:16.775 [restartedMain] CuyApplication - Started CuyApplication in 20.111 seconds (JVM running for 393.96)
+[INFO ] 2018-12-04 18:47:13.299 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:48:02.656 [restartedMain] CuyApplication - Started CuyApplication in 57.44 seconds (JVM running for 63.293)
+[INFO ] 2018-12-04 18:48:08.822 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:48:17.770 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 18:49:28.939 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:49:47.062 [restartedMain] CuyApplication - Started CuyApplication in 23.966 seconds (JVM running for 27.066)
+[INFO ] 2018-12-04 18:49:58.558 [http-nio-8080-exec-2] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:50:07.130 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 18:52:32.951 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:53:14.275 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:53:43.649 [restartedMain] CuyApplication - Started CuyApplication in 37.234 seconds (JVM running for 40.499)
+[INFO ] 2018-12-04 18:53:47.056 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:53:50.981 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 18:54:06.684 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-04 18:54:29.258 [restartedMain] CuyApplication - Started CuyApplication in 28.841 seconds (JVM running for 33.327)
+[INFO ] 2018-12-04 18:54:34.773 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:54:40.168 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-04 18:55:25.765 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-04 18:55:27.286 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.

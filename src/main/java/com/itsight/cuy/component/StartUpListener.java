@@ -72,6 +72,9 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
     @Value("${main.repository}")
     private String mainRoute;
 
+    @Value("${spring.profiles.active}")
+    private String profile;
+
     private final Long currentVersion = new Date().getTime();
 
     @Override
@@ -180,15 +183,46 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
         if(parameterService.findOne(3) == null){
             parameterService.save(new Parameter("WS_CLARO_SEC_TOKEN", "79dbd9e0-15b4-4dce-ad47-e2777bbac01e"));
         }
+        if(parameterService.findOne(4) == null){
+            parameterService.save(new Parameter("VISA_API_KEY_ID", "integraciones.visanet@necomplus.com"));
+        }
+        if(parameterService.findOne(5) == null){
+            parameterService.save(new Parameter("VISA_API_KEY_PASSWORD", "d5e7nk$M"));
+        }
+        if(parameterService.findOne(6) == null){
+            parameterService.save(new Parameter("VISA_MERCHANT_ID", "602545705"));
+        }
+        if(profile.equals("development")){
+            if(parameterService.findOne(7) == null){
+                parameterService.save(new Parameter("VISA_API_INIT_SEC", "https://apitestenv.vnforapps.com/api.security/v1/security"));
+            }
+            if(parameterService.findOne(8) == null){
+                parameterService.save(new Parameter("VISA_API_INIT_SESSION", "https://apitestenv.vnforapps.com/api.ecommerce/v2/ecommerce/token/session/"));
+            }
+        }else{
+            if(parameterService.findOne(7) == null){
+                parameterService.save(new Parameter("VISA_API_INIT_SEC", "https://apitestenv.vnforapps.com/api.security/v1/security"));
+            }
+            if(parameterService.findOne(8) == null){
+                parameterService.save(new Parameter("VISA_API_POST", "https://devapice.vnforapps.com/api.authorization/api/v1/authorization/web/"));
+            }
+        }
+
     }
 
     public void addingToContextSession() {
-        List<Parameter> contextParams = parameterService.findAll();
+        List<Parameter> appParams = parameterService.findAll();
         context.setAttribute("version", currentVersion);
-        context.setAttribute("WS_CLARO_USERNAME", contextParams.get(0).getValue());
-        System.out.println(context.getAttribute("WS_CLARO_USERNAME").toString());
-        context.setAttribute("WS_CLARO_PASSWORD", contextParams.get(1).getValue());
-        context.setAttribute("WS_CLARO_SEC_TOKEN", contextParams.get(2).getValue());
+        context.setAttribute("WS_CLARO_USERNAME", appParams.get(0).getValue());
+        context.setAttribute("WS_CLARO_PASSWORD", appParams.get(1).getValue());
+        context.setAttribute("WS_CLARO_SEC_TOKEN", appParams.get(2).getValue());
+        context.setAttribute("DOMAIN_NAME", "/");
+        //Agregando variables al contexto
+        context.setAttribute("VISA_API_KEY_ID", appParams.get(3).getValue());
+        context.setAttribute("VISA_API_KEY_PASSWORD", appParams.get(4).getValue());
+        context.setAttribute("VISA_MERCHANT_ID", appParams.get(5).getValue());
+        context.setAttribute("VISA_API_INIT_SEC", appParams.get(6).getValue());
+        context.setAttribute("VISA_API_INIT_SESSION", appParams.get(7).getValue());
     }
 
     public void addingInitUsers() {
