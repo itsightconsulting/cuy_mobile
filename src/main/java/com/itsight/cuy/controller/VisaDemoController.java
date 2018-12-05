@@ -70,7 +70,6 @@ public class VisaDemoController {
         HttpEntity<String> entity = new HttpEntity<>(headers);
         response = restTemplate.exchange(VISA_API_INIT, HttpMethod.GET, entity, String.class);
         String securityVisaCode = response.getBody();
-        System.out.println(securityVisaCode);
         //CONFIGURATING THE HEADER
         headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
@@ -99,14 +98,15 @@ public class VisaDemoController {
         model.addAttribute("ACTION", context.getAttribute("DOMAIN_NAME")+"p/pago/confirmacion");
         model.addAttribute("VISA_API_MERCHANT_ID", context.getAttribute("VISA_MERCHANT_ID").toString());
         model.addAttribute("LOGO_IMAGE", context.getAttribute("DOMAIN_NAME")+"imagen/visa_msa.png");
-        model.addAttribute("SESSION_TOKEN", sessionToken);
+        model.addAttribute("SESSION_TOKEN", responseBatchVisa.getSessionKey());
         model.addAttribute("AMOUNT", BigDecimal.valueOf(amount).setScale(2));
         model.addAttribute("TRANSACTION_ID", ++id);//Por lo general acá va el ID de mi tabla
         model.addAttribute("SESSION_KEY", responseBatchVisa.getSessionKey());
 
-        session.setAttribute("sessionToken", sessionToken);
+        session.setAttribute("sessionToken", responseBatchVisa.getSessionKey());
         session.setAttribute("sessionFormatoId", id);//
         session.setAttribute("sessionMontoTUPA", amount);
+        session.setAttribute("SESSION_TOKEN_SEC", securityVisaCode);
         return new ModelAndView("visa/pago");
     }
 
@@ -114,27 +114,26 @@ public class VisaDemoController {
     public @ResponseBody
     ResponseVisaDto cierrePagoVisa(@RequestParam(name="transactionToken") String transactionToken, HttpSession session)
     {
+        System.out.println("TRANSACTION TOKEN: >>>> "+transactionToken);
         try {
             //Get session values
-            String sessionToken = (String) session.getAttribute("sessionToken");
+            //String sessionToken = (String) session.getAttribute("sessionToken");
+            String securityVisaCode = (String) session.getAttribute("SESSION_TOKEN_SEC");
+
 
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_JSON);
-
-            String authVisa = context.getAttribute("VISA_API_KEY_ID") + ":" + context.getAttribute("VISA_API_KEY_PASSWORD");
-            byte[] encodedAuth = Base64.encodeBase64(authVisa.getBytes(Charset.forName("US-ASCII")));
-            String authHeader = "Basic " + new String( encodedAuth );
-            headers.set("Authorization", authHeader);
+            headers.set("Authorization", securityVisaCode);
 
             //ACCESS TO API SESSION
 
             RestTemplate restTemplate = new RestTemplate();
-
-            String jsonParam = "{\"transactionToken\":\""+transactionToken+"\","
-                    + "\"sessionToken\":\""+sessionToken+"\"}";
+            String jsonParam = "{\"antifraud\":null,\"captureType\":\"manual\",\"cardHolder\":{\"documentNumber\":\"12345678\",\"documentType\":\"0\"},\"channel\":\"web\",\"countable\":true,\"order\":{\"amount\":\"1.00\",\"currency\":\"PEN\",\"productId\":\""+id+"\",\"purchaseNumber\":\""+id+"\",\"tokenId\":\""+transactionToken+"\"},\"recurrence\":{\"amount\":\"1.00\",\"beneficiaryId\":\"602545705\",\"frequency\":\"MONTHLY\",\"maxAmount\":\"1.00\",\"type\":\"FIXED\"},\"terminalId\":\"1\",\"terminalUnattended\":false}}";
+          /*  String jsonParam = "{\"transactionToken\":\""+transactionToken+"\","
+                    + "\"sessionToken\":\""+sessionToken+"\"}";*/
             HttpEntity<String> entity = new HttpEntity<>(jsonParam, headers);
             //ALL RESPONSE
-            String responseApi = restTemplate.postForObject(context.getAttribute("VISA_API_POST").toString() + context.getAttribute("VISA_MERCHANT_ID").toString(), entity, String.class);
+            String responseApi = restTemplate.postForObject(context.getAttribute("VISA_API_TRANSACT").toString() + context.getAttribute("VISA_MERCHANT_ID").toString(), entity, String.class);
             System.out.println(("RESPONSE VISA API: "+ responseApi));
 
             Gson json = new Gson();

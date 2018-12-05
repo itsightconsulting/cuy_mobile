@@ -199,12 +199,19 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
             if(parameterService.findOne(8) == null){
                 parameterService.save(new Parameter("VISA_API_INIT_SESSION", "https://apitestenv.vnforapps.com/api.ecommerce/v2/ecommerce/token/session/"));
             }
+            if(parameterService.findOne(9) == null){
+                parameterService.save(new Parameter("VISA_API_TRANSACT", "https://apitestenv.vnforapps.com/api.authorization/v3/authorization/ecommerce/"));
+            }
+
         }else{
             if(parameterService.findOne(7) == null){
                 parameterService.save(new Parameter("VISA_API_INIT_SEC", "https://apitestenv.vnforapps.com/api.security/v1/security"));
             }
             if(parameterService.findOne(8) == null){
                 parameterService.save(new Parameter("VISA_API_POST", "https://devapice.vnforapps.com/api.authorization/api/v1/authorization/web/"));
+            }
+            if(parameterService.findOne(9) == null){
+                parameterService.save(new Parameter("VISA_API_TRANSACT", "https://apitestenv.vnforapps.com/api.authorization/v3/authorization/ecommerce/"));
             }
         }
 
@@ -223,6 +230,7 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
         context.setAttribute("VISA_MERCHANT_ID", appParams.get(5).getValue());
         context.setAttribute("VISA_API_INIT_SEC", appParams.get(6).getValue());
         context.setAttribute("VISA_API_INIT_SESSION", appParams.get(7).getValue());
+        context.setAttribute("VISA_API_TRANSACT", appParams.get(8).getValue());
     }
 
     public void addingInitUsers() {
