@@ -1,10 +1,10 @@
 spring:
   profiles:
-    active: development
+    active: devazure
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-        ddl-auto: create
+        ddl-auto: update
         naming:
           implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
     #https://stackoverflow.com/questions/30549489/what-is-this-spring-jpa-open-in-view-true-property-in-spring-boot

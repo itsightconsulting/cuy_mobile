@@ -31,7 +31,7 @@ public class VisaDemoController {
 
     private static volatile SecureRandom numberGenerator = null;
     private static final long MSB = 0x8000000000000000L;
-    private static int id=0;
+    private static int id=10;
 
     @Autowired
     private ServletContext context;
@@ -50,7 +50,7 @@ public class VisaDemoController {
 
         ResponseEntity<String> response;
 
-        double amount = 1;
+        double amount = Double.parseDouble(context.getAttribute("RECHARGE_AMOUNT").toString());
         String authVisa = context.getAttribute("VISA_API_KEY_ID") + ":" + context.getAttribute("VISA_API_KEY_PASSWORD");
         byte[] encodedAuth = Base64.encodeBase64(authVisa.getBytes(Charset.forName("US-ASCII")));
 
@@ -82,7 +82,7 @@ public class VisaDemoController {
             String VISA_API_INIT_SESSION = context.getAttribute("VISA_API_INIT_SESSION").toString() + context.getAttribute("VISA_MERCHANT_ID").toString();
             //String jsonParam = "{\"amount\":\""+ Parseador.fromDoubleToBigDecimal(amount, 2)+"\"}";//2:decimals
             String jsonParam =
-            "{\"amount\": \"1.00\",\"antifraud\":{\"clientIp\":\""+ InetAddress.getLocalHost().getHostAddress()+"\",\"merchantDefineData\":{\"MDD1\":\"1\",\"MDD2\":\"2\",\"MDD3\":\"3\" } },\"channel\":\"web\",\"recurrenceMaxAmount\":\"1.00\"}";
+            "{\"amount\": \""+amount+"\",\"antifraud\":{\"clientIp\":\""+ InetAddress.getLocalHost().getHostAddress()+"\",\"merchantDefineData\":{\"MDD1\":\"1\",\"MDD2\":\"2\",\"MDD3\":\"3\" } },\"channel\":\"web\",\"recurrenceMaxAmount\":\""+amount+"\"}";
             System.out.println(jsonParam);
             entity = new HttpEntity<>(jsonParam, headers);
             secResponseEntity = restTemplate.exchange(VISA_API_INIT_SESSION, HttpMethod.POST, entity, InitVisaDto.class);
@@ -114,12 +114,13 @@ public class VisaDemoController {
     public @ResponseBody
     ResponseVisaDto cierrePagoVisa(@RequestParam(name="transactionToken") String transactionToken, HttpSession session)
     {
+        //4919 – 1481 – 0785 – 9067 | accept@cybersource.com
         System.out.println("TRANSACTION TOKEN: >>>> "+transactionToken);
         try {
             //Get session values
             //String sessionToken = (String) session.getAttribute("sessionToken");
             String securityVisaCode = (String) session.getAttribute("SESSION_TOKEN_SEC");
-
+            double amount = Double.parseDouble(context.getAttribute("RECHARGE_AMOUNT").toString());
 
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_JSON);
@@ -128,16 +129,34 @@ public class VisaDemoController {
             //ACCESS TO API SESSION
 
             RestTemplate restTemplate = new RestTemplate();
-            String jsonParam = "{\"antifraud\":null,\"captureType\":\"manual\",\"cardHolder\":{\"documentNumber\":\"12345678\",\"documentType\":\"0\"},\"channel\":\"web\",\"countable\":true,\"order\":{\"amount\":\"1.00\",\"currency\":\"PEN\",\"productId\":\""+id+"\",\"purchaseNumber\":\""+id+"\",\"tokenId\":\""+transactionToken+"\"},\"recurrence\":{\"amount\":\"1.00\",\"beneficiaryId\":\"602545705\",\"frequency\":\"MONTHLY\",\"maxAmount\":\"1.00\",\"type\":\"FIXED\"},\"terminalId\":\"1\",\"terminalUnattended\":false}}";
+            String jsonParam = "{\"antifraud\":null,\"captureType\":\"manual\",\"cardHolder\":{\"documentNumber\":\"12345678\",\"documentType\":\"0\"},\"channel\":\"web\",\"countable\":true,\"order\":{\"amount\":\""+amount+"\",\"currency\":\"PEN\",\"productId\":\""+id+"\",\"purchaseNumber\":\""+id+"\",\"tokenId\":\""+transactionToken+"\"},\"recurrence\":{\"amount\":\""+amount+"\",\"beneficiaryId\":\"602545705\",\"frequency\":\"MONTHLY\",\"maxAmount\":\""+amount+"\",\"type\":\"FIXED\"},\"terminalId\":\"1\",\"terminalUnattended\":false}}";
           /*  String jsonParam = "{\"transactionToken\":\""+transactionToken+"\","
                     + "\"sessionToken\":\""+sessionToken+"\"}";*/
             HttpEntity<String> entity = new HttpEntity<>(jsonParam, headers);
             //ALL RESPONSE
             String responseApi = restTemplate.postForObject(context.getAttribute("VISA_API_TRANSACT").toString() + context.getAttribute("VISA_MERCHANT_ID").toString(), entity, String.class);
             System.out.println(("RESPONSE VISA API: "+ responseApi));
-
             Gson json = new Gson();
-            return json.fromJson(responseApi, ResponseVisaDto.class);
+            ResponseVisaDto res = json.fromJson(responseApi, ResponseVisaDto.class);
+
+            //Actualizando saldos
+            headers = new HttpHeaders();
+            headers.setContentType(MediaType.APPLICATION_JSON);
+            headers.set("Authorization", "Cuy-oauthtoken sys_sk_test_LeETLGDW9rgB78auKHVMWQOVXFViaxIffPUXgLScAToWb");
+
+            //ACCESS TO API SESSION
+
+            restTemplate = new RestTemplate();
+            String jsonParam2 = "{\"mobileNumber\":\"51912000002\",\"amount\":"+amount+"}";
+          /*  String jsonParam = "{\"transactionToken\":\""+transactionToken+"\","
+                    + "\"sessionToken\":\""+sessionToken+"\"}";*/
+            HttpEntity<String> entity2 = new HttpEntity<>(jsonParam2, headers);
+            //ALL RESPONSE
+            String responseApi2 = restTemplate.postForObject("http://apistaging.cuy.pe/api/v1/transaction/recharge-credit", entity2, String.class);
+
+            System.out.println(responseApi2);
+
+            return res;
         } catch (Exception e) {
             e.printStackTrace();
             return new ResponseVisaDto();

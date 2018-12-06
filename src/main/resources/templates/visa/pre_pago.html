@@ -1,0 +1,73 @@
+<html lang="en" id="extr-page"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- default header name is X-CSRF-TOKEN -->
+    <meta charset="utf-8"/>
+    <title> Pasarela de Pago</title>
+    <meta name="description" content=""/>
+    <meta name="_ctx" th:content="@{/}"/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!-- #GOOGLE FONT -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700"/>
+
+
+</head>
+
+<body class="animated fadeInDown">
+
+<header id="header">
+
+</header>
+
+<div id="main" role="main">
+
+    <!-- MAIN CONTENT -->
+    <div id="content" class="container">
+
+    </div>
+
+</div>
+
+<!--================================================== -->
+
+<!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- 		<script> if (!window.jQuery) { document.write('<script src="js/libs/jquery-3.2.1.min.js"><\/script>');} </script> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<!-- 		<script> if (!window.jQuery.ui) { document.write('<script src="js/libs/jquery-ui.min.js"><\/script>');} </script> -->
+
+<script>
+
+    $(function () {
+        reMonto();
+        function reMonto(demo){
+            const monto = prompt(`Ingresa un monto a recargar \n${demo == undefined ? "": demo}`);
+            if(!isNaN(monto) && monto.length > 0 && monto>9 && monto<=100){
+                const _ctx = document.querySelector('head meta[name="_ctx"]').getAttribute("content");
+                $.ajax({
+                    type: "GET",
+                    contentType: "application/json",
+                    url: _ctx + "visa/pago",
+                    dataType: "json",
+                    data: {"amount": monto},
+                    success: function (data) {
+                        if(data == "1"){
+                            window.location.href = _ctx+'p/pago';
+                        }
+                    },
+                    error: function (xhr) {
+
+                    },
+                })
+            }else{
+                reMonto("(Valor inválido, válidos >=10 y <=100)");
+            }
+        }
+
+    });
+</script>
+
+</body>
+</html>

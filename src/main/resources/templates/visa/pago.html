@@ -16,12 +16,6 @@
 <body class="animated fadeInDown">
 
 <header id="header">
-    <div id="logo-group">
-        <span id="logo"> <img th:src="@{/img/logo.png}" alt="Dennys Workout"/> </span>
-    </div>
-
-    <span id="extr-page-header-space"> <span class="hidden-mobile hiddex-xs"></span> <a href="register.html"
-                                                                                        class="btn btn-danger">Volver al Carrito</a> </span>
 
 </header>
 
@@ -32,7 +26,7 @@
         <div class="content-wrapper">
             <section class="content">
                 <section class="content-header">
-                    <h1><span>VISA</span></h1>
+                    <h1><span></span></h1>
                 </section>
                 <div  class="col-sm-12">
                     <div style="text-align: center;">
@@ -78,9 +72,6 @@
                 $('#divContinuar').attr('hidden','hidden');
             }
         });
-
-
-
 
         $("#btnContinuar").click(function(){
             window.document.location.href = "/p/pago";
