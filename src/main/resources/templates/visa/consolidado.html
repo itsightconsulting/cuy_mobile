@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>OAuth Server Login</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.2/css/bootstrap.min.css}"/>
+
+</head>
+<body>
+<div layout:fragment="content" th:remove="tag">
+    <header>
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a th:href="@{/visa/recarga}">Volver a recargar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="collapse navbar-collapse"></div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="text-center" style="padding-bottom: 20px;">Header</h1>
+            <div class="col-md-6 text-right">Ecore TransactionUUID:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.header.ecoreTransactionUUID}"></span></div>
+            <div class="col-md-6 text-right">Ecore TransactionDate:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.header.ecoreTransactionDate}"></span></div>
+            <div class="col-md-6 text-right">Milis:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.header.milis}"></span></div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="text-center" style="padding-bottom: 20px;">Order</h1>
+            <div class="col-md-6 text-right">TokenId:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.tokenId}"></span></div>
+            <div class="col-md-6 text-right">PurchaseNumber:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.purchaseNumber}"></span></div>
+            <div class="col-md-6 text-right">ProductId:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.productId}"></span></div>
+            <div class="col-md-6 text-right">Amount:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.amount}"></span></div>
+            <div class="col-md-6 text-right">Currency:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.currency}"></span></div>
+            <div class="col-md-6 text-right">AuthorizedAmount:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.authorizedAmount}"></span></div>
+            <div class="col-md-6 text-right">AuthorizationCode:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.authorizationCode}"></span></div>
+            <div class="col-md-6 text-right">ActionCode:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.actionCode}"></span></div>
+            <div class="col-md-6 text-right">TraceNumber:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.traceNumber}"></span></div>
+            <div class="col-md-6 text-right">TransactionDate:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.transactionDate}"></span></div>
+            <div class="col-md-6 text-right">TransactionId:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.order.transactionId}"></span></div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="text-center" style="padding-bottom: 20px;">Data Map</h1>
+            <div class="col-md-6 text-right">Currency:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.CURRENCY}"></span></div>
+            <div class="col-md-6 text-right">Transaction_date:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.TRANSACTION_DATE}"></span></div>
+            <div class="col-md-6 text-right">Terminal:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.TERMINAL}"></span></div>
+            <div class="col-md-6 text-right">Action_code:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.ACTION_CODE}"></span></div>
+            <div class="col-md-6 text-right">Trace_number:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.TRACE_NUMBER}"></span></div>
+            <div class="col-md-6 text-right">Eci_description:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.ECI_DESCRIPTION}"></span></div>
+            <div class="col-md-6 text-right">Eci:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.ECI}"></span></div>
+            <div class="col-md-6 text-right">Card:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.CARD}"></span></div>
+            <div class="col-md-6 text-right">Merchant:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.MERCHANT}"></span></div>
+            <div class="col-md-6 text-right">Status:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.STATUS}"></span></div>
+            <div class="col-md-6 text-right">Adquirente:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.ADQUIRENTE}"></span></div>
+            <div class="col-md-6 text-right">Action_description:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.ACTION_DESCRIPTION}"></span></div>
+            <div class="col-md-6 text-right">Id_unico:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.ID_UNICO}"></span></div>
+            <div class="col-md-6 text-right">Amount:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.AMOUNT}"></span></div>
+            <div class="col-md-6 text-right">Process_code:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.PROCESS_CODE}"></span></div>
+            <div class="col-md-6 text-right">Transaction_id:</div><div class="col-md-6 text-left"> <span th:text="${consolidado.dataMap.TRANSACTION_ID}"></span></div>
+        </div>
+        <a th:href="@{/logout}">Salir</a>
+    </div>
+</div>
+</body>
+</html>

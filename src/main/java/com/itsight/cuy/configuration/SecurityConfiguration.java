@@ -69,6 +69,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/cuy/**").permitAll();
 */
         http.authorizeRequests()
+                .antMatchers("/css/**",
+                        "/js/**",
+                        "/img/**",
+                        "/fonts/**").permitAll()
+                .and()
+                .authorizeRequests()
                 .anyRequest().authenticated();
         http.authorizeRequests()
                 .anyRequest().authenticated()

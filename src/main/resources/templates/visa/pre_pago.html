@@ -44,6 +44,9 @@
         reMonto();
         function reMonto(demo){
             const monto = prompt(`Ingresa un monto a recargar \n${demo == undefined ? "": demo}`);
+            if(monto == null)
+                reMonto();
+
             if(!isNaN(monto) && monto.length > 0 && monto>9 && monto<=100){
                 const _ctx = document.querySelector('head meta[name="_ctx"]').getAttribute("content");
                 $.ajax({

@@ -205,6 +205,12 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
             if(parameterService.findOne(10) == null){
                 parameterService.save(new Parameter("CUY_API_INIT_TOKEN", "sys_sk_test_LeETLGDW9rgB78auKHVMWQOVXFViaxIffPUXgLScAToWb"));
             }
+            if(parameterService.findOne(11) == null){
+                parameterService.save(new Parameter("CUY_TOKEN_LOGIN", ""));
+            }
+            if(parameterService.findOne(12) == null){
+                parameterService.save(new Parameter("CUY_LOGIN_ID", ""));
+            }
 
         }else{
             if(parameterService.findOne(7) == null){
@@ -218,6 +224,12 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
             }
             if(parameterService.findOne(10) == null){
                 parameterService.save(new Parameter("CUY_API_INIT_TOKEN", "sys_sk_test_LeETLGDW9rgB78auKHVMWQOVXFViaxIffPUXgLScAToWb"));
+            }
+            if(parameterService.findOne(11) == null){
+                parameterService.save(new Parameter("CUY_TOKEN_LOGIN", ""));
+            }
+            if(parameterService.findOne(12) == null){
+                parameterService.save(new Parameter("CUY_LOGIN_ID", ""));
             }
         }
 
@@ -238,6 +250,8 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
         context.setAttribute("VISA_API_INIT_SESSION", appParams.get(7).getValue());
         context.setAttribute("VISA_API_TRANSACT", appParams.get(8).getValue());
         context.setAttribute("CUY_API_INIT_TOKEN", appParams.get(9).getValue());
+        context.setAttribute("CUY_TOKEN_LOGIN", appParams.get(10).getValue());
+        context.setAttribute("CUY_LOGIN_ID", appParams.get(11).getValue());
     }
 
     public void addingInitUsers() {

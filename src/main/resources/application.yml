@@ -1,8 +1,9 @@
 spring:
   profiles:
-    active: devazure
+    active: development
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+    #database-platform: org.hibernate.dialect.SQLServer2012Dialect
     hibernate:
         ddl-auto: update
         naming:
