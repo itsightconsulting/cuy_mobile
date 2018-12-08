@@ -4,7 +4,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.itsight.cuy.domain.dto.CustomError;
 import com.itsight.cuy.domain.dto.InitVisaDto;
+import com.itsight.cuy.domain.dto.ResBaseRechargeCuy;
 import com.itsight.cuy.domain.dto.ResponseVisaDto;
+import com.itsight.cuy.service.ParameterService;
 import com.itsight.cuy.util.Parseador;
 import com.itsight.cuy.util.Utilitarios;
 import org.apache.commons.codec.binary.Base64;
@@ -36,10 +38,13 @@ public class VisaDemoController {
 
     private static volatile SecureRandom numberGenerator = null;
     private static final long MSB = 0x8000000000000000L;
-    private static int id=36;
+    private static int id=83;
 
     @Autowired
     private ServletContext context;
+
+    @Autowired
+    private ParameterService parameterService;
 
     @GetMapping("/terminos")
     public ModelAndView terminosCondiciones(){
@@ -136,7 +141,7 @@ public class VisaDemoController {
 
             //ACCESS TO API SESSION |
 
-            RestTemplate restTemplate = new RestTemplate();
+            RestTemplate restTemplate = new RestTemplate(new HttpComponentsClientHttpRequestFactory());
             String jsonParam = "{\"antifraud\":null,\"captureType\":\"manual\",\"cardHolder\":{\"documentNumber\":\"12345678\",\"documentType\":\"0\"},\"channel\":\"web\",\"countable\":true,\"order\":{\"amount\":\""+amount+"\",\"currency\":\"PEN\",\"productId\":\""+id+"\",\"purchaseNumber\":\""+id+"\",\"tokenId\":\""+transactionToken+"\"},\"recurrence\":{\"amount\":\""+amount+"\",\"beneficiaryId\":\"602545705\",\"frequency\":\"MONTHLY\",\"maxAmount\":\""+amount+"\",\"type\":\"FIXED\"},\"terminalId\":\"1\",\"terminalUnattended\":false}}";
           /*  String jsonParam = "{\"transactionToken\":\""+transactionToken+"\","
                     + "\"sessionToken\":\""+sessionToken+"\"}";*/
@@ -155,18 +160,37 @@ public class VisaDemoController {
             //ACCESS TO API SESSION
 
             restTemplate = new RestTemplate();
-            String jsonParam2 = "{\"mobileNumber\":\"51912000002\",\"amount\":"+amount*100+"}";
+            String jsonParam2 = "{\"mobileNumber\":\"51912000001\",\"amount\":"+amount*100+"}";
           /*  String jsonParam = "{\"transactionToken\":\""+transactionToken+"\","
                     + "\"sessionToken\":\""+sessionToken+"\"}";*/
             HttpEntity<String> entity2 = new HttpEntity<>(jsonParam2, headers);
             //ALL RESPONSE
-            String responseApi2 = restTemplate.postForObject("http://apistaging.cuy.pe/api/v1/transaction/recharge-credit", entity2, String.class);
+            String responseApi2 = "";
+            try {
+                responseApi2 = restTemplate.postForObject("http://apistaging.cuy.pe/api/v1/transaction/recharge-credit", entity2, String.class);
+                json = new Gson();
+                ResBaseRechargeCuy resBaseRechargeCuy = json.fromJson(responseApi2, ResBaseRechargeCuy.class);
+                redirect.addFlashAttribute("balance", resBaseRechargeCuy);
+                headers.set("Authorization", "Cuy-oauthtoken "+ parameterService.findOne(11).getValue());
+                entity2 = new HttpEntity<>("{\"mobileNumber\":\"51912000001\"}", headers);
+                redirect.addFlashAttribute("tranxs", restTemplate.exchange("http://apistaging.cuy.pe/api/v1/transaction/list-suscription/3?mobileNumber=51912000001&limit=20", HttpMethod.GET, entity2, String.class));
+
+            }catch (Exception ex){
+                ex.printStackTrace();
+                redirect.addFlashAttribute("balance", new ResBaseRechargeCuy());
+            }
+
             redirect.addFlashAttribute("consolidado", res);
             System.out.println(responseApi2);
             return new ModelAndView("redirect:/p/visa/recarga/consolidado");
-        } catch (Exception e) {
+        }catch (HttpStatusCodeException e) {
+            System.out.println(e.getResponseBodyAsString());
+            return new ModelAndView("redirect:/p/visa/fallo");
+
+        }
+        catch (Exception e) {
             e.printStackTrace();
-            return new ModelAndView("redirect:/visa/fallo");
+            return new ModelAndView("redirect:/p/visa/fallo");
         }
     }
 

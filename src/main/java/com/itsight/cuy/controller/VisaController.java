@@ -94,6 +94,7 @@ public class VisaController {
                     restTemplate = new RestTemplate(new HttpComponentsClientHttpRequestFactory());
                     Parameter parameterCuyLoginId =  parameterService.findOne(12);
                     System.out.println(restTemplate.postForObject("http://apistaging.cuy.pe/api/v1/user/logout/"+parameterCuyLoginId.getValue(), httpEntity, String.class));
+                    loginForm(email, password);
                     return "redirect:/visa/recarga";
                 }
                 System.out.println(result.toString());
@@ -126,7 +127,7 @@ public class VisaController {
             System.out.println(restTemplate.exchange("http://apistaging.cuy.pe/api/v1/suscription/balance/3?mobileNumber=51912000001", HttpMethod.GET, entity, String.class));
         }catch (Exception ex){
             System.out.println(ex.getMessage());
-            return "login_recarga";
+            return ViewConstant.PRE_FORM_VISA;
         }
         return ViewConstant.PRE_FORM_VISA;
     }

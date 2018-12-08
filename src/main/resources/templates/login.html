@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>OAuth Server Login</title>
     <link rel="stylesheet" href="webjars/bootstrap/3.3.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <!-- #FAVICONS -->
     <link rel="shortcut icon" th:href="@{/img/favicon/favicon.ico}" type="image/x-icon"/>
     <link rel="icon" th:href="@{/img/favicon/favicon.ico}" type="image/x-icon"/>
@@ -27,7 +28,7 @@
     </header>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <h1>Login page</h1>
+            <h1>Login App <a href="/visa/auth" style="float:right;">Recargas <i class="fa fa-cc-visa"></i></a></h1>
             <form action="loginCheck" method="post">
                 <div th:if="${param.error}">
                     <div class="alert alert-danger">

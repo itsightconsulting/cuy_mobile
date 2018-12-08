@@ -1956,3 +1956,604 @@
 [INFO ] 2018-12-06 20:03:55.858 [http-nio-8080-exec-1] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
 [INFO ] 2018-12-06 20:03:58.153 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
 [INFO ] 2018-12-06 20:03:58.305 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:05:59.996 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:06:45.968 [restartedMain] CuyApplication - Started CuyApplication in 53.079 seconds (JVM running for 62.73)
+[INFO ] 2018-12-07 10:07:04.402 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 10:07:10.619 [http-nio-8080-exec-4] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:07:20.076 [http-nio-8080-exec-8] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:07:26.918 [http-nio-8080-exec-2] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:07:33.230 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:07:33.409 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:07:33.480 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:07:44.361 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:08:32.882 [http-nio-8080-exec-2] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 10:08:35.709 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 10:08:37.040 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:10:01.290 [http-nio-8080-exec-6] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:10:22.242 [http-nio-8080-exec-10] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:10:30.231 [http-nio-8080-exec-3] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:10:36.840 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:10:37.029 [http-nio-8080-exec-9] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:10:37.032 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:10:43.897 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:11:13.778 [http-nio-8080-exec-3] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 10:11:15.718 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:11:40.976 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:11:41.958 [http-nio-8080-exec-2] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:11:50.265 [http-nio-8080-exec-3] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:11:55.251 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:11:55.386 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:11:55.394 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:12:00.832 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:12:32.631 [http-nio-8080-exec-3] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 10:12:34.481 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:14:58.599 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:15:45.960 [restartedMain] CuyApplication - Started CuyApplication in 64.661 seconds (JVM running for 77.561)
+[INFO ] 2018-12-07 10:15:57.399 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-07 10:15:58.254 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:16:04.264 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:16:05.127 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:16:09.512 [http-nio-8080-exec-8] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:16:10.254 [http-nio-8080-exec-9] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:28:18.058 [http-nio-8080-exec-2] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:28:27.910 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:28:28.030 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:28:28.111 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:28:45.961 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:32:39.785 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:32:40.500 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:32:42.593 [http-nio-8080-exec-6] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:32:49.702 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:32:49.816 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:32:49.864 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:32:54.090 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:35:32.189 [http-nio-8080-exec-8] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:35:33.028 [http-nio-8080-exec-9] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:35:37.761 [http-nio-8080-exec-2] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:35:40.430 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:35:40.531 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:35:40.568 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:35:46.454 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:38:53.681 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:40:04.564 [restartedMain] CuyApplication - Started CuyApplication in 82.469 seconds (JVM running for 1536.167)
+[INFO ] 2018-12-07 10:40:34.604 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:41:48.137 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:42:17.101 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:42:43.154 [restartedMain] CuyApplication - Started CuyApplication in 65.219 seconds (JVM running for 1694.758)
+[INFO ] 2018-12-07 10:43:17.179 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:43:23.540 [http-nio-8080-exec-9] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:43:27.543 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:43:27.642 [http-nio-8080-exec-4] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:43:27.705 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:43:47.397 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:46:10.517 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:46:14.680 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:46:15.287 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:46:18.521 [http-nio-8080-exec-10] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:46:18.648 [http-nio-8080-exec-9] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:46:22.043 [http-nio-8080-exec-8] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:46:22.122 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:46:22.141 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:46:26.341 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:47:20.239 [http-nio-8080-exec-10] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:47:21.247 [http-nio-8080-exec-9] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:47:28.165 [http-nio-8080-exec-6] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:47:33.853 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:47:34.033 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:47:39.081 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:48:03.112 [http-nio-8080-exec-8] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 10:48:04.801 [http-nio-8080-exec-7] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 10:48:05.994 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:49:42.440 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:49:45.832 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:50:42.123 [restartedMain] CuyApplication - Started CuyApplication in 77.994 seconds (JVM running for 2173.726)
+[INFO ] 2018-12-07 10:51:25.622 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:51:27.442 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:52:48.631 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:54:48.589 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:55:54.830 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 10:56:23.138 [restartedMain] CuyApplication - Started CuyApplication in 35.235 seconds (JVM running for 47.761)
+[INFO ] 2018-12-07 10:56:51.664 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 10:56:57.231 [http-nio-8080-exec-1] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:57:01.228 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 10:57:01.538 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:57:01.547 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:57:05.299 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:57:30.525 [http-nio-8080-exec-4] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 10:57:31.645 [http-nio-8080-exec-3] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 10:57:32.020 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:57:50.518 [http-nio-8080-exec-7] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 10:57:50.786 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:57:51.784 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 10:57:55.458 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:58:20.673 [http-nio-8080-exec-6] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 10:58:21.768 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 10:58:22.070 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:59:47.485 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 10:59:47.733 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 10:59:58.626 [http-nio-8080-exec-6] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 10:59:58.884 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:00:02.658 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 11:00:02.803 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:00:08.573 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 11:00:08.695 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:00:54.678 [http-nio-8080-exec-7] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:01:03.269 [http-nio-8080-exec-10] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:01:21.334 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:01:21.912 [http-nio-8080-exec-8] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:01:27.687 [http-nio-8080-exec-7] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:01:48.760 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:02:18.708 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:02:22.704 [http-nio-8080-exec-3] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:03:29.200 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:05:19.421 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 11:05:28.494 [restartedMain] CuyApplication - Started CuyApplication in 12.249 seconds (JVM running for 593.117)
+[INFO ] 2018-12-07 11:05:43.990 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 11:05:54.319 [restartedMain] CuyApplication - Started CuyApplication in 13.442 seconds (JVM running for 618.941)
+[INFO ] 2018-12-07 11:05:56.645 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:06:01.676 [http-nio-8080-exec-4] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:06:12.432 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:06:12.461 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:06:12.515 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:06:16.532 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:07:02.848 [http-nio-8080-exec-6] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:07:04.034 [http-nio-8080-exec-5] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 11:07:04.282 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:07:44.752 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:07:47.956 [http-nio-8080-exec-2] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:07:47.996 [http-nio-8080-exec-4] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:07:48.002 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:07:51.617 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:08:08.815 [http-nio-8080-exec-1] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:08:09.944 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 11:08:10.116 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:09:00.818 [http-nio-8080-exec-7] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:09:03.580 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:09:03.608 [http-nio-8080-exec-10] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:09:03.610 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:09:06.486 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:09:06.947 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:09:08.105 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:09:37.520 [http-nio-8080-exec-8] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:09:38.118 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-07 11:09:38.328 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:10:48.446 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 11:11:11.936 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 11:11:27.784 [restartedMain] CuyApplication - Started CuyApplication in 20.445 seconds (JVM running for 24.602)
+[INFO ] 2018-12-07 11:12:04.046 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:12:10.502 [http-nio-8080-exec-2] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:12:15.576 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:12:15.635 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:12:15.640 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:12:20.170 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:12:52.248 [http-nio-8080-exec-3] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:12:52.813 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-07 11:12:53.281 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:13:50.807 [http-nio-8080-exec-8] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:13:51.286 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:13:54.139 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:13:54.169 [http-nio-8080-exec-2] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:13:54.172 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:13:57.187 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:14:10.252 [http-nio-8080-exec-8] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:14:10.741 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-07 11:14:11.272 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:14:40.382 [http-nio-8080-exec-5] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:14:42.805 [http-nio-8080-exec-8] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:14:42.827 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:14:42.828 [http-nio-8080-exec-10] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:14:45.311 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:15:15.348 [http-nio-8080-exec-9] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:15:16.003 [http-nio-8080-exec-6] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-07 11:15:16.123 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:16:22.902 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 11:16:31.762 [restartedMain] CuyApplication - Started CuyApplication in 13.085 seconds (JVM running for 328.581)
+[INFO ] 2018-12-07 11:16:54.588 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 11:17:04.657 [restartedMain] CuyApplication - Started CuyApplication in 14.476 seconds (JVM running for 361.475)
+[INFO ] 2018-12-07 11:17:12.904 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 11:17:22.089 [restartedMain] CuyApplication - Started CuyApplication in 12.91 seconds (JVM running for 378.908)
+[INFO ] 2018-12-07 11:19:35.012 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:19:36.263 [http-nio-8080-exec-2] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:19:41.568 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:19:41.598 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:19:41.611 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:19:44.441 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:20:04.908 [http-nio-8080-exec-3] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:20:05.431 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-07 11:20:05.564 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:21:29.263 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 11:21:56.132 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 11:22:09.741 [restartedMain] CuyApplication - Started CuyApplication in 18.976 seconds (JVM running for 23.133)
+[INFO ] 2018-12-07 11:22:28.311 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:22:29.162 [http-nio-8080-exec-3] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:22:33.682 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:22:33.717 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:22:33.726 [http-nio-8080-exec-9] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:22:36.438 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:23:00.244 [http-nio-8080-exec-5] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:23:01.364 [http-nio-8080-exec-6] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 11:23:01.805 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:26:56.391 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:26:59.129 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:27:02.615 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:27:02.696 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:27:02.696 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:27:06.070 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:29:13.348 [http-nio-8080-exec-2] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:29:14.530 [http-nio-8080-exec-3] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 11:29:14.725 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:30:31.273 [http-nio-8080-exec-8] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:30:34.235 [http-nio-8080-exec-10] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:30:35.852 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:30:37.794 [http-nio-8080-exec-2] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:30:37.821 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:30:37.821 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:30:40.918 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:30:55.192 [http-nio-8080-exec-10] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:30:56.231 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 11:30:56.421 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:33:12.679 [http-nio-8080-exec-7] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:33:14.533 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:33:14.558 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:33:14.558 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:33:17.905 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:33:35.267 [http-nio-8080-exec-5] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:33:36.338 [http-nio-8080-exec-7] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 11:33:37.421 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:35:37.630 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:35:38.211 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 11:35:40.256 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 11:35:40.296 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 11:35:40.298 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:35:51.324 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 11:36:07.450 [http-nio-8080-exec-1] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 11:36:08.547 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 11:36:08.791 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:16:13.704 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 12:16:35.892 [restartedMain] CuyApplication - Started CuyApplication in 26.573 seconds (JVM running for 29.831)
+[INFO ] 2018-12-07 12:16:40.929 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 12:16:42.882 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 12:17:02.211 [http-nio-8080-exec-8] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 12:18:02.313 [http-nio-8080-exec-1] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:18:14.504 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 12:18:14.552 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:18:14.608 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 12:18:19.327 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:18:44.347 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 12:18:47.203 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:19:43.771 [http-nio-8080-exec-7] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 12:19:44.834 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-07 12:19:44.966 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:20:42.802 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 12:20:57.700 [restartedMain] CuyApplication - Started CuyApplication in 20.2 seconds (JVM running for 23.73)
+[INFO ] 2018-12-07 12:21:02.710 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 12:21:05.635 [http-nio-8080-exec-2] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:21:07.154 [http-nio-8080-exec-3] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 12:21:58.364 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 12:21:58.404 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 12:21:58.424 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:22:02.870 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:22:04.769 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 12:22:06.821 [http-nio-8080-exec-5] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:22:12.756 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 12:22:12.792 [http-nio-8080-exec-9] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 12:22:17.112 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:22:34.713 [http-nio-8080-exec-3] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 12:22:41.038 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 12:22:41.302 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:30:11.741 [http-nio-8080-exec-10] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 12:30:16.592 [http-nio-8080-exec-8] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 12:30:16.616 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 12:30:16.616 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:30:19.706 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:46:26.220 [http-nio-8080-exec-10] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 12:46:39.401 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 12:46:39.433 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 12:46:39.441 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:46:42.254 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:46:54.797 [http-nio-8080-exec-2] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 12:46:56.820 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 12:46:57.024 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:47:15.868 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 12:47:20.487 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 12:47:20.515 [http-nio-8080-exec-10] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 12:47:20.515 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:47:25.882 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 12:47:41.766 [http-nio-8080-exec-3] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 12:47:43.811 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 12:47:43.971 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:16:38.744 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 15:16:49.599 [http-nio-8080-exec-8] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 15:16:49.639 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:16:49.955 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 15:16:53.742 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:16:55.518 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:18:23.234 [http-nio-8080-exec-8] SecurityUserServiceImpl - > Excepción | (?): DEMO@CUY.PE
+[INFO ] 2018-12-07 15:18:24.338 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:24:31.056 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 15:25:10.222 [restartedMain] CuyApplication - Started CuyApplication in 45.057 seconds (JVM running for 11076.259)
+[INFO ] 2018-12-07 15:25:38.718 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 15:25:47.881 [restartedMain] CuyApplication - Started CuyApplication in 12.59 seconds (JVM running for 11113.92)
+[INFO ] 2018-12-07 15:34:54.652 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 15:35:33.699 [restartedMain] CuyApplication - Started CuyApplication in 46.166 seconds (JVM running for 58.082)
+[INFO ] 2018-12-07 15:35:40.775 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:36:01.410 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 15:36:02.092 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 15:36:08.603 [http-nio-8080-exec-7] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:36:24.527 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 15:36:24.563 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:36:24.575 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 15:36:32.187 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:41:01.872 [http-nio-8080-exec-9] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 15:41:04.731 [http-nio-8080-exec-10] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 15:41:05.234 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:43:49.913 [http-nio-8080-exec-5] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 15:43:50.721 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:44:00.313 [http-nio-8080-exec-9] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 15:44:02.092 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 15:44:08.793 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 15:44:08.817 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:44:08.817 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 15:44:15.994 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 15:44:29.976 [http-nio-8080-exec-2] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 15:44:31.749 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 15:44:32.006 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:10:48.712 [http-nio-8080-exec-6] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:10:49.027 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:11:03.536 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 16:11:07.365 [http-nio-8080-exec-4] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 16:11:13.501 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 16:11:13.530 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 16:11:13.532 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:11:19.326 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:11:37.716 [http-nio-8080-exec-4] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 16:11:39.882 [http-nio-8080-exec-5] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:11:40.117 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:12:40.878 [http-nio-8080-exec-10] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:12:42.240 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:15:56.537 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 16:20:33.027 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 16:21:34.674 [restartedMain] CuyApplication - Started CuyApplication in 73.746 seconds (JVM running for 86.205)
+[INFO ] 2018-12-07 16:21:38.896 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 16:21:45.135 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 16:21:45.219 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 16:21:45.218 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:21:58.032 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:22:21.479 [http-nio-8080-exec-1] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 16:22:24.419 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:22:24.919 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:27:36.357 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 16:27:51.213 [restartedMain] CuyApplication - Started CuyApplication in 18.341 seconds (JVM running for 462.745)
+[INFO ] 2018-12-07 16:28:15.293 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 16:28:19.638 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 16:28:19.652 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:28:20.134 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:28:48.707 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 16:28:50.404 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 16:28:53.394 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 16:28:53.752 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:29:41.126 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 16:30:00.488 [restartedMain] CuyApplication - Started CuyApplication in 25.184 seconds (JVM running for 33.53)
+[INFO ] 2018-12-07 16:30:03.939 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 16:30:08.565 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 16:30:12.674 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 16:30:12.708 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:30:12.746 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 16:30:14.860 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:31:12.503 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 16:31:16.150 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 16:31:16.244 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 16:31:22.225 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:31:51.664 [http-nio-8080-exec-10] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 16:31:55.048 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:31:55.483 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:36:48.055 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:36:52.137 [http-nio-8080-exec-10] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 16:36:53.303 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 16:37:06.678 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 16:37:06.709 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 16:37:06.710 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:37:09.150 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:37:22.535 [http-nio-8080-exec-2] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 16:37:25.354 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:37:25.698 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:39:42.277 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:39:42.474 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:40:33.847 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:40:34.175 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:48:58.383 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:48:58.595 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:49:49.443 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:49:49.709 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:50:10.996 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:50:11.361 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:52:13.090 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:52:13.388 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:52:24.611 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:52:24.820 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:52:36.047 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:52:36.386 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:52:57.595 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:52:57.844 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:53:08.458 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:53:08.736 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:53:13.701 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:53:14.257 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:54:25.891 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:54:26.137 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:54:38.438 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:54:38.687 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:54:55.493 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:54:55.743 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:55:08.530 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:55:08.783 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:56:06.305 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:56:06.603 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:57:16.761 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:57:17.084 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:59:17.573 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:59:17.872 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 16:59:42.504 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 16:59:42.658 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:00:35.071 [http-nio-8080-exec-4] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 17:00:35.473 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:04:47.951 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 17:04:48.477 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:04:54.101 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 17:04:56.984 [http-nio-8080-exec-2] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 17:05:10.891 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:05:10.941 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 17:05:10.945 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:05:14.677 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:06:52.210 [http-nio-8080-exec-3] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 17:06:54.914 [http-nio-8080-exec-5] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 17:06:56.304 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:36:18.174 [http-nio-8080-exec-6] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 17:36:24.401 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:36:24.687 [http-nio-8080-exec-2] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 17:36:24.687 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:36:34.897 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:36:58.493 [http-nio-8080-exec-6] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 17:37:00.981 [http-nio-8080-exec-10] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 17:37:01.649 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:43:20.097 [http-nio-8080-exec-5] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 17:43:24.788 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:43:24.828 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:43:24.833 [http-nio-8080-exec-4] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 17:43:40.158 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:44:10.868 [http-nio-8080-exec-1] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 17:44:13.589 [http-nio-8080-exec-6] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 17:44:14.954 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:46:35.228 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:46:51.031 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:47:54.448 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:48:01.668 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:48:16.953 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:49:06.034 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:49:09.460 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:49:10.453 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:49:10.900 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:49:16.699 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:50:53.422 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:51:48.720 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:51:57.066 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:52:01.382 [http-nio-8080-exec-8] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:52:13.992 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:52:14.760 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:52:27.074 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:52:45.289 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:52:58.657 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:53:03.113 [http-nio-8080-exec-3] SecurityUserServiceImpl - > Excepción | (?): DEMO@CUY.PE
+[INFO ] 2018-12-07 17:53:03.420 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:53:05.896 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:55:24.874 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 17:55:42.269 [restartedMain] CuyApplication - Started CuyApplication in 21.431 seconds (JVM running for 5175.311)
+[INFO ] 2018-12-07 17:55:53.511 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 17:56:09.746 [restartedMain] CuyApplication - Started CuyApplication in 20.314 seconds (JVM running for 5202.788)
+[INFO ] 2018-12-07 17:56:14.473 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:56:21.051 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 17:57:10.149 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-07 17:57:42.511 [restartedMain] CuyApplication - Started CuyApplication in 39.997 seconds (JVM running for 67.17)
+[INFO ] 2018-12-07 17:57:44.120 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:57:47.996 [http-nio-8080-exec-5] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:57:50.475 [http-nio-8080-exec-4] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 17:58:09.956 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:58:09.983 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 17:58:10.004 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:58:14.339 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:58:43.714 [http-nio-8080-exec-4] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 17:58:46.516 [http-nio-8080-exec-6] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 17:58:46.874 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:58:59.619 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 17:59:03.512 [http-nio-8080-exec-2] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 17:59:03.531 [http-nio-8080-exec-3] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 17:59:03.531 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:59:15.275 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 17:59:47.615 [http-nio-8080-exec-8] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 17:59:50.291 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 17:59:50.600 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:02:28.795 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:02:31.243 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:02:36.018 [http-nio-8080-exec-10] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:02:37.860 [http-nio-8080-exec-1] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 18:02:42.928 [http-nio-8080-exec-2] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:02:42.953 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:02:42.956 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 18:02:45.172 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:02:56.981 [http-nio-8080-exec-8] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 18:02:59.511 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 18:02:59.671 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:07:20.390 [http-nio-8080-exec-3] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 18:07:26.255 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:07:26.299 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:07:26.303 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 18:07:32.247 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:07:57.756 [http-nio-8080-exec-3] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 18:08:00.278 [http-nio-8080-exec-7] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 18:08:00.636 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:11:20.074 [http-nio-8080-exec-8] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 18:11:23.241 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:11:23.270 [http-nio-8080-exec-6] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 18:11:23.272 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:11:27.146 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:11:55.358 [http-nio-8080-exec-2] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 18:11:57.947 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 18:11:58.181 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:12:35.027 [http-nio-8080-exec-3] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 18:12:40.847 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:12:40.872 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:12:40.872 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 18:12:43.742 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:13:03.123 [http-nio-8080-exec-7] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 18:13:05.796 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 18:13:06.081 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:16:57.924 [http-nio-8080-exec-4] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 18:17:01.344 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:17:01.364 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:17:01.366 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 18:17:04.784 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:17:19.671 [http-nio-8080-exec-4] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 18:17:22.204 [http-nio-8080-exec-9] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 18:17:22.470 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:20:59.349 [http-nio-8080-exec-10] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 18:21:04.321 [http-nio-8080-exec-8] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:21:04.351 [http-nio-8080-exec-4] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 18:21:04.352 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:21:07.017 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:21:21.694 [http-nio-8080-exec-5] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 18:21:24.180 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 18:21:24.385 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:23:34.917 [http-nio-8080-exec-3] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 18:23:39.593 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:23:39.625 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:23:39.626 [http-nio-8080-exec-5] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 18:23:43.065 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:23:55.188 [http-nio-8080-exec-7] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 18:23:57.606 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 18:23:57.791 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:27:52.684 [http-nio-8080-exec-9] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 18:27:57.286 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:27:57.316 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:27:57.321 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 18:28:00.464 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:28:15.437 [http-nio-8080-exec-8] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 18:28:18.080 [http-nio-8080-exec-9] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 18:28:18.338 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:33:56.519 [http-nio-8080-exec-7] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-07 18:34:00.409 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:34:00.431 [http-nio-8080-exec-9] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-07 18:34:00.434 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:34:03.307 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:34:16.935 [http-nio-8080-exec-10] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-07 18:34:19.412 [http-nio-8080-exec-5] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-07 18:34:19.606 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:35:43.848 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:35:49.650 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:35:51.293 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:36:18.238 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-07 18:36:19.298 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:37:06.053 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:37:15.625 [http-nio-8080-exec-2] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-07 18:51:53.060 [main] CuyApplicationTests - The following profiles are active: development
+[INFO ] 2018-12-07 18:52:41.348 [main] CuyApplicationTests - Started CuyApplicationTests in 57.181 seconds (JVM running for 64.187)
+[INFO ] 2018-12-07 19:12:24.754 [restartedMain] CuyApplication - The following profiles are active: development

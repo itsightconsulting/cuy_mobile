@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Autenticación para recargas</title>
     <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.2/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <!-- #FAVICONS -->
     <link rel="shortcut icon" th:href="@{/img/favicon/favicon.ico}" type="image/x-icon"/>
     <link rel="icon" th:href="@{/img/favicon/favicon.ico}" type="image/x-icon"/>
@@ -27,7 +28,7 @@
     </header>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <h1>Login page</h1>
+            <h1>Login <a href="#"><i class="fa fa-cc-visa"></i></a></h1>
             <form action="/visa/loginRecarga" method="post">
                 <div th:if="${param.error}">
                     <div class="alert alert-danger">
@@ -36,11 +37,11 @@
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>:
-                    <input type="email" id="email" class="form-control" name="email" placeholder="Email"/>
+                    <input type="email" id="email" class="form-control" name="email" placeholder="Email" value="demo@cuy.pe"/>
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>:
-                    <input type="password" id="password" class="form-control" name="password" placeholder="Password"/>
+                    <input type="password" id="password" class="form-control" name="password" placeholder="Password" value="123456"/>
 
                 </div>
                 <div class="form-group">

@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class ResponseVisaDto implements Serializable {
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1270822692117732344L;
 	

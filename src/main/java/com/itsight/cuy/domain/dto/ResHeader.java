@@ -9,7 +9,7 @@ public class ResHeader implements Serializable {
 
     private BigInteger ecoreTransactionDate;
 
-    private int milis;
+    private int millis;
 
     public ResHeader(){}
 
@@ -29,11 +29,11 @@ public class ResHeader implements Serializable {
         this.ecoreTransactionDate = ecoreTransactionDate;
     }
 
-    public int getMilis() {
-        return milis;
+    public int getMillis() {
+        return millis;
     }
 
-    public void setMilis(int milis) {
-        this.milis = milis;
+    public void setMillis(int millis) {
+        this.millis = millis;
     }
 }
