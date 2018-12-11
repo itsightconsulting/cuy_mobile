@@ -691,3 +691,37 @@
 [INFO ] 2018-11-21 12:15:05.155 [http-nio-8080-exec-2] AspectController - GeneralController.obtenerTipoPersona() method called.
 [INFO ] 2018-11-21 12:15:26.632 [http-nio-8080-exec-3] AspectController - GeneralController.updateTransaction(..) method called.
 [INFO ] 2018-11-21 12:15:41.064 [http-nio-8080-exec-4] AspectController - PersonController.obtenerListadoTransaccionesPorDocumentoIdentidad(..) method called.
+[INFO ] 2018-11-22 15:06:26.310 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-11-22 15:06:51.661 [restartedMain] CuyApplication - Started CuyApplication in 31.982 seconds (JVM running for 36.743)
+[INFO ] 2018-11-22 15:06:59.800 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-11-22 15:08:21.309 [http-nio-8080-exec-4] AspectController - GeneralController.updateTransaction(..) method called.
+[INFO ] 2018-11-22 15:17:15.595 [http-nio-8080-exec-8] AspectController - PhoneNumberController.obtenerListadoTelefonosPorDocumentoIdentidad(..) method called.
+[INFO ] 2018-11-22 15:17:49.333 [http-nio-8080-exec-6] AspectController - PhoneNumberController.obtenerListadoTelefonosPorDocumentoIdentidad(..) method called.
+[INFO ] 2018-11-22 15:22:08.588 [http-nio-8080-exec-3] AspectController - PersonController.obtenerListadoTransaccionesPorDocumentoIdentidad(..) method called.
+[INFO ] 2018-12-03 15:18:36.601 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-03 15:19:01.598 [restartedMain] CuyApplication - Started CuyApplication in 30.464 seconds (JVM running for 34.038)
+[INFO ] 2018-12-03 15:19:08.931 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-03 15:19:16.969 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-03 16:04:17.936 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-03 16:04:34.533 [restartedMain] CuyApplication - Started CuyApplication in 20.291 seconds (JVM running for 23.002)
+[INFO ] 2018-12-03 16:39:39.306 [http-nio-8080-exec-7] AspectController - PhoneNumberController.obtenerListadoTelefonosPorDocumentoIdentidad(..) method called.
+[INFO ] 2018-12-11 17:46:48.303 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-11 17:47:11.043 [restartedMain] CuyApplication - Started CuyApplication in 27.633 seconds (JVM running for 31.038)
+[INFO ] 2018-12-11 17:47:44.802 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:10.803 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:12.295 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:12.457 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:12.474 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:13.154 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:13.302 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:13.315 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:13.484 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:13.618 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:13.636 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:13.686 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:13.826 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:13.842 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:13.912 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:14.045 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:14.073 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 17:51:21.304 [http-nio-8080-exec-8] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN

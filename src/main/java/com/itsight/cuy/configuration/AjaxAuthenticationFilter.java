@@ -28,4 +28,5 @@ public class AjaxAuthenticationFilter extends LoginUrlAuthenticationEntryPoint {
             super.commence(request, response, authException);
         }
     }
+
 }

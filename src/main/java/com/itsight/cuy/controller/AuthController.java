@@ -4,30 +4,27 @@ import com.itsight.cuy.constants.ViewConstant;
 import com.itsight.cuy.repository.OauthApprovalsRepository;
 import com.itsight.cuy.repository.OauthClientDetailsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.MediaType;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.approval.Approval;
 import org.springframework.security.oauth2.provider.approval.ApprovalStore;
-import org.springframework.security.oauth2.provider.client.JdbcClientDetailsService;
+import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.security.Principal;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
+import org.springframework.security.oauth2.provider.ClientDetailsService;
+
+import java.util.*;
 
 import static java.util.Arrays.asList;
 
+
 @Controller
 public class AuthController {
-
 
     @Autowired
     private ApprovalStore approvalStore;
@@ -37,6 +34,8 @@ public class AuthController {
 
     @Autowired
     private OauthApprovalsRepository oauthApprovalsRepository;
+
+    private ClientDetailsService clientDetailsService;
 
     @RequestMapping("/")
     public ModelAndView root(Map<String,Object> model){
@@ -99,4 +98,6 @@ public class AuthController {
     public String expiredBySessionMultiple(Model model) {
         return "lock";
     }
+
+
 }
