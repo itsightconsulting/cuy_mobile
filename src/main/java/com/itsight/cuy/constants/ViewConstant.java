@@ -45,6 +45,8 @@ public class ViewConstant {
     public static final String INF_TRAMITE_DIVORCIO = "informativas/tramitedivorcio";
 
     public static final String FORM_FALLO_VISA = "visa/visa-fallo";
+    public static final String FORM_VISA = "visa/pago";
+    public static final String PRE_FORM_VISA = "visa/pre_pago";
     public static final String FORM_CONFIRMATION_VISA = "visa/visa-consolidado";
     public static final String FORM_VISA_TERMINOS = "visa/visa-terminos";
 

@@ -58,6 +58,9 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
     private RechargeService rechargeService;
 
     @Autowired
+    private ParameterService parameterService;
+
+    @Autowired
     private SecurityUserRepository userRepository;
 
     @Autowired
@@ -68,6 +71,9 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
 
     @Value("${main.repository}")
     private String mainRoute;
+
+    @Value("${spring.profiles.active}")
+    private String profile;
 
     private final Long currentVersion = new Date().getTime();
 
@@ -88,6 +94,7 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
             addingRecharges();
         }
 
+        addingParameters();
         addingToContextSession();
         addingInitUsers();
         creatingFileDirectories();
@@ -166,8 +173,85 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
         }
     }
 
+    public void addingParameters(){
+        if(parameterService.findOne(1) == null){
+            parameterService.save(new Parameter("WS_CLARO_USERNAME", "username"));
+        }
+        if(parameterService.findOne(2) == null){
+            parameterService.save(new Parameter("WS_CLARO_PASSWORD", "password"));
+        }
+        if(parameterService.findOne(3) == null){
+            parameterService.save(new Parameter("WS_CLARO_SEC_TOKEN", "79dbd9e0-15b4-4dce-ad47-e2777bbac01e"));
+        }
+        if(parameterService.findOne(4) == null){
+            parameterService.save(new Parameter("VISA_API_KEY_ID", "integraciones.visanet@necomplus.com"));
+        }
+        if(parameterService.findOne(5) == null){
+            parameterService.save(new Parameter("VISA_API_KEY_PASSWORD", "d5e7nk$M"));
+        }
+        if(parameterService.findOne(6) == null){
+            parameterService.save(new Parameter("VISA_MERCHANT_ID", "602545705"));
+        }
+        if(profile.equals("development")){
+            if(parameterService.findOne(7) == null){
+                parameterService.save(new Parameter("VISA_API_INIT_SEC", "https://apitestenv.vnforapps.com/api.security/v1/security"));
+            }
+            if(parameterService.findOne(8) == null){
+                parameterService.save(new Parameter("VISA_API_INIT_SESSION", "https://apitestenv.vnforapps.com/api.ecommerce/v2/ecommerce/token/session/"));
+            }
+            if(parameterService.findOne(9) == null){
+                parameterService.save(new Parameter("VISA_API_TRANSACT", "https://apitestenv.vnforapps.com/api.authorization/v3/authorization/ecommerce/"));
+            }
+            if(parameterService.findOne(10) == null){
+                parameterService.save(new Parameter("CUY_API_INIT_TOKEN", "sys_sk_test_LeETLGDW9rgB78auKHVMWQOVXFViaxIffPUXgLScAToWb"));
+            }
+            if(parameterService.findOne(11) == null){
+                parameterService.save(new Parameter("CUY_TOKEN_LOGIN", ""));
+            }
+            if(parameterService.findOne(12) == null){
+                parameterService.save(new Parameter("CUY_LOGIN_ID", ""));
+            }
+
+        }else{
+            if(parameterService.findOne(7) == null){
+                parameterService.save(new Parameter("VISA_API_INIT_SEC", "https://apitestenv.vnforapps.com/api.security/v1/security"));
+            }
+            if(parameterService.findOne(8) == null){
+                parameterService.save(new Parameter("VISA_API_POST", "https://devapice.vnforapps.com/api.authorization/api/v1/authorization/web/"));
+            }
+            if(parameterService.findOne(9) == null){
+                parameterService.save(new Parameter("VISA_API_TRANSACT", "https://apitestenv.vnforapps.com/api.authorization/v3/authorization/ecommerce/"));
+            }
+            if(parameterService.findOne(10) == null){
+                parameterService.save(new Parameter("CUY_API_INIT_TOKEN", "sys_sk_test_LeETLGDW9rgB78auKHVMWQOVXFViaxIffPUXgLScAToWb"));
+            }
+            if(parameterService.findOne(11) == null){
+                parameterService.save(new Parameter("CUY_TOKEN_LOGIN", ""));
+            }
+            if(parameterService.findOne(12) == null){
+                parameterService.save(new Parameter("CUY_LOGIN_ID", ""));
+            }
+        }
+
+    }
+
     public void addingToContextSession() {
+        List<Parameter> appParams = parameterService.findAll();
         context.setAttribute("version", currentVersion);
+        context.setAttribute("WS_CLARO_USERNAME", appParams.get(0).getValue());
+        context.setAttribute("WS_CLARO_PASSWORD", appParams.get(1).getValue());
+        context.setAttribute("WS_CLARO_SEC_TOKEN", appParams.get(2).getValue());
+        context.setAttribute("DOMAIN_NAME", "/");
+        //Agregando variables al contexto
+        context.setAttribute("VISA_API_KEY_ID", appParams.get(3).getValue());
+        context.setAttribute("VISA_API_KEY_PASSWORD", appParams.get(4).getValue());
+        context.setAttribute("VISA_MERCHANT_ID", appParams.get(5).getValue());
+        context.setAttribute("VISA_API_INIT_SEC", appParams.get(6).getValue());
+        context.setAttribute("VISA_API_INIT_SESSION", appParams.get(7).getValue());
+        context.setAttribute("VISA_API_TRANSACT", appParams.get(8).getValue());
+        context.setAttribute("CUY_API_INIT_TOKEN", appParams.get(9).getValue());
+        context.setAttribute("CUY_TOKEN_LOGIN", appParams.get(10).getValue());
+        context.setAttribute("CUY_LOGIN_ID", appParams.get(11).getValue());
     }
 
     public void addingInitUsers() {

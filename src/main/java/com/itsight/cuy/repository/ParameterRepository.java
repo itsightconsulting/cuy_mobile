@@ -8,6 +8,6 @@ import java.util.List;
 
 @Repository
 public interface ParameterRepository extends JpaRepository<Parameter,Integer> {
+
     List<Parameter> findAll();
-    Parameter findById(int id);
 }

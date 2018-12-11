@@ -62,11 +62,19 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/session-expirada").permitAll()
                 .antMatchers("/session-multiple").permitAll()
-                .antMatchers("/oauth/token**").permitAll();
+                .antMatchers("/oauth/token**").permitAll()
+                .antMatchers("/p/**").permitAll()
+                .antMatchers("/visa/**").permitAll();
 /*
                 .antMatchers("/cuy/**").permitAll();
 */
         http.authorizeRequests()
+                .antMatchers("/css/**",
+                        "/js/**",
+                        "/img/**",
+                        "/fonts/**").permitAll()
+                .and()
+                .authorizeRequests()
                 .anyRequest().authenticated();
         http.authorizeRequests()
                 .anyRequest().authenticated()

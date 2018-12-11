@@ -1,0 +1,86 @@
+<html lang="en" id="extr-page"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- default header name is X-CSRF-TOKEN -->
+    <meta charset="utf-8"/>
+    <title> Pasarela de Pago</title>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!-- #GOOGLE FONT -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700"/>
+
+
+</head>
+
+<body class="animated fadeInDown">
+
+<header id="header">
+
+</header>
+
+<div id="main" role="main">
+
+    <!-- MAIN CONTENT -->
+    <div id="content" class="container">
+        <div class="content-wrapper">
+            <section class="content">
+                <section class="content-header">
+                    <h1><span></span></h1>
+                </section>
+                <div  class="col-sm-12">
+                    <div style="text-align: center;">
+                        <form th:action="${ACTION}" method="POST">
+                            <script src="https://static-content-qas.vnforapps.com/v2/js/checkout.js?qa=true"
+                                    th:attr="data-sessiontoken=${SESSION_TOKEN},
+                                         data-merchantid=${VISA_API_MERCHANT_ID},
+                                         data-amount=${AMOUNT},
+                                         data-purchasenumber=${TRANSACTION_ID}"
+                                         data-channel=web
+                                         data-expirationminutes="5"
+                                         data-merchantlogo="http://52.186.67.112:8080/media/image/libre/f775820a-e980-48eb-a9cc-c39044e0d7e6.png"
+                                         data-timeouturl="demo.html"
+                                         data-buttonsize="LARGE"
+                                         data-buttoncolor="RED"
+                                         data-cardholdername= "Pedro"
+                                         data-cardholderlastname= "Pablo"
+                                         data-cardholderemail= "accept@cybersource.com"
+                                    data-formbuttoncolor="#084B8A">
+                            </script>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</div>
+
+<!--================================================== -->
+
+<!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- 		<script> if (!window.jQuery) { document.write('<script src="js/libs/jquery-3.2.1.min.js"><\/script>');} </script> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<!-- 		<script> if (!window.jQuery.ui) { document.write('<script src="js/libs/jquery-ui.min.js"><\/script>');} </script> -->
+
+<script>
+
+    $(function () {
+        $('#agree').click(function() {
+            if($('#agree').prop('checked') == true){
+                $('#divContinuar').fadeOut('slow').removeAttr('hidden').fadeIn('slow');;
+            }else{
+                $('#divContinuar').attr('hidden','hidden');
+            }
+        });
+
+        $("#btnContinuar").click(function(){
+            window.document.location.href = "/p/pago";
+        });
+    });
+</script>
+
+</body>
+</html>
