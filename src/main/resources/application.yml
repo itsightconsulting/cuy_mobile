@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: development
+    active: production
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     #database-platform: org.hibernate.dialect.SQLServer2012Dialect

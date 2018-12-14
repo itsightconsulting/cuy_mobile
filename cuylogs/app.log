@@ -1549,3 +1549,5 @@
 [INFO ] 2018-12-13 19:35:22.678 [http-nio-8080-exec-4] AspectController - KasNetController.vistaObtenerAmount(..) method called.
 [INFO ] 2018-12-13 19:35:28.264 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
 [INFO ] 2018-12-13 19:35:30.162 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 20:11:55.586 [main] CuyApplicationTests - The following profiles are active: production
+[INFO ] 2018-12-13 20:12:44.724 [main] CuyApplicationTests - Started CuyApplicationTests in 56.069 seconds (JVM running for 78.948)
