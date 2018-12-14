@@ -1549,5 +1549,22 @@
 [INFO ] 2018-12-13 19:35:22.678 [http-nio-8080-exec-4] AspectController - KasNetController.vistaObtenerAmount(..) method called.
 [INFO ] 2018-12-13 19:35:28.264 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
 [INFO ] 2018-12-13 19:35:30.162 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+<<<<<<< HEAD
 [INFO ] 2018-12-13 20:11:55.586 [main] CuyApplicationTests - The following profiles are active: production
 [INFO ] 2018-12-13 20:12:44.724 [main] CuyApplicationTests - Started CuyApplicationTests in 56.069 seconds (JVM running for 78.948)
+=======
+[INFO ] 2018-12-13 19:39:23.867 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 19:39:38.340 [restartedMain] CuyApplication - Started CuyApplication in 18.595 seconds (JVM running for 21.063)
+[INFO ] 2018-12-13 19:41:10.951 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:41:12.013 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:41:13.248 [http-nio-8080-exec-4] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:41:17.797 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 19:41:20.003 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-14 09:45:11.567 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-14 09:45:36.746 [restartedMain] CuyApplication - Started CuyApplication in 30.748 seconds (JVM running for 37.191)
+[INFO ] 2018-12-14 09:48:29.350 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-14 09:48:32.799 [http-nio-8080-exec-3] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-14 09:48:34.414 [http-nio-8080-exec-4] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-14 09:48:36.380 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-14 09:48:52.006 [http-nio-8080-exec-8] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+>>>>>>> db6542d1f28a2af0d45414737b8af5b50020d358
