@@ -57,7 +57,7 @@ public class VisaController {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         headers.set("Authorization", "Cuy-oauthtoken "+ cuyInitToken);
-        String jsonBody = "{\"email\": \""+email+"\", \"password\": \""+password+"\"}";
+        String jsonBody = "{\"emailOrPhone\": \""+email+"\", \"password\": \""+password+"\"}";
         HttpEntity<String> httpEntity = new HttpEntity<>(jsonBody, headers);
         RestTemplate restTemplate = new RestTemplate(new HttpComponentsClientHttpRequestFactory());
         try {

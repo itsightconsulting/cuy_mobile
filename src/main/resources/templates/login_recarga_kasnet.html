@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>OAuth Server Login</title>
-    <link rel="stylesheet" href="webjars/bootstrap/3.3.2/css/bootstrap.min.css"/>
+    <title>Autenticación para recargas</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.2/css/bootstrap.min.css}"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <!-- #FAVICONS -->
     <link rel="shortcut icon" th:href="@{/img/favicon/favicon.ico}" type="image/x-icon"/>
@@ -28,33 +28,28 @@
     </header>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <h1>Login App <a href="/visa/auth" style="float:right;">Recargas <i class="fa fa-cc-visa"></i></a></h1>
-            <form action="loginCheck" method="post">
+            <h1>Login KasNet <a href="#"><i class="fa fa-cc-visa"></i></a></h1>
+            <form action="/kasnet/loginRecarga" method="post">
                 <div th:if="${param.error}">
                     <div class="alert alert-danger">
-                        Invalid username or password.
-                    </div>
-                </div>
-                <div th:if="${param.logout}">
-                    <div class="alert alert-info">
-                        You have been logged out.
+                        Invalid email or password.
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="username">Username</label>:
-                    <input type="text" id="username" class="form-control" name="username" placeholder="Userame"/>
+                    <label for="email">Email</label>:
+                    <input type="email" id="email" class="form-control" name="email" placeholder="Email" value="demo@cuy.pe"/>
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>:
-                    <input type="password" id="password" class="form-control" name="password" placeholder="Password"/>
+                    <input type="password" id="password" class="form-control" name="password" placeholder="Password" value="123456"/>
 
                 </div>
                 <div class="form-group">
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3">
-<!--
-                            <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
--->
+                            <!--
+                                                        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+                            -->
                             <input type="submit"
                                    name="login-submit"
                                    id="login-submit"
@@ -62,9 +57,6 @@
                                    value="Log In">
                         </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <h1> <a href="/kasnet/auth" style="float:right;">Recargas KasNET <i class="fa fa-cc-visa"></i></a></h1>
                 </div>
             </form>
         </div>

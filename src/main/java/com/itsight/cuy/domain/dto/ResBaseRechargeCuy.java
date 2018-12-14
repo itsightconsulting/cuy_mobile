@@ -9,6 +9,8 @@ public class ResBaseRechargeCuy implements Serializable {
     private String code;
     private String status;
     private ResRechargeCuy data;
+    private String pageKey;
+    private Object list;
 
     public ResBaseRechargeCuy(){
         this.data = new ResRechargeCuy();
@@ -36,5 +38,21 @@ public class ResBaseRechargeCuy implements Serializable {
 
     public void setData(ResRechargeCuy data) {
         this.data = data;
+    }
+
+    public String getPageKey() {
+        return pageKey;
+    }
+
+    public void setPageKey(String pageKey) {
+        this.pageKey = pageKey;
+    }
+
+    public Object getList() {
+        return list;
+    }
+
+    public void setList(Object list) {
+        this.list = list;
     }
 }

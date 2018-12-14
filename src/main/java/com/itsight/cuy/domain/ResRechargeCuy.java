@@ -13,6 +13,7 @@ public class ResRechargeCuy implements Serializable {
     private String identifier;
     private String receiveDate;
     private String transactionDate;
+    private String generateCode;
 
     public ResRechargeCuy(){}
 
@@ -86,5 +87,13 @@ public class ResRechargeCuy implements Serializable {
 
     public void setTransactionDate(String transactionDate) {
         this.transactionDate = transactionDate;
+    }
+
+    public String getGenerateCode() {
+        return generateCode;
+    }
+
+    public void setGenerateCode(String generateCode) {
+        this.generateCode = generateCode;
     }
 }

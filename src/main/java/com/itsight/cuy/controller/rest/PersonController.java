@@ -495,6 +495,4 @@ public class PersonController {
         return data;
     }
 
-
-
 }

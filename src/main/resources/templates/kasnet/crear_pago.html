@@ -1,0 +1,182 @@
+<html lang="en" id="extr-page"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- default header name is X-CSRF-TOKEN -->
+    <meta charset="utf-8"/>
+    <title> Crear Pago</title>
+    <meta name="description" content=""/>
+    <meta name="_ctx" th:content="@{/}"/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!-- #GOOGLE FONT -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        hr{
+
+            border:         none;
+            border-left:    1px solid hsla(200, 10%, 50%,100);
+            height:         100vh;
+            width:          1px;
+        }
+
+    </style>
+</head>
+
+<body class="animated fadeInDown">
+
+<header id="header">
+
+</header>
+
+<div id="main" role="main">
+
+    <!-- MAIN CONTENT -->
+    <div id="content" class="container">
+        <div class="jumbotron mt-4">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div id="resultado" class="col-sm-7">
+                        <div class="col-sm-4 resultado">
+                            <div class="form-group">
+                                <h5 id="texth5">Crear Pago</h5>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-sm-12 resultado" role="form" >
+                            <div class="form-group">
+                                <label class="label label-info">Número</label>
+                                <input type="text" style="text-align: right;" class="form-control" readonly="readonly" id="txtnumber" name="txtnumber" th:value="${NUMBER_K}" />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="label label-info">Monto de pago</label>
+                                <input type="text" style="text-align: right;" class="form-control" id="txtamountpagar" name="txtamountpagar" th:value="${AMOUNT_K}"  />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="label label-info">Fecha Pago</label>
+                                <input type="text" style="text-align: right;" class="form-control" readonly="readonly" id="txtdate" name="txtdate" th:value="${DATE_TODAY}" />
+                            </div>
+
+                            <div class="form-group resultado">
+                                <label class="label label-info">Código Kasnet</label>
+                                <input type="text" style="text-align: right;" class="form-control" readonly="readonly" id="txtcode" name="txtcode" th:value="${CODE}"  />
+                            </div>
+
+                            <div class="form-group resultado">
+                                <label class="label label-info">Nro Terminal</label>
+                                <input type="text" style="text-align: right;" class="form-control"  id="txtterminal" name="txtterminal" value=""  />
+                            </div>
+
+                            <div class="form-group resultado-balance">
+                                <label class="label label-info">Balance</label>
+                                <input type="text" style="text-align: right;" class="form-control" readonly="readonly"  id="txtbalance" name="txtbalance"   />
+                            </div>
+
+                            <div class="form-group resultado-pago">
+                                <input type="button" class="form-control btn btn-primary" id="btnGenerarPago" value="GenerarPago"/>
+                            </div>
+
+                            <div class="col-sm-12">
+                                <div class="">
+                                    <div class="form-group resultado-balance">
+                                        <button type="button" class="btn btn-outline-primary" id="btnExtornoPago" >Cancelar la Recarga del Crédito</button>
+                                        <button type="button" class="btn btn-outline-secondary" id="btnConsultarSaldo" >Consulta Saldo</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--================================================== -->
+
+<!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- 		<script> if (!window.jQuery) { document.write('<script src="js/libs/jquery-3.2.1.min.js"><\/script>');} </script> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
+<!-- 		<script> if (!window.jQuery.ui) { document.write('<script src="js/libs/jquery-ui.min.js"><\/script>');} </script> -->
+
+<script>
+
+    var _ctx = document.querySelector('head meta[name="_ctx"]').getAttribute("content");
+
+    $(function () {
+
+        $(".resultado-balance").hide();
+        $("#btnGenerarPago").click(RealizarPago);
+        $("#btnConsultarSaldo").click(ConsultarPago);
+        $("#btnExtornoPago").click(ExtornoPago);
+
+
+    });
+    
+    function RealizarPago() {
+
+        $.ajax({
+            type: "GET",
+            contentType: "application/json",
+            url: _ctx + "kasnet/realizar_pago",
+            dataType: "json",
+            data: {
+                "nrosumin": $("#txtnumber").val(),
+                "monto": $("#txtamountpagar").val(),
+                "fecha": $("#txtdate").val(),
+                "codigo": $("#txtcode").val(),
+                "nroterm": $("#txtterminal").val()
+            },
+            success: function (data) {
+                if (data != "" ) {
+                    $("#txtbalance").val(data);
+                    $(".resultado-balance").show();
+                    $(".resultado-pago").hide();
+                    $("#texth5").text("Resultado del Pago");
+                }
+            },
+        });
+    }
+
+
+    function ExtornoPago() {
+        $.ajax({
+            type: "GET",
+            contentType: "application/json",
+            url: _ctx + "kasnet/extorno_pago",
+            dataType: "json",
+            data: {
+                "nrosumin": $("#txtnumber").val(),
+                "monto": $("#txtamountpagar").val(),
+                "fecha": $("#txtdate").val(),
+                "codigo": $("#txtcode").val(),
+                "nroterm": $("#txtterminal").val()
+            },
+            success: function (data) {
+                if (data != null ) {
+                    if(data.code == "success"){
+                        alert("Se realizo la cancelación del pago!");
+                        setTimeout(function(){
+                            window.location.href = _ctx+'kasnet/pre_pago';
+                        }, 1000);
+
+                    }
+                }
+            },
+        });
+    }
+
+    function ConsultarPago() {
+        window.location.href = _ctx+'kasnet/pre_pago';
+    }
+</script>
+
+</body>
+</html>

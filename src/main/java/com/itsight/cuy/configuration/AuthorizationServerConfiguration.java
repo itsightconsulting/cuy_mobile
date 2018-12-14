@@ -70,7 +70,9 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
        endpoints
                 .approvalStore(approvalStore())
                 .authorizationCodeServices(authorizationCodeServices())
-                .tokenStore(tokenStore());//Registra el token
+                .tokenStore(tokenStore())//Registra el token
+                .reuseRefreshTokens(false);
         super.configure(endpoints);
     }
+
 }
