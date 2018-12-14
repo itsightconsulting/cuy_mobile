@@ -49,7 +49,8 @@ public class ViewConstant {
     public static final String PRE_FORM_VISA = "visa/pre_pago";
     public static final String FORM_CONFIRMATION_VISA = "visa/visa-consolidado";
     public static final String FORM_VISA_TERMINOS = "visa/visa-terminos";
-
+    public static final String PRE_FORM_KASNET = "kasnet/pre_pago";
+    public static final String CREATE_PAY_FORM_KASNET = "kasnet/crear_pago";
 
     public static final String INICIO = "inicio";
     public static final String PRINCIPAL = "bienvenido";

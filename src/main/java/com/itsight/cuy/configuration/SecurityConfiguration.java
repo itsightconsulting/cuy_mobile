@@ -64,7 +64,9 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/session-multiple").permitAll()
                 .antMatchers("/oauth/token**").permitAll()
                 .antMatchers("/p/**").permitAll()
-                .antMatchers("/visa/**").permitAll();
+                .antMatchers("/visa/**").permitAll()
+                .antMatchers("/kasnet/**").permitAll()
+                .antMatchers("/k/**").permitAll();
 /*
                 .antMatchers("/cuy/**").permitAll();
 */

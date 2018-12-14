@@ -725,3 +725,827 @@
 [INFO ] 2018-12-11 17:51:14.045 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
 [INFO ] 2018-12-11 17:51:14.073 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
 [INFO ] 2018-12-11 17:51:21.304 [http-nio-8080-exec-8] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-11 18:21:13.883 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-11 18:21:26.481 [restartedMain] CuyApplication - Started CuyApplication in 16.033 seconds (JVM running for 18.12)
+[INFO ] 2018-12-11 18:22:20.672 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 18:22:26.135 [http-nio-8080-exec-4] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-11 18:22:39.575 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 18:22:39.602 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-11 18:23:12.160 [http-nio-8080-exec-9] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-11 18:23:13.449 [http-nio-8080-exec-10] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-11 18:31:55.927 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-11 18:32:12.171 [restartedMain] CuyApplication - Started CuyApplication in 21.499 seconds (JVM running for 26.426)
+[INFO ] 2018-12-11 18:33:07.149 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 18:33:12.466 [http-nio-8080-exec-3] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-11 18:33:12.605 [http-nio-8080-exec-4] AspectController - AuthController.root(..) method called.
+[INFO ] 2018-12-11 18:33:16.530 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 18:33:28.875 [http-nio-8080-exec-9] SecurityUserServiceImpl - > USER ROLE: ROLE_SUPER_ADMIN
+[INFO ] 2018-12-11 18:33:29.027 [http-nio-8080-exec-10] AspectController - AuthController.root(..) method called.
+[INFO ] 2018-12-11 18:33:30.510 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 18:33:31.603 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 18:33:35.409 [http-nio-8080-exec-4] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-11 18:38:21.202 [http-nio-8080-exec-6] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-11 18:39:15.844 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-11 18:39:19.018 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 18:39:27.865 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-11 18:39:29.345 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 18:39:30.428 [http-nio-8080-exec-5] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-11 18:45:04.759 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 18:45:06.851 [http-nio-8080-exec-9] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-11 18:45:19.243 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 18:45:19.262 [http-nio-8080-exec-2] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-11 18:49:16.246 [http-nio-8080-exec-4] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-11 18:50:06.906 [http-nio-8080-exec-6] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-11 19:14:44.149 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 19:14:45.597 [http-nio-8080-exec-9] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-11 19:16:24.958 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 19:16:24.980 [http-nio-8080-exec-2] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-11 19:16:43.694 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 19:16:46.237 [http-nio-8080-exec-6] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-11 19:19:07.587 [http-nio-8080-exec-7] AspectController - VisaController.vistaParaRecargasAfterLogin() method called.
+[INFO ] 2018-12-11 19:19:22.739 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-11 19:19:22.782 [http-nio-8080-exec-1] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-12 16:14:20.262 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 16:14:48.290 [restartedMain] CuyApplication - Started CuyApplication in 34.334 seconds (JVM running for 39.445)
+[INFO ] 2018-12-12 16:15:17.631 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:15:20.967 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:15:28.477 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:18:28.688 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:19:11.438 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:19:14.842 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:19:45.436 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 16:20:03.493 [restartedMain] CuyApplication - Started CuyApplication in 22.158 seconds (JVM running for 26.126)
+[INFO ] 2018-12-12 16:20:12.840 [http-nio-8080-exec-1] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:20:18.122 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:20:27.223 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:20:59.366 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:21:03.398 [http-nio-8080-exec-2] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:21:07.084 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:21:10.449 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:21:13.416 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:21:14.963 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:21:18.936 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:21:25.520 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:23:10.841 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:23:25.031 [http-nio-8080-exec-9] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:23:58.229 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:24:01.130 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:24:46.263 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:25:20.790 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:25:24.747 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:25:25.997 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:25:26.767 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:26:03.052 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:45:09.271 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:45:12.014 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:46:15.364 [http-nio-8080-exec-7] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:46:39.826 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:47:27.024 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:49:53.417 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 16:50:08.127 [restartedMain] CuyApplication - Started CuyApplication in 18.835 seconds (JVM running for 20.763)
+[INFO ] 2018-12-12 16:50:16.543 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:50:23.870 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:51:24.465 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:52:51.386 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:53:09.119 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:53:17.976 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:53:19.373 [http-nio-8080-exec-8] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:53:19.833 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:53:30.836 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:53:32.024 [http-nio-8080-exec-6] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:53:33.047 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:53:33.412 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:54:09.566 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:54:10.194 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:54:33.390 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:54:35.783 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:54:37.180 [http-nio-8080-exec-8] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:54:37.641 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:56:22.924 [http-nio-8080-exec-3] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:56:23.424 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:56:57.039 [http-nio-8080-exec-7] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:56:57.518 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:57:17.063 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:57:19.200 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:57:20.860 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 16:57:21.571 [http-nio-8080-exec-8] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:57:22.109 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:58:29.587 [http-nio-8080-exec-3] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:58:29.997 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:59:32.305 [http-nio-8080-exec-8] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 16:59:32.743 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:01:12.367 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:01:14.051 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 17:01:15.087 [http-nio-8080-exec-7] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:01:15.465 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:01:57.415 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:01:58.873 [http-nio-8080-exec-4] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 17:01:59.743 [http-nio-8080-exec-6] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:02:00.150 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:02:33.197 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:02:34.553 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 17:02:35.265 [http-nio-8080-exec-3] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:02:35.661 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:04:43.862 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:04:45.062 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 17:04:46.379 [http-nio-8080-exec-4] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:04:47.057 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 17:58:52.132 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 17:59:12.170 [restartedMain] CuyApplication - Started CuyApplication in 24.457 seconds (JVM running for 27.363)
+[INFO ] 2018-12-12 18:00:01.281 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:00:04.475 [http-nio-8080-exec-3] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:00:06.339 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:00:33.392 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:00:33.433 [http-nio-8080-exec-8] AspectController - KasNetProcessController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-12 18:02:25.032 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:02:30.170 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:05:12.703 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 18:05:26.845 [restartedMain] CuyApplication - Started CuyApplication in 17.983 seconds (JVM running for 20.951)
+[INFO ] 2018-12-12 18:05:52.475 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:05:53.824 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:06:20.875 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:06:20.916 [http-nio-8080-exec-6] AspectController - KasNetProcessController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-12 18:07:30.641 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:09:32.340 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 18:09:46.831 [restartedMain] CuyApplication - Started CuyApplication in 18.345 seconds (JVM running for 21.17)
+[INFO ] 2018-12-12 18:09:49.729 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:09:51.894 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:09:52.647 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:10:12.005 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:10:12.061 [http-nio-8080-exec-7] AspectController - KasNetProcessController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-12 18:12:37.907 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 18:12:51.105 [restartedMain] CuyApplication - Started CuyApplication in 16.892 seconds (JVM running for 19.224)
+[INFO ] 2018-12-12 18:13:01.797 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:13:03.613 [http-nio-8080-exec-3] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:13:04.448 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:13:05.878 [http-nio-8080-exec-4] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:13:05.920 [http-nio-8080-exec-6] AspectController - KasNetProcessController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-12 18:15:51.303 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 18:16:07.131 [restartedMain] CuyApplication - Started CuyApplication in 19.708 seconds (JVM running for 22.134)
+[INFO ] 2018-12-12 18:16:37.129 [http-nio-8080-exec-1] AspectController - KasNetProcessController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-12 18:16:37.489 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:16:42.556 [http-nio-8080-exec-4] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:16:44.030 [http-nio-8080-exec-6] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:16:44.786 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:16:45.680 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:16:45.714 [http-nio-8080-exec-9] AspectController - KasNetProcessController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-12 18:20:18.654 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 18:20:33.705 [restartedMain] CuyApplication - Started CuyApplication in 19.122 seconds (JVM running for 21.504)
+[INFO ] 2018-12-12 18:20:37.166 [http-nio-8080-exec-1] AspectController - KasNetProcessController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-12 18:20:37.663 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:20:38.916 [http-nio-8080-exec-3] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:20:40.534 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:20:41.279 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 18:20:42.349 [http-nio-8080-exec-8] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 18:20:42.374 [http-nio-8080-exec-9] AspectController - KasNetProcessController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-12 19:00:20.676 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 19:00:32.757 [restartedMain] CuyApplication - Started CuyApplication in 15.62 seconds (JVM running for 18.244)
+[INFO ] 2018-12-12 19:00:56.003 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 19:00:56.857 [http-nio-8080-exec-2] AspectController - KasNetProcessController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-12 19:00:57.243 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:00:57.959 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 19:01:00.328 [http-nio-8080-exec-6] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:01:01.073 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:01:04.122 [http-nio-8080-exec-9] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:01:33.258 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:01:34.457 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 19:01:35.352 [http-nio-8080-exec-6] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:01:35.895 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:01:36.796 [http-nio-8080-exec-9] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:02:17.797 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:02:19.695 [http-nio-8080-exec-6] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 19:02:21.066 [http-nio-8080-exec-7] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:02:21.648 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:02:55.928 [http-nio-8080-exec-3] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:02:56.473 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:03:18.460 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:03:20.047 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 19:03:21.372 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:03:21.877 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:04:01.699 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:04:02.254 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:04:45.824 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:04:46.384 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:04:58.178 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:04:58.745 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:05:34.050 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:05:34.650 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:06:01.186 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:06:01.792 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:06:15.703 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:06:16.277 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:06:33.796 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:06:34.361 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:07:04.627 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:07:05.248 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:07:28.137 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:07:28.684 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:07:41.113 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:07:41.647 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:08:23.395 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:08:23.928 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:08:42.976 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:08:43.523 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:10:47.756 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:10:48.394 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:11:06.384 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:11:07.039 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:11:20.714 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:11:21.299 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:11:40.924 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:11:41.426 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:12:11.535 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:12:12.255 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:13:01.450 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:13:02.105 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:22:01.078 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:22:01.756 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:22:38.293 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:22:38.859 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:29:31.009 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:31:31.129 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-12 19:31:50.053 [restartedMain] CuyApplication - Started CuyApplication in 23.408 seconds (JVM running for 26.195)
+[INFO ] 2018-12-12 19:31:56.132 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-12 19:31:58.360 [http-nio-8080-exec-4] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:31:59.419 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:32:00.532 [http-nio-8080-exec-7] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:32:22.933 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:32:23.491 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:32:24.604 [http-nio-8080-exec-2] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:39:08.255 [http-nio-8080-exec-6] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:45:32.006 [http-nio-8080-exec-8] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:45:32.768 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:45:34.449 [http-nio-8080-exec-1] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:45:56.396 [http-nio-8080-exec-4] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:45:57.082 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:45:58.481 [http-nio-8080-exec-9] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:47:22.766 [http-nio-8080-exec-1] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:47:23.686 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:47:25.385 [http-nio-8080-exec-6] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:48:42.202 [http-nio-8080-exec-7] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:48:42.791 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:48:46.466 [http-nio-8080-exec-2] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:50:54.617 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:50:55.312 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:51:00.130 [http-nio-8080-exec-7] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:55:39.441 [http-nio-8080-exec-3] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:55:40.139 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:55:41.459 [http-nio-8080-exec-4] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-12 19:56:25.507 [http-nio-8080-exec-8] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:56:26.219 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-12 19:56:27.822 [http-nio-8080-exec-10] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 12:23:28.281 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 12:23:52.638 [restartedMain] CuyApplication - Started CuyApplication in 29.602 seconds (JVM running for 33.731)
+[INFO ] 2018-12-13 12:24:24.347 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 12:24:38.237 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 12:24:40.282 [http-nio-8080-exec-6] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 12:24:42.346 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 12:24:43.721 [http-nio-8080-exec-9] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 12:51:17.097 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 12:51:36.745 [restartedMain] CuyApplication - Started CuyApplication in 25.843 seconds (JVM running for 33.176)
+[INFO ] 2018-12-13 12:51:54.584 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 12:51:55.910 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 12:51:58.512 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 12:52:13.189 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 12:52:14.246 [http-nio-8080-exec-3] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 12:52:14.694 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 12:52:15.563 [http-nio-8080-exec-10] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 12:54:17.548 [http-nio-8080-exec-4] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 13:06:16.620 [http-nio-8080-exec-6] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:09:01.377 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:09:03.830 [http-nio-8080-exec-10] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 14:09:05.604 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:09:06.290 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:09:07.134 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:09:13.829 [http-nio-8080-exec-7] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:10:25.133 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:11:29.487 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:11:30.092 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:11:31.258 [http-nio-8080-exec-4] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:12:04.707 [http-nio-8080-exec-6] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:13:55.481 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-13 14:13:55.862 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:24:58.335 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 14:25:13.483 [restartedMain] CuyApplication - Started CuyApplication in 19.345 seconds (JVM running for 21.441)
+[INFO ] 2018-12-13 14:25:21.174 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 14:25:23.268 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:25:24.325 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:25:25.689 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:25:30.483 [http-nio-8080-exec-6] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 14:25:30.516 [http-nio-8080-exec-7] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:25:34.198 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:25:56.130 [http-nio-8080-exec-1] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 14:25:56.227 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-13 14:25:56.560 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:26:26.605 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 14:26:44.147 [restartedMain] CuyApplication - Started CuyApplication in 22.066 seconds (JVM running for 26.787)
+[INFO ] 2018-12-13 14:27:23.610 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 14:27:26.009 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:27:27.106 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:27:28.544 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:29:12.686 [http-nio-8080-exec-8] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:29:59.194 [http-nio-8080-exec-9] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:43:14.318 [http-nio-8080-exec-1] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:43:15.065 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:43:16.345 [http-nio-8080-exec-3] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:43:23.266 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 14:43:23.297 [http-nio-8080-exec-6] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:43:26.655 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:43:47.228 [http-nio-8080-exec-10] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 14:44:46.197 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-13 14:44:46.463 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:44:48.705 [http-nio-8080-exec-5] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:44:51.263 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:45:04.530 [http-nio-8080-exec-9] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 14:45:37.435 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 14:45:55.258 [restartedMain] CuyApplication - Started CuyApplication in 21.904 seconds (JVM running for 24.982)
+[INFO ] 2018-12-13 14:46:03.540 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 14:46:06.734 [http-nio-8080-exec-1] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:46:08.025 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:46:08.968 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:46:13.478 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 14:46:13.513 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:46:19.650 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:46:35.197 [http-nio-8080-exec-1] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 14:58:26.682 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 14:58:41.643 [restartedMain] CuyApplication - Started CuyApplication in 19.18 seconds (JVM running for 20.93)
+[INFO ] 2018-12-13 14:59:05.209 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 14:59:07.779 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:59:15.094 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:59:18.459 [http-nio-8080-exec-6] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:59:22.692 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 14:59:22.731 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 14:59:25.712 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 14:59:43.470 [http-nio-8080-exec-2] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 14:59:44.832 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:02:10.868 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:02:13.159 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:02:17.900 [http-nio-8080-exec-3] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:02:19.696 [http-nio-8080-exec-4] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:02:20.259 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:02:21.016 [http-nio-8080-exec-8] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:02:25.521 [http-nio-8080-exec-9] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:02:25.549 [http-nio-8080-exec-10] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:02:28.306 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:02:44.040 [http-nio-8080-exec-4] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 15:02:45.267 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:04:12.140 [http-nio-8080-exec-8] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 15:04:23.246 [http-nio-8080-exec-10] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-13 15:04:23.933 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:04:30.369 [http-nio-8080-exec-3] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:04:31.998 [http-nio-8080-exec-4] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:04:53.036 [http-nio-8080-exec-6] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:04:58.149 [http-nio-8080-exec-7] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:05:19.181 [http-nio-8080-exec-9] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:14:05.316 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 15:14:20.022 [restartedMain] CuyApplication - Started CuyApplication in 18.961 seconds (JVM running for 20.837)
+[INFO ] 2018-12-13 15:14:32.069 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:14:33.569 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:14:34.519 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:14:35.487 [http-nio-8080-exec-3] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:14:36.854 [http-nio-8080-exec-6] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:14:40.634 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:14:42.200 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:14:43.689 [http-nio-8080-exec-1] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:14:47.200 [http-nio-8080-exec-4] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:14:47.254 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:14:47.275 [http-nio-8080-exec-7] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-13 15:14:53.344 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:15:11.689 [http-nio-8080-exec-10] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-13 15:15:13.836 [http-nio-8080-exec-1] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-13 15:15:14.532 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:16:46.228 [http-nio-8080-exec-6] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:16:48.517 [http-nio-8080-exec-7] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:16:49.114 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:16:50.388 [http-nio-8080-exec-10] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:16:55.622 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:16:55.641 [http-nio-8080-exec-2] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:16:58.350 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:17:12.048 [http-nio-8080-exec-6] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 15:17:13.963 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:19:37.094 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 15:20:01.836 [restartedMain] CuyApplication - Started CuyApplication in 29.684 seconds (JVM running for 34.135)
+[INFO ] 2018-12-13 15:20:43.919 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:20:45.831 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:20:46.862 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:20:47.791 [http-nio-8080-exec-4] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:20:48.936 [http-nio-8080-exec-7] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:20:52.460 [http-nio-8080-exec-6] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:20:52.507 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:20:56.413 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:21:11.058 [http-nio-8080-exec-3] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 15:21:12.383 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:21:27.856 [http-nio-8080-exec-7] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 15:44:51.207 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 15:45:06.850 [restartedMain] CuyApplication - Started CuyApplication in 19.563 seconds (JVM running for 21.647)
+[INFO ] 2018-12-13 15:45:24.552 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:45:28.037 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:45:29.485 [http-nio-8080-exec-4] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:45:32.282 [http-nio-8080-exec-5] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:45:32.295 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:45:32.315 [http-nio-8080-exec-8] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-13 15:45:35.367 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:45:50.699 [http-nio-8080-exec-1] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-13 15:45:52.737 [http-nio-8080-exec-2] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-13 15:45:53.171 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:46:09.323 [http-nio-8080-exec-6] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:46:10.957 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:46:11.537 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:46:12.678 [http-nio-8080-exec-1] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:47:14.343 [http-nio-8080-exec-3] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:47:14.379 [http-nio-8080-exec-4] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:47:17.294 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:47:35.674 [http-nio-8080-exec-8] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 15:47:36.861 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:48:05.211 [http-nio-8080-exec-2] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 15:48:56.353 [http-nio-8080-exec-4] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 15:49:35.135 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 15:49:54.995 [restartedMain] CuyApplication - Started CuyApplication in 24.527 seconds (JVM running for 27.385)
+[INFO ] 2018-12-13 15:49:56.504 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:50:00.969 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:50:02.080 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:50:03.288 [http-nio-8080-exec-7] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:50:21.463 [http-nio-8080-exec-8] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 15:52:27.814 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 15:52:45.023 [restartedMain] CuyApplication - Started CuyApplication in 21.507 seconds (JVM running for 23.969)
+[INFO ] 2018-12-13 15:53:15.357 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:53:19.001 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:53:20.438 [http-nio-8080-exec-4] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:53:21.388 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:53:22.318 [http-nio-8080-exec-6] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:53:31.381 [http-nio-8080-exec-9] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 15:55:37.081 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:55:37.106 [http-nio-8080-exec-3] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:55:40.834 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:55:58.144 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 15:56:13.741 [restartedMain] CuyApplication - Started CuyApplication in 19.472 seconds (JVM running for 21.542)
+[INFO ] 2018-12-13 15:56:20.077 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:56:22.244 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:56:23.096 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:56:24.286 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:56:31.676 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:56:31.706 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:56:35.069 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:56:49.519 [http-nio-8080-exec-2] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 15:56:50.760 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:56:58.397 [http-nio-8080-exec-5] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 15:57:30.580 [http-nio-8080-exec-7] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 15:57:31.086 [http-nio-8080-exec-8] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-13 15:57:31.235 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:57:45.802 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:57:46.927 [http-nio-8080-exec-3] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:57:47.433 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 15:57:48.291 [http-nio-8080-exec-6] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:57:56.510 [http-nio-8080-exec-8] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 15:57:56.530 [http-nio-8080-exec-10] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 15:57:59.226 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:09:13.795 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 16:09:28.767 [restartedMain] CuyApplication - Started CuyApplication in 18.948 seconds (JVM running for 21.249)
+[INFO ] 2018-12-13 16:10:24.256 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:10:26.951 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:10:27.746 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:10:28.613 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:10:34.625 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:10:34.654 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:10:37.369 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:10:51.660 [http-nio-8080-exec-2] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 16:10:52.890 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:12:51.255 [http-nio-8080-exec-8] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 16:12:51.873 [http-nio-8080-exec-9] AspectController - VisaDemoController.vistaVisaOperacionDenegada() method called.
+[INFO ] 2018-12-13 16:12:52.188 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:12:56.498 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:15:45.466 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 16:16:05.219 [restartedMain] CuyApplication - Started CuyApplication in 23.969 seconds (JVM running for 26.954)
+[INFO ] 2018-12-13 16:16:21.810 [http-nio-8080-exec-1] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:16:23.503 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:16:24.219 [http-nio-8080-exec-3] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:16:30.016 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:16:30.059 [http-nio-8080-exec-7] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:16:34.169 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:16:44.462 [http-nio-8080-exec-2] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 16:16:45.727 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:16:51.645 [http-nio-8080-exec-5] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 16:18:28.585 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 16:18:46.838 [restartedMain] CuyApplication - Started CuyApplication in 22.6 seconds (JVM running for 25.678)
+[INFO ] 2018-12-13 16:18:48.592 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:18:51.071 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:18:52.131 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:18:52.854 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:18:58.883 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:18:58.920 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:19:01.902 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:19:15.692 [http-nio-8080-exec-2] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 16:19:16.923 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:19:23.356 [http-nio-8080-exec-5] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 16:19:24.075 [http-nio-8080-exec-6] AspectController - KasNetController.afterVisaExtornoPago() method called.
+[INFO ] 2018-12-13 16:19:24.442 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:24:50.661 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 16:25:08.415 [restartedMain] CuyApplication - Started CuyApplication in 21.711 seconds (JVM running for 24.91)
+[INFO ] 2018-12-13 16:25:11.647 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:25:15.676 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:25:16.638 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:25:17.433 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:25:22.786 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:25:22.895 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:25:25.822 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:25:41.559 [http-nio-8080-exec-2] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 16:25:42.800 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:25:49.490 [http-nio-8080-exec-5] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 16:25:50.144 [http-nio-8080-exec-6] AspectController - KasNetController.afterVisaExtornoPago(..) method called.
+[INFO ] 2018-12-13 16:25:50.177 [http-nio-8080-exec-7] AspectController - KasNetController.afterVisaExtorno() method called.
+[INFO ] 2018-12-13 16:25:50.440 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:26:40.103 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 16:26:54.770 [restartedMain] CuyApplication - Started CuyApplication in 18.598 seconds (JVM running for 21.993)
+[INFO ] 2018-12-13 16:27:25.634 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:27:28.125 [http-nio-8080-exec-3] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:27:29.173 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:27:30.892 [http-nio-8080-exec-4] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:27:31.776 [http-nio-8080-exec-6] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:27:37.329 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:27:37.361 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:27:40.227 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:27:55.456 [http-nio-8080-exec-1] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 16:27:56.659 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:28:17.089 [http-nio-8080-exec-5] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 16:28:17.750 [http-nio-8080-exec-4] AspectController - KasNetController.afterVisaExtornoPago(..) method called.
+[INFO ] 2018-12-13 16:30:11.322 [http-nio-8080-exec-7] AspectController - KasNetController.afterVisaExtorno() method called.
+[INFO ] 2018-12-13 16:30:20.820 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:43:31.861 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 16:43:47.818 [restartedMain] CuyApplication - Started CuyApplication in 19.918 seconds (JVM running for 22.778)
+[INFO ] 2018-12-13 16:43:53.108 [http-nio-8080-exec-1] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:43:55.899 [http-nio-8080-exec-2] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:43:57.529 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:43:58.477 [http-nio-8080-exec-3] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:44:06.106 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:44:06.140 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:44:13.983 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:44:30.527 [http-nio-8080-exec-2] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 16:44:32.080 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:44:42.429 [http-nio-8080-exec-6] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 16:47:28.768 [http-nio-8080-exec-8] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:47:46.322 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:47:48.681 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:47:49.828 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:47:54.127 [http-nio-8080-exec-6] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:47:54.147 [http-nio-8080-exec-7] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:48:00.937 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:48:15.291 [http-nio-8080-exec-2] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 16:48:17.866 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:48:27.273 [http-nio-8080-exec-7] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 16:50:59.349 [http-nio-8080-exec-9] AspectController - KasNetController.doExtornoPago(..) method called.
+[INFO ] 2018-12-13 16:54:37.399 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 16:54:37.834 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:56:34.021 [http-nio-8080-exec-3] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:56:41.054 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:56:41.075 [http-nio-8080-exec-8] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:56:50.819 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:57:04.571 [http-nio-8080-exec-2] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 16:57:06.266 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:57:12.010 [http-nio-8080-exec-6] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 16:57:18.450 [http-nio-8080-exec-7] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 16:57:18.822 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:57:19.723 [http-nio-8080-exec-10] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:57:34.014 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 16:57:34.034 [http-nio-8080-exec-5] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 16:57:37.372 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:57:47.980 [http-nio-8080-exec-7] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 16:57:49.916 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 16:57:57.711 [http-nio-8080-exec-10] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 17:05:57.713 [http-nio-8080-exec-5] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:05:58.905 [http-nio-8080-exec-4] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:05:59.522 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:06:00.496 [http-nio-8080-exec-7] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 17:06:05.781 [http-nio-8080-exec-8] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:06:05.797 [http-nio-8080-exec-9] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 17:06:08.268 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:06:18.979 [http-nio-8080-exec-5] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 17:06:20.288 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:06:24.888 [http-nio-8080-exec-3] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 17:06:29.900 [http-nio-8080-exec-8] AspectController - KasNetController.doExtornoPago(..) method called.
+[INFO ] 2018-12-13 17:11:32.721 [http-nio-8080-exec-10] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 17:11:33.105 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:11:34.410 [http-nio-8080-exec-6] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 17:11:45.342 [http-nio-8080-exec-3] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:11:45.360 [http-nio-8080-exec-7] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 17:11:47.679 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:12:00.517 [http-nio-8080-exec-2] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 17:12:01.797 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:12:06.769 [http-nio-8080-exec-6] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 17:12:13.670 [http-nio-8080-exec-7] AspectController - KasNetController.doExtornoPago(..) method called.
+[INFO ] 2018-12-13 17:12:18.326 [http-nio-8080-exec-8] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 17:12:18.596 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:12:58.989 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 17:13:12.548 [restartedMain] CuyApplication - Started CuyApplication in 17.432 seconds (JVM running for 19.226)
+[INFO ] 2018-12-13 17:13:19.363 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:13:59.465 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:14:07.940 [http-nio-8080-exec-7] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:14:09.573 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:14:11.799 [http-nio-8080-exec-10] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:14:34.186 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:14:34.967 [http-nio-8080-exec-3] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:14:38.305 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:15:17.707 [http-nio-8080-exec-6] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:15:18.846 [http-nio-8080-exec-7] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:15:19.485 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:15:20.488 [http-nio-8080-exec-10] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 17:15:33.071 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:15:33.091 [http-nio-8080-exec-3] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 17:15:36.014 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:16:03.377 [http-nio-8080-exec-7] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 17:16:04.470 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:16:13.497 [http-nio-8080-exec-1] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 17:16:33.028 [http-nio-8080-exec-2] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 17:16:33.239 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:16:35.049 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 17:24:26.625 [http-nio-8080-exec-8] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 17:25:08.277 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 17:25:28.707 [restartedMain] CuyApplication - Started CuyApplication in 24.732 seconds (JVM running for 31.187)
+[INFO ] 2018-12-13 17:26:07.075 [http-nio-8080-exec-2] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 17:31:10.684 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 17:31:23.978 [restartedMain] CuyApplication - Started CuyApplication in 16.981 seconds (JVM running for 19.222)
+[INFO ] 2018-12-13 17:31:27.195 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:31:34.420 [http-nio-8080-exec-3] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:31:41.336 [http-nio-8080-exec-5] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:31:47.126 [http-nio-8080-exec-6] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:31:47.220 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:31:47.228 [http-nio-8080-exec-9] AspectController - VisaDemoController.iniciarSessionApiVisa(..) method called.
+[INFO ] 2018-12-13 17:31:50.085 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:32:17.967 [http-nio-8080-exec-2] AspectController - VisaDemoController.cierrePagoVisa(..) method called.
+[INFO ] 2018-12-13 17:32:19.879 [http-nio-8080-exec-3] AspectController - VisaDemoController.vistaConsolidadoAfterRecargaExitosa() method called.
+[INFO ] 2018-12-13 17:32:20.367 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:41:31.941 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:41:35.638 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:41:38.113 [http-nio-8080-exec-1] AspectController - VisaController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:46:52.856 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:46:54.877 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:46:59.666 [http-nio-8080-exec-8] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:47:01.873 [http-nio-8080-exec-10] AspectController - VisaController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 17:47:04.587 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 17:47:05.913 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 18:04:53.485 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:05:08.051 [restartedMain] CuyApplication - Started CuyApplication in 18.283 seconds (JVM running for 20.704)
+[INFO ] 2018-12-13 18:05:19.915 [http-nio-8080-exec-9] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 18:05:22.288 [http-nio-8080-exec-10] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:05:23.176 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:05:25.338 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:05:38.932 [http-nio-8080-exec-5] AspectController - KasNetController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:05:39.510 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:06:00.955 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:06:17.766 [restartedMain] CuyApplication - Started CuyApplication in 20.792 seconds (JVM running for 24.027)
+[INFO ] 2018-12-13 18:07:54.555 [http-nio-8080-exec-1] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 18:08:00.674 [http-nio-8080-exec-2] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 18:08:00.726 [http-nio-8080-exec-4] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 18:08:04.080 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:08:24.842 [http-nio-8080-exec-7] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 18:08:26.277 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:08:34.627 [http-nio-8080-exec-10] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 18:08:44.617 [http-nio-8080-exec-2] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:08:44.963 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:08:48.703 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 18:09:16.741 [http-nio-8080-exec-7] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 18:10:23.965 [http-nio-8080-exec-8] AspectController - KasNetController.vistaInicioSessionClienteCuy(..) method called.
+[INFO ] 2018-12-13 18:10:23.987 [http-nio-8080-exec-9] AspectController - KasNetProcessController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 18:10:28.181 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:10:43.099 [http-nio-8080-exec-4] AspectController - KasNetProcessController.confirmacionPagoVisa(..) method called.
+[INFO ] 2018-12-13 18:11:40.393 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:11:48.063 [http-nio-8080-exec-7] AspectController - KasNetController.doCreatePago(..) method called.
+[INFO ] 2018-12-13 18:12:32.915 [http-nio-8080-exec-8] AspectController - KasNetController.doExtornoPago(..) method called.
+[INFO ] 2018-12-13 18:12:38.391 [http-nio-8080-exec-9] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:12:38.783 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:12:42.214 [http-nio-8080-exec-2] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 18:13:11.567 [http-nio-8080-exec-3] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:13:35.051 [http-nio-8080-exec-5] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:16:59.082 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:17:15.470 [restartedMain] CuyApplication - Started CuyApplication in 20.435 seconds (JVM running for 23.102)
+[INFO ] 2018-12-13 18:17:27.451 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:17:28.481 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:17:30.570 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 18:17:36.330 [http-nio-8080-exec-3] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 18:17:43.462 [http-nio-8080-exec-8] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 18:17:51.421 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:20:12.246 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:20:29.001 [restartedMain] CuyApplication - Started CuyApplication in 20.942 seconds (JVM running for 23.907)
+[INFO ] 2018-12-13 18:20:32.482 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:20:33.878 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:20:35.278 [http-nio-8080-exec-4] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 18:20:39.083 [http-nio-8080-exec-5] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:21:22.396 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:23:39.675 [http-nio-8080-exec-8] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:24:17.557 [http-nio-8080-exec-9] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:25:54.816 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:26:11.510 [restartedMain] CuyApplication - Started CuyApplication in 20.617 seconds (JVM running for 23.529)
+[INFO ] 2018-12-13 18:26:17.956 [http-nio-8080-exec-2] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:26:18.938 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:26:20.668 [http-nio-8080-exec-4] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:32:39.614 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:32:55.541 [restartedMain] CuyApplication - Started CuyApplication in 19.875 seconds (JVM running for 22.939)
+[INFO ] 2018-12-13 18:33:07.936 [http-nio-8080-exec-2] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:33:08.963 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:33:10.058 [http-nio-8080-exec-3] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:33:22.269 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:36:17.866 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:36:35.431 [restartedMain] CuyApplication - Started CuyApplication in 21.49 seconds (JVM running for 24.082)
+[INFO ] 2018-12-13 18:36:36.954 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:36:38.413 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:36:40.546 [http-nio-8080-exec-4] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:37:37.735 [http-nio-8080-exec-6] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:37:37.952 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:37:38.672 [http-nio-8080-exec-9] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:37:38.904 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:37:40.157 [http-nio-8080-exec-2] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:39:03.642 [http-nio-8080-exec-4] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:40:13.019 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:40:26.564 [restartedMain] CuyApplication - Started CuyApplication in 17.333 seconds (JVM running for 19.963)
+[INFO ] 2018-12-13 18:40:30.622 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:40:31.646 [http-nio-8080-exec-4] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:40:32.796 [http-nio-8080-exec-3] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:40:40.251 [http-nio-8080-exec-5] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:40:53.646 [http-nio-8080-exec-7] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:41:22.535 [http-nio-8080-exec-8] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:45:11.235 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:45:24.440 [restartedMain] CuyApplication - Started CuyApplication in 16.953 seconds (JVM running for 19.225)
+[INFO ] 2018-12-13 18:45:28.711 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:45:29.901 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:45:32.185 [http-nio-8080-exec-4] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:45:56.175 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:49:17.092 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:49:30.244 [restartedMain] CuyApplication - Started CuyApplication in 17.177 seconds (JVM running for 19.533)
+[INFO ] 2018-12-13 18:49:33.550 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:49:34.812 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:49:35.756 [http-nio-8080-exec-4] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:49:51.103 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:49:55.005 [http-nio-8080-exec-7] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:49:55.623 [http-nio-8080-exec-9] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:50:08.118 [http-nio-8080-exec-10] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:50:31.174 [http-nio-8080-exec-2] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:52:32.806 [restartedMain] CuyApplication - The following profiles are active: development
+[INFO ] 2018-12-13 18:52:46.115 [restartedMain] CuyApplication - Started CuyApplication in 17.061 seconds (JVM running for 19.217)
+[INFO ] 2018-12-13 18:52:50.032 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 18:52:51.209 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 18:52:52.905 [http-nio-8080-exec-4] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 18:53:06.129 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:05:13.007 [http-nio-8080-exec-8] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:05:13.474 [http-nio-8080-exec-10] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:05:13.939 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:05:14.312 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:05:52.401 [http-nio-8080-exec-5] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:05:53.064 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:06:11.289 [http-nio-8080-exec-9] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:06:11.764 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:06:51.577 [http-nio-8080-exec-3] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:06:51.986 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:06:53.369 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:09:12.428 [http-nio-8080-exec-9] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:09:12.895 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:09:30.440 [http-nio-8080-exec-3] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:09:30.830 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:09:31.909 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:10:50.121 [http-nio-8080-exec-9] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:10:50.642 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:10:51.396 [http-nio-8080-exec-2] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:11:09.513 [http-nio-8080-exec-4] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:11:09.966 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:11:10.884 [http-nio-8080-exec-7] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:12:18.233 [http-nio-8080-exec-10] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:12:18.658 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:12:18.864 [http-nio-8080-exec-3] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:12:19.559 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:12:19.593 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:21:13.309 [http-nio-8080-exec-9] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:21:22.281 [http-nio-8080-exec-10] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:21:22.935 [http-nio-8080-exec-2] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:21:27.464 [http-nio-8080-exec-3] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:26:09.292 [http-nio-8080-exec-6] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:26:09.708 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:26:12.695 [http-nio-8080-exec-9] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:27:10.986 [http-nio-8080-exec-1] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:27:18.386 [http-nio-8080-exec-2] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:27:48.106 [http-nio-8080-exec-3] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:27:48.491 [http-nio-8080-exec-5] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:27:50.150 [http-nio-8080-exec-6] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:27:50.480 [http-nio-8080-exec-8] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:27:51.135 [http-nio-8080-exec-9] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:27:56.818 [http-nio-8080-exec-10] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:32:06.932 [http-nio-8080-exec-3] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:32:12.815 [http-nio-8080-exec-4] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:32:13.256 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:32:14.581 [http-nio-8080-exec-7] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:32:39.695 [http-nio-8080-exec-9] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:32:40.451 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:32:40.964 [http-nio-8080-exec-2] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:32:45.055 [http-nio-8080-exec-3] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:33:05.224 [http-nio-8080-exec-5] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:33:05.739 [http-nio-8080-exec-7] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:33:09.124 [http-nio-8080-exec-8] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:34:31.736 [http-nio-8080-exec-1] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:34:32.238 [http-nio-8080-exec-3] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:34:32.443 [http-nio-8080-exec-4] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:34:32.841 [http-nio-8080-exec-6] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:34:33.333 [http-nio-8080-exec-7] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:34:41.669 [http-nio-8080-exec-8] AspectController - KasNetController.prePago() method called.
+[INFO ] 2018-12-13 19:34:42.106 [http-nio-8080-exec-1] AspectController - AuthController.loginForm(..) method called.
+[INFO ] 2018-12-13 19:34:42.981 [http-nio-8080-exec-2] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:34:48.399 [http-nio-8080-exec-3] AspectController - KasNetController.listarTransacciones(..) method called.
+[INFO ] 2018-12-13 19:35:22.678 [http-nio-8080-exec-4] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 19:35:28.264 [http-nio-8080-exec-5] AspectController - KasNetController.vistaObtenerAmount(..) method called.
+[INFO ] 2018-12-13 19:35:30.162 [http-nio-8080-exec-6] AspectController - KasNetController.listarTransacciones(..) method called.

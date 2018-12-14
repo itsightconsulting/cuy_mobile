@@ -226,10 +226,13 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
                 parameterService.save(new Parameter("CUY_API_INIT_TOKEN", "sys_sk_test_LeETLGDW9rgB78auKHVMWQOVXFViaxIffPUXgLScAToWb"));
             }
             if(parameterService.findOne(11) == null){
-                parameterService.save(new Parameter("CUY_TOKEN_LOGIN", ""));
+                parameterService.save(new Parameter("CUY_TOKEN_LOGIN", "user_sk_test_3ucmBPdUjWtukMefia1lJOKwOXxuUUUm3Q6g1lxAij4SeKP"));
             }
             if(parameterService.findOne(12) == null){
-                parameterService.save(new Parameter("CUY_LOGIN_ID", ""));
+                parameterService.save(new Parameter("CUY_LOGIN_ID", "3"));
+            }
+            if(parameterService.findOne(13) == null){
+                parameterService.save(new Parameter("CUY_TOKEN_TRANSACTION", "user_sk_test_3ucmBPdUjWtukMefia1lJOKwOXxuUUUm3Q6g1lxAij4SeKP"));
             }
         }
 
