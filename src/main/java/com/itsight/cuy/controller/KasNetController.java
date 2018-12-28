@@ -43,7 +43,7 @@ public class KasNetController {
     @PostMapping(value = "/loginRecarga")
     public String loginForm(@RequestParam(value = "email") String email, @RequestParam(value = "password") String password
     ) throws IOException {
-        String cuyInitToken = context.getAttribute("CUY_API_INIT_TOKEN").toString();
+        String cuyInitToken = context.getAttribute("CUY_API_INIT_TOKEN_KSNET").toString();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         headers.set("Authorization", "Cuy-oauthtoken "+ cuyInitToken);

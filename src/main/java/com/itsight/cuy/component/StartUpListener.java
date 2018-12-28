@@ -211,6 +211,12 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
             if(parameterService.findOne(12) == null){
                 parameterService.save(new Parameter("CUY_LOGIN_ID", ""));
             }
+            if(parameterService.findOne(13) == null){
+                parameterService.save(new Parameter("CUY_TOKEN_TRANSACTION", "user_sk_test_3ucmBPdUjWtukMefia1lJOKwOXxuUUUm3Q6g1lxAij4SeKP"));
+            }
+            if(parameterService.findOne(14) == null){
+                parameterService.save(new Parameter("CUY_API_INIT_TOKEN_KSNET", "sys_sk_test_kLeETLGDW9rgB78auKHVMWQOVXFViaxIffPUXgLScAToWb"));
+            }
 
         }else{
             if(parameterService.findOne(7) == null){
@@ -234,6 +240,9 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
             if(parameterService.findOne(13) == null){
                 parameterService.save(new Parameter("CUY_TOKEN_TRANSACTION", "user_sk_test_3ucmBPdUjWtukMefia1lJOKwOXxuUUUm3Q6g1lxAij4SeKP"));
             }
+            if(parameterService.findOne(14) == null){
+                parameterService.save(new Parameter("CUY_API_INIT_TOKEN_KSNET", "sys_sk_test_kLeETLGDW9rgB78auKHVMWQOVXFViaxIffPUXgLScAToWb"));
+            }
         }
 
     }
@@ -255,6 +264,7 @@ public class StartUpListener implements ApplicationListener<ContextRefreshedEven
         context.setAttribute("CUY_API_INIT_TOKEN", appParams.get(9).getValue());
         context.setAttribute("CUY_TOKEN_LOGIN", appParams.get(10).getValue());
         context.setAttribute("CUY_LOGIN_ID", appParams.get(11).getValue());
+        context.setAttribute("CUY_API_INIT_TOKEN_KSNET", appParams.get(13).getValue());
     }
 
     public void addingInitUsers() {
